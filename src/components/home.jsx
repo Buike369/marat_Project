@@ -43,7 +43,7 @@ const Home = () => {
 
            </div>
            <div className="headerDivFle2">
-                 <div className='imgFileDiv'> <img src="/img/groupM2.svg" alt="Ailt" className="headerDivFle21"/></div>
+                 <div className='imgFileDiv'> <img src="/img/GroupM2.svg" alt="Ailt" className="headerDivFle21"/></div>
                
            </div>
         </div>

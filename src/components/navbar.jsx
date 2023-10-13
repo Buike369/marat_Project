@@ -8,7 +8,7 @@ const Header = () => {
   const tr = window.location.pathname;
 
    const [feedBack,setFeedBack]=useState("")
-   const navbarItem = [{link:"/courses",text:"Courses"},{link:"/ebook",text:"eBook"},{link:"/blog",text:"Blog"},{link:"/project",text:"projects"},{ link:"/pricing",text:"pricing"}]
+   const navbarItem = [{link:"/courses",text:"Courses"},{link:"/ebook",text:"eBook"},{link:"/blog",text:"Blog"},{link:"/project",text:"projects"},{ link:"/",text:"pricing"}]
 
     window.onscroll =()=>{
         scrollF()

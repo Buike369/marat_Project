@@ -274,7 +274,7 @@
     background: linear-gradient(90deg, rgb(35 35 52) 0%, rgb(35 35 62) 50%, rgb(26 26 44) 100%, rgb(35 35 62) 50%, );
     border: 1.5px solid #2f2f45;
     color: gold;
-    border: 1px solid gray;
+    border: 1px solid #434356;
 }
 
 .WhatIs {

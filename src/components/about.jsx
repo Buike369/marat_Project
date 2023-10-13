@@ -20,14 +20,14 @@ const About = () => {
        
   
      <div className='AboutM'><p className='OurService'>Our Services</p>
-     <p className='Pa'>Our core offering includes website design and development tailored to your specific requirements. We specialize in crafting websites that not only look visually appealing but also function seamlessly. From concept to execution, our team of skilled professionals is dedicated to bringing your vision to life in the digital realm.</p>
+     <p className='Pa'>Our core offering includes website design and development,app development,project development tailored to your specific requirements. We specialize in crafting websites and mobile app that not only look visually appealing but also function seamlessly. From concept to execution, our team of skilled professionals is dedicated to bringing your vision to life in the digital realm.</p>
      </div>
     
 </div>
 <div  className='MaratT Eram'>
     <div className='AboutM'>
         <p className='OurService'>Project Expertise</p>
-         <p className='Pa'>With a finger on the pulse of modern technology trends, we excel in creating specialized project-based websites. Whether you're venturing into the world of ecommerce, aiming to launch  an online store etc, we have the expertise to deliver innovative solutions that drive results.</p>
+         <p className='Pa'>With a finger on the pulse of modern technology trends, we excel in creating specialized project-based websites. Whether you're venturing into the world of ecommerce or investment, aiming to launch  an online presence etc, we have the expertise to deliver innovative solutions that drive results.</p>
     </div>
     {/* <div> */}
         <img src="/img/about10.svg" alt="" className='AboutM'/>   

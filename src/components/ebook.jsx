@@ -3,8 +3,8 @@ import "./styles/ebook.css"
 
 const Ebook = () => {
 
-  const pdfCourse = [{name:"REACT",text:"",img:"",img1:"",h2:""},{name:"JAVASCRIPT",text:"",img:"",img1:"",h2:""},{name:"NODEJS",text:"",img:"",img1:"",h2:""},{name:"MYSQL",text:"",img:"",img1:"",h2:""},{name:"PYTHON",text:"",img:"",img1:"",h2:""},{name:"JAVA",text:"",img:"",img1:"",h2:""},{name:"REACT-NATIVE",text:"",img:"",img1:"",h2:""},{name:"MONGODB",text:"",img:"",img1:"",h2:""},{name:"DJANGO",text:"",img:"",img1:"",h2:""}]
-  const pdfCourse1 = [{name:"ECOMMERCE",text:"",img:"",img1:"",h2:""},{name:"PORTFOLIO",text:"",img:"",img1:"",h2:""},{name:"INVESTMENT",text:"",img:"",img1:"",h2:""},{name:"Exchange",text:"",img:"",img1:"",h2:""},{name:"BLOG",text:"",img:"",img1:"",h2:""},{name:" SIMPLE STORE",text:"",img:"",img1:"",h2:""},{name:"INDUSTRY",text:"",img:"",img1:"",h2:""},{name:"SOCIAL",text:"",img:"",img1:"",h2:""},{name:"NEWS",text:"",img:"",img1:"",h2:""}]
+  const pdfCourse = [{name:"REACT",text:"Learn Modern React",img:"",img1:"",h2:""},{name:"JAVASCRIPT",text:"Learn Modern Javascript",img:"",img1:"",h2:""},{name:"NODEJS",text:"Learn  Nodejs",img:"",img1:"",h2:""},{name:"MYSQL",text:"Learn MySql",img:"",img1:"",h2:""},{name:"PYTHON",text:"Learn Python",img:"",img1:"",h2:""},{name:"JAVA",text:"Learn Java",img:"",img1:"",h2:""},{name:"REACT-NATIVE",text:"Learn React-native",img:"",img1:"",h2:""},{name:"MONGODB",text:" Learn MongoDB",img:"",img1:"",h2:""},{name:"DJANGO",text:"Learn Django",img:"",img1:"",h2:""}]
+  const pdfCourse1 = [{name:"ECOMMERCE",text:"Build a Modern Ecommerce Websites",img:"",img1:"",h2:""},{name:"PORTFOLIO",text:"Build a Modern Portfolio Websites",img:"",img1:"",h2:""},{name:"INVESTMENT",text:"Build a Modern Investment Websites",img:"",img1:"",h2:""},{name:"Exchange",text:"Build a Modern Exchange Websites",img:"",img1:"",h2:""},{name:"BLOG",text:"Build a Modern Blog Websites",img:"",img1:"",h2:""},{name:" SIMPLE STORE",text:"Build a Modern Store Websites",img:"",img1:"",h2:""},{name:"INDUSTRY",text:"Build a Modern Factory Websites",img:"",img1:"",h2:""},{name:"SOCIAL",text:"Build a Modern Social Websites",img:"",img1:"",h2:""},{name:"NEWS",text:"Build a Modern News Websites",img:"",img1:"",h2:""}]
   
 
   return (
@@ -31,7 +31,7 @@ const Ebook = () => {
       <div className='rentPP'>
         <p className='ebookCard2'>{app.name}</p>
         <p className='ebookCard3'>70+ JS Challenges: Data</p>
-        <p className='ebookCard4'>Build 5 Modern Websites</p>
+        <p className='ebookCard4'>{app.text}</p>
         <div className='ebookCard5'>
           <img src="/img/cardb.png" alt="" className='ebookCard6'/>
           <p className='ebookCard7'>Get it Now</p>
@@ -56,7 +56,7 @@ const Ebook = () => {
         <div className='ebookCard1'><img src="" alt="" className=''/></div>
         <p className='ebookCard2'>{app.name}</p>
         <p className='ebookCard3'>70+ JS Challenges: Data</p>
-        <p className='ebookCard4'>Build 5 Modern Websites</p>
+        <p className='ebookCard4'>{app.text}</p>
         <div className='ebookCard5'>
           <img src="" alt="" className='ebookCard6'/>
           <p className='ebookCard7'>Get it Now</p>

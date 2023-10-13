@@ -5,9 +5,9 @@ import { faCode, faWandMagicSparkles} from '@fortawesome/free-solid-svg-icons'
 import Navbar from "./navbar"
 const Home = () => {
 
- const card =[ {name:"Kingsley Chukwubuike",img:"/img/bgf.svg", course:"Figma To React",time:"Oct 1, 2023", button:"Preview" ,price:"$15"},{name:"Kingsley Chukwubuike",img:"/img/bgf.svg",course:"MYSQL Tutorials",time:"Oct 1, 2023",button:"Preview",price:"$20"},{name:"Kingsley Chukwubuike",img:"/img/bgf.svg",course:"JavaScript Tutorials", time:"Oct 1, 2023",button:"Preview",price:"$15"}]
+ const card =[ {name:"Kingsley Chukwubuike",img:"/img/bgf.svg", course:"Figma To React",time:"Oct 1, 2023", button:"Preview" ,price:"$15"},{name:"Kingsley Chukwubuike",img:"/img/bgf.svg",course:"React-Native Tutorials",time:"Oct 1, 2023",button:"Preview",price:"$20"},{name:"Kingsley Chukwubuike",img:"/img/bgf.svg",course:"React Tutorials", time:"Oct 1, 2023",button:"Preview",price:"$20"}]
  const card2 =[ {name:"Kingsley Chukwubuike",img:"john",project:"Portfolio Project", button:"Preview" ,price:"$30"},{name:"Kingsley Chukwubuike",img:"john",project:"Gaming Projects", button:"Preview" ,price:"$120"},{name:"kingsley Chukwubuike",img:"john",project:"Investment Project", button:"Preview" ,price:"$100"}]
-  const card1 =[ {name:"Chukwubuke K.",img:"/img/bgf.svg",course:"HTML/CSS", button:"Preview" ,price:"$15"},{name:"Chukwubuike K.",img:"/img/bgf.svg",course:"JavaScript",button:"Preview",price:"$20"},{name:"chukwubuike K.",img:"/img/bgf.svg",course:"React",button:"Preview",price:"$25"},{name:"Chukwubuike K.",img:"/img/bgf.svg",course:"Nodejs",button:"preview",price:"$25"},{name:"Chukwubuike K.",img:"/img/bgf.svg",course:"MySql",button:'Preview',price:"$20"},{name:"Chukwubuike K.",img:"/img/bgf.svg",course:"Python",button:'Preview',price:"$25"},{name:"Chukwubuike K.",img:"/img/bgf.svg",course:"ExpressJs",button:"Preview",price:"$20"},{name:"Chukwubuike K.",img:"/img/bgf.svg",course:"Figma",button:"Preview",price:"$15"}]
+  const card1 =[ {name:"Chukwubuke K.",img:"/img/gripa.png",course:"HTML/CSS", button:"Preview" ,price:"$15"},{name:"Chukwubuike K.",img:"/img/gripa3.png",course:"JavaScript",button:"Preview",price:"$25"},{name:"chukwubuike K.",img:"/img/gripa4.png",course:"React",button:"Preview",price:"$20"},{name:"Chukwubuike K.",img:"/img/gripa5.png",course:"Nodejs",button:"preview",price:"$25"},{name:"Chukwubuike K.",img:"/img/gripa6.png",course:"MySql",button:'Preview',price:"$20"},{name:"Chukwubuike K.",img:"/img/grip7.png",course:"Python",button:'Preview',price:"$25"},{name:"Chukwubuike K.",img:"/img/gripa7.png",course:"ExpressJs",button:"Preview",price:"$20"},{name:"Chukwubuike K.",img:"/img/bkm.png",course:"Figma",button:"Preview",price:"$15"}]
   return (
     <div>
       <div className="navbarMainDiv" >
@@ -131,7 +131,7 @@ const Home = () => {
         <div className="filesVideo">
           {card1.map((app,id)=>(
           <div className="cardDivWithImg imgWidth" key={id}>
-           <div className="ImgDivGenerator imgHeight"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
+           <div className="ImgDivGenerator imgHeight"> <img src={app.img} alt="" className="divImg"/></div>
               <p className='skillPath'>SKILL PATH</p>
             <p className="WhatIs">{app.course}</p>
          

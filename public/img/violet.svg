@@ -1,0 +1,12 @@
+<svg width="2000" height="2000" viewBox="0 0 2000 2000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g style="mix-blend-mode:overlay">
+<rect width="2000" height="2000" fill="url(#paint0_linear_3_559)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_3_559" x1="1422" y1="91" x2="904" y2="2000" gradientUnits="userSpaceOnUse">
+<stop stop-color="#110F61"/>
+<stop offset="0.46875" stop-color="#1E1472"/>
+<stop offset="1" stop-color="#2D14C6"/>
+</linearGradient>
+</defs>
+</svg>

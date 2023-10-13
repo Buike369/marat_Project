@@ -1,0 +1,99 @@
+
+.ccc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.ebookCard{
+  padding:20px 10px 15px 15px;
+    background-color: #232334;
+        border: 1.5px solid #2f2f45;
+        position: relative;
+    border-radius: 5px;
+    width:32%;
+    overflow: hidden;
+}
+.ebookCard1{
+    width:50px;
+    height:50px;
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+.ebookImg{
+    width: 100%;
+}
+.ebookMDiv{
+    width:100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding:2px 15px;
+
+}
+.ebookCard2{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    color:#7c79e1;
+
+}
+.pPdf{
+    margin-top: 40px;
+}
+.ebookCard3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.pCourse{
+ font-size: 26px;
+ font-weight: 700;
+ text-align: center;
+ margin-bottom: 8px;
+}
+.ebookCard4{
+    font-size: 14px;
+    font-weight: 300;
+    color:#b7b1b1;
+}
+.ebookCard5{
+    display:flex;
+    align-items: center;
+    margin:10px 0 15px 0;
+}
+.ebookCard7{
+    margin-left: 10px;
+}
+.ipQe{
+    width:100px;
+    border-bottom: 1.5px solid #2f2f45;
+    margin: 0 auto 15px auto;
+}
+.rentPe1{
+    width:100px;
+    position: absolute;
+    height:100px;
+    z-index: 1;
+    bottom: -28px;
+    transform: rotate(225deg);
+    right:-25px;
+}
+.rentPe{
+    width:100%;
+    height: 100%;
+}
+.rentPP{
+    position: relative;
+    z-index:2 ;
+}
+
+@media(max-width:768px){
+    .ccc{
+        flex-direction: column;
+    }
+    .ebookCard{
+        width:100%;
+    }
+}

@@ -1,0 +1,982 @@
+.frame {
+    background-color: #181825;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.frame .overlap-wrapper {
+    background-color: #181825;
+    height: 443px;
+    width: 1000px;
+}
+
+.frame .overlap {
+    background-color: #181825;
+    height: 443px;
+    position: relative;
+    top: 1px;
+    width: 998px;
+}
+
+.frame .overlap-group {
+    height: 420px;
+    left: 511px;
+    position: absolute;
+    top: 4px;
+    width: 470px;
+}
+
+.frame .div {
+    height: 414px;
+    left: 0;
+    position: absolute;
+    top: 6px;
+    width: 469px;
+}
+
+.frame .overlap-2 {
+    height: 401px;
+    left: 0;
+    position: absolute;
+    top: 13px;
+    width: 469px;
+}
+
+.frame .undraw-laravel-and {
+    height: 390px;
+    left: 15px;
+    overflow: hidden;
+    position: absolute;
+    top: 11px;
+    width: 454px;
+}
+
+.frame .overlap-3 {
+    height: 404px;
+    left: -12px;
+    position: absolute;
+    top: -14px;
+    width: 472px;
+}
+
+.frame .overlap-group-2 {
+    height: 390px;
+    left: 12px;
+    position: absolute;
+    top: 14px;
+    width: 454px;
+}
+
+.frame .vector {
+    height: 359px;
+    left: 17px;
+    position: absolute;
+    top: 0;
+    width: 381px;
+}
+
+.frame .img {
+    height: 75px;
+    left: 0;
+    position: absolute;
+    top: 315px;
+    width: 453px;
+}
+
+.frame .vector-2 {
+    height: 74px;
+    left: 0;
+    position: absolute;
+    top: 297px;
+    width: 454px;
+}
+
+.frame .vector-3 {
+    height: 128px;
+    left: 313px;
+    position: absolute;
+    top: 208px;
+    width: 94px;
+}
+
+.frame .vector-4 {
+    height: 126px;
+    left: 313px;
+    position: absolute;
+    top: 208px;
+    width: 20px;
+}
+
+.frame .vector-5 {
+    height: 128px;
+    left: 43px;
+    position: absolute;
+    top: 205px;
+    width: 94px;
+}
+
+.frame .vector-6 {
+    height: 126px;
+    left: 117px;
+    position: absolute;
+    top: 205px;
+    width: 20px;
+}
+
+.frame .vector-7 {
+    height: 26px;
+    left: 33px;
+    position: absolute;
+    top: 183px;
+    width: 396px;
+}
+
+.frame .vector-8 {
+    height: 9px;
+    left: 33px;
+    position: absolute;
+    top: 200px;
+    width: 396px;
+}
+
+.frame .vector-9 {
+    height: 5px;
+    left: 65px;
+    position: absolute;
+    top: 228px;
+    width: 33px;
+}
+
+.frame .vector-10 {
+    height: 5px;
+    left: 65px;
+    position: absolute;
+    top: 247px;
+    width: 33px;
+}
+
+.frame .vector-11 {
+    height: 5px;
+    left: 65px;
+    position: absolute;
+    top: 274px;
+    width: 33px;
+}
+
+.frame .vector-12 {
+    height: 5px;
+    left: 65px;
+    position: absolute;
+    top: 301px;
+    width: 33px;
+}
+
+.frame .vector-13 {
+    height: 5px;
+    left: 352px;
+    position: absolute;
+    top: 231px;
+    width: 33px;
+}
+
+.frame .vector-14 {
+    height: 5px;
+    left: 352px;
+    position: absolute;
+    top: 250px;
+    width: 33px;
+}
+
+.frame .vector-15 {
+    height: 5px;
+    left: 352px;
+    position: absolute;
+    top: 277px;
+    width: 33px;
+}
+
+.frame .vector-16 {
+    height: 5px;
+    left: 352px;
+    position: absolute;
+    top: 304px;
+    width: 33px;
+}
+
+.frame .vector-17 {
+    height: 21px;
+    left: 271px;
+    position: absolute;
+    top: 166px;
+    width: 54px;
+}
+
+.frame .vector-18 {
+    height: 100px;
+    left: 218px;
+    position: absolute;
+    top: 69px;
+    width: 160px;
+}
+
+.frame .vector-19 {
+    height: 75px;
+    left: 223px;
+    position: absolute;
+    top: 74px;
+    width: 149px;
+}
+
+.frame .text-wrapper {
+    color: #ffd700;
+    font-family: "Mulish-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 257px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 101px;
+}
+
+.frame .vector-20 {
+    height: 2px;
+    left: 297px;
+    position: absolute;
+    top: 71px;
+    width: 2px;
+}
+
+.frame .vector-21 {
+    height: 14px;
+    left: 218px;
+    position: absolute;
+    top: 155px;
+    width: 160px;
+}
+
+.frame .vector-22 {
+    height: 6px;
+    left: 294px;
+    position: absolute;
+    top: 159px;
+    width: 7px;
+}
+
+.frame .vector-23 {
+    height: 8px;
+    left: 190px;
+    position: absolute;
+    top: 190px;
+    width: 102px;
+}
+
+.frame .vector-24 {
+    height: 9px;
+    left: 303px;
+    position: absolute;
+    top: 188px;
+    width: 29px;
+}
+
+.frame .vector-25 {
+    height: 8px;
+    left: 303px;
+    position: absolute;
+    top: 188px;
+    width: 28px;
+}
+
+.frame .vector-26 {
+    height: 1px;
+    left: 320px;
+    position: absolute;
+    top: 191px;
+    width: 5px;
+}
+
+.frame .vector-27 {
+    height: 2px;
+    left: 190px;
+    position: absolute;
+    top: 196px;
+    width: 102px;
+}
+
+.frame .vector-28 {
+    height: 36px;
+    left: 187px;
+    position: absolute;
+    top: 56px;
+    width: 40px;
+}
+
+.frame .vector-29 {
+    height: 31px;
+    left: 193px;
+    position: absolute;
+    top: 80px;
+    width: 33px;
+}
+
+.frame .vector-30 {
+    height: 108px;
+    left: 151px;
+    position: absolute;
+    top: 97px;
+    width: 117px;
+}
+
+.frame .vector-31 {
+    height: 76px;
+    left: 143px;
+    position: absolute;
+    top: 131px;
+    width: 31px;
+}
+
+.frame .vector-32 {
+    height: 77px;
+    left: 139px;
+    position: absolute;
+    top: 129px;
+    width: 31px;
+}
+
+.frame .vector-33 {
+    height: 66px;
+    left: 246px;
+    position: absolute;
+    top: 137px;
+    width: 23px;
+}
+
+.frame .vector-34 {
+    height: 72px;
+    left: 249px;
+    position: absolute;
+    top: 131px;
+    width: 23px;
+}
+
+.frame .vector-35 {
+    height: 100px;
+    left: 140px;
+    position: absolute;
+    top: 211px;
+    width: 127px;
+}
+
+.frame .vector-36 {
+    height: 19px;
+    left: 229px;
+    position: absolute;
+    top: 304px;
+    width: 30px;
+}
+
+.frame .vector-37 {
+    height: 19px;
+    left: 148px;
+    position: absolute;
+    top: 302px;
+    width: 30px;
+}
+
+.frame .vector-38 {
+    height: 45px;
+    left: 185px;
+    position: absolute;
+    top: 51px;
+    width: 44px;
+}
+
+.frame .vector-39 {
+    height: 81px;
+    left: 141px;
+    position: absolute;
+    top: 269px;
+    width: 26px;
+}
+
+.frame .vector-40 {
+    height: 95px;
+    left: 215px;
+    position: absolute;
+    top: 273px;
+    width: 18px;
+}
+
+.frame .vector-41 {
+    height: 63px;
+    left: 245px;
+    position: absolute;
+    top: 271px;
+    width: 23px;
+}
+
+.frame .vector-42 {
+    height: 49px;
+    left: 184px;
+    position: absolute;
+    top: 273px;
+    width: 10px;
+}
+
+.frame .vector-43 {
+    height: 93px;
+    left: 144px;
+    position: absolute;
+    top: 187px;
+    width: 124px;
+}
+
+.frame .vector-44 {
+    height: 45px;
+    left: 411px;
+    position: absolute;
+    top: 261px;
+    width: 36px;
+}
+
+.frame .vector-45 {
+    height: 45px;
+    left: 421px;
+    position: absolute;
+    top: 261px;
+    width: 15px;
+}
+
+.frame .vector-46 {
+    height: 28px;
+    left: 414px;
+    position: absolute;
+    top: 304px;
+    width: 32px;
+}
+
+.frame .vector-47 {
+    height: 48px;
+    left: 76px;
+    position: absolute;
+    top: 140px;
+    width: 45px;
+}
+
+.frame .vector-48 {
+    height: 33px;
+    left: 83px;
+    position: absolute;
+    top: 147px;
+    width: 31px;
+}
+
+.frame .text-wrapper-2 {
+    color: #000000;
+    font-family: "Mulish-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 87px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 149px;
+}
+
+.frame .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Mulish-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 286px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 76px;
+}
+
+.frame .group {
+    height: 29px;
+    left: 93px;
+    position: absolute;
+    top: 43px;
+    width: 24px;
+}
+
+.frame .group-2 {
+    height: 28px;
+    left: 12px;
+    position: absolute;
+    top: 1px;
+    width: 2px;
+}
+
+.frame .ellipse {
+    background-color: #ffd700;
+    border-radius: 1px;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 13px;
+    width: 2px;
+}
+
+.frame .ellipse-2 {
+    background-color: #ffd700;
+    border-radius: 1px;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 26px;
+    width: 2px;
+}
+
+.frame .ellipse-3 {
+    background-color: #ffd700;
+    border-radius: 1px;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
+
+.frame .group-3 {
+    height: 28px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
+
+.frame .group-4 {
+    height: 28px;
+    left: 22px;
+    position: absolute;
+    top: 1px;
+    width: 2px;
+}
+
+.frame .group-5 {
+    height: 29px;
+    left: 5px;
+    position: absolute;
+    top: 303px;
+    width: 24px;
+}
+
+.frame .group-6 {
+    height: 29px;
+    left: 428px;
+    position: absolute;
+    top: 357px;
+    transform: rotate(90.53deg);
+    width: 24px;
+}
+
+.frame .star {
+    height: 15px;
+    left: 390px;
+    position: absolute;
+    top: 44px;
+    width: 16px;
+}
+
+.frame .star-2 {
+    height: 15px;
+    left: 301px;
+    position: absolute;
+    top: 344px;
+    width: 16px;
+}
+
+.frame .star-3 {
+    height: 15px;
+    left: 159px;
+    position: absolute;
+    top: 347px;
+    width: 16px;
+}
+
+.frame .group-7 {
+    height: 29px;
+    left: 448px;
+    position: absolute;
+    top: 159px;
+    width: 24px;
+}
+
+.frame .group-8 {
+    height: 29px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.frame .group-9 {
+    height: 29px;
+    left: 473px;
+    position: absolute;
+    top: 318px;
+    width: 24px;
+}
+
+.frame .star-4 {
+    height: 17px;
+    left: -266px;
+    position: absolute;
+    top: 844px;
+    width: 17px;
+}
+
+.frame .star-5 {
+    height: 6px;
+    left: 6px;
+    position: absolute;
+    top: 131px;
+    width: 16px;
+}
+
+.frame .star-6 {
+    height: 15px;
+    left: 3px;
+    position: absolute;
+    top: 246px;
+    width: 16px;
+}
+
+.frame .star-7 {
+    height: 15px;
+    left: 0;
+    position: absolute;
+    top: 53px;
+    width: 16px;
+}
+
+.frame .star-8 {
+    height: 15px;
+    left: 112px;
+    position: absolute;
+    top: 60px;
+    width: 16px;
+}
+
+.frame .star-9 {
+    height: 15px;
+    left: 337px;
+    position: absolute;
+    top: 0;
+    width: 16px;
+}
+
+.frame .star-10 {
+    height: 15px;
+    left: 242px;
+    position: absolute;
+    top: 0;
+    width: 16px;
+}
+
+.frame .group-10 {
+    height: 11px;
+    left: 446px;
+    position: absolute;
+    top: 0;
+    width: 24px;
+}
+
+.frame .group-11 {
+    height: 11px;
+    left: 12px;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
+
+.frame .ellipse-4 {
+    background-color: #ffd700;
+    border-radius: 1px/0.38px;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 2px;
+}
+
+.frame .ellipse-5 {
+    background-color: #ffd700;
+    border-radius: 1px/0.38px;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 10px;
+    width: 2px;
+}
+
+.frame .ellipse-6 {
+    background-color: #ffd700;
+    border-radius: 1px/0.38px;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
+
+.frame .group-12 {
+    height: 11px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
+
+.frame .group-13 {
+    height: 11px;
+    left: 22px;
+    position: absolute;
+    top: 0;
+    width: 2px;
+}
+
+.frame .overlap-4 {
+    height: 316px;
+    left: 11px;
+    position: absolute;
+    top: 69px;
+    width: 484px;
+}
+
+.frame .overlap-5 {
+    height: 312px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 484px;
+}
+
+.frame .overlap-6 {
+    height: 295px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 472px;
+}
+
+.frame .star-11 {
+    height: 6px;
+    left: 217px;
+    position: absolute;
+    top: 73px;
+    width: 16px;
+}
+
+.frame .undraw-static-assets {
+    height: 182px;
+    left: 260px;
+    position: absolute;
+    top: 113px;
+    width: 212px;
+}
+
+.frame .text-wrapper-4 {
+    color: #ffd700;
+    font-family: "Mulish-Bold", Helvetica;
+    font-size: 64px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 63px;
+}
+
+.frame .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Mulish-Bold", Helvetica;
+    font-size: 64px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+}
+
+.frame .text-wrapper-6 {
+    color: #c0c1c8;
+    font-family: "Mulish-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 53px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 143px;
+}
+
+.frame .overlap-7 {
+    height: 123px;
+    left: 58px;
+    position: absolute;
+    top: 189px;
+    width: 166px;
+}
+
+.frame .polygon {
+    height: 73px;
+    left: 0;
+    position: absolute;
+    top: 50px;
+    width: 72px;
+}
+
+.frame .polygon-2 {
+    height: 72px;
+    left: 91px;
+    position: absolute;
+    top: 0;
+    width: 74px;
+}
+
+.frame .polygon-3 {
+    height: 69px;
+    left: 54px;
+    position: absolute;
+    top: 36px;
+    width: 76px;
+}
+
+.frame .star-12 {
+    height: 15px;
+    left: 58px;
+    position: absolute;
+    top: 76px;
+    width: 16px;
+}
+
+.frame .star-13 {
+    height: 15px;
+    left: 25px;
+    position: absolute;
+    top: 99px;
+    width: 16px;
+}
+
+.frame .star-14 {
+    height: 15px;
+    left: 8px;
+    position: absolute;
+    top: 59px;
+    width: 16px;
+}
+
+.frame .star-15 {
+    height: 16px;
+    left: 102px;
+    position: absolute;
+    top: 78px;
+    width: 16px;
+}
+
+.frame .star-16 {
+    height: 15px;
+    left: 85px;
+    position: absolute;
+    top: 50px;
+    width: 16px;
+}
+
+.frame .star-17 {
+    height: 15px;
+    left: 140px;
+    position: absolute;
+    top: 27px;
+    width: 16px;
+}
+
+.frame .star-18 {
+    height: 15px;
+    left: 110px;
+    position: absolute;
+    top: 3px;
+    width: 16px;
+}
+
+.frame .star-19 {
+    height: 15px;
+    left: 467px;
+    position: absolute;
+    top: 59px;
+    width: 16px;
+}
+
+.frame .star-20 {
+    height: 15px;
+    left: 388px;
+    position: absolute;
+    top: 0;
+    width: 16px;
+}
+
+.frame .star-21 {
+    height: 15px;
+    left: 459px;
+    position: absolute;
+    top: 301px;
+    width: 16px;
+}
+
+.frame .group-14 {
+    height: 29px;
+    left: 346px;
+    position: absolute;
+    top: 405px;
+    transform: rotate(90.53deg);
+    width: 24px;
+}
+
+.frame .group-15 {
+    height: 29px;
+    left: 31px;
+    position: absolute;
+    top: 388px;
+    transform: rotate(90.53deg);
+    width: 24px;
+}
+
+.frame .group-16 {
+    height: 29px;
+    left: 28px;
+    position: absolute;
+    top: 18px;
+    transform: rotate(90.53deg);
+    width: 24px;
+}
+
+.frame .star-22 {
+    height: 15px;
+    left: 320px;
+    position: absolute;
+    top: 21px;
+    width: 16px;
+}
+
+.frame .star-23 {
+    height: 15px;
+    left: 237px;
+    position: absolute;
+    top: 40px;
+    width: 16px;
+}
+
+.frame .star-24 {
+    height: 15px;
+    left: 117px;
+    position: absolute;
+    top: 20px;
+    width: 16px;
+}

@@ -1,23 +1,136 @@
-import logo from './logo.svg';
+import React, { useState } from "react"
 import './App.css';
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Outlet
+
+} from "react-router-dom";
+import Navbar from "./components/navbar"
+import Footer from "./components/footer"
+import Home from "./components/home"
+import Register from "./components/register"
+import Login from "./components/login"
+import About from "./components/about"
+import CoursesSingleP from "./components/coursePageSingle.jsx"
+
+import Contact from "./components/contact"
+import Terms from "./components/terms"
+import Privacy from "./components/privacy"
+import Courses from "./components/courses"
+import LatestCourses from "./components/latestCourse"
+import Projects from "./components/project"
+import Blog from "./components/blog"
+import Ebook from "./components/ebook"
+import Pricing from "./components/pricing"
+import ForgotPassword from "./components/forgetPassword"
+import UpdatePassword from "./components/updatePassword"
+
+
+
+const Layout = () => {
+  return (
+    <>
+      <Navbar />
+      <Outlet />
+      <Footer />
+    </>
+  )
+}
+const pass = false;
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <Home />
+
+
+      },
+      {
+        path: "/terms",
+        element: <Terms />
+      },
+      {
+        path: "/contact",
+        element: <Contact />
+      },
+      {
+        path: "/privacy-policy",
+        element: <Privacy />
+      },
+      {
+        path: "/courses",
+        element: <Courses />,
+      
+      },
+      {
+        path: "/latest-courses",
+        element: <LatestCourses />,
+
+
+
+      },
+      {
+        path: "/project",
+        element: <Projects />
+      },
+      {
+        path: "/blog",
+        element: <Blog />
+      },
+      {
+        path: "/ebook",
+        element: <Ebook />
+      },
+      {
+        path: "/pricing",
+        element: <Pricing />
+      },
+      {
+        path: "/privacy",
+        element: <Privacy />
+      },
+      {
+        path: "/course-singleP",
+        element: <CoursesSingleP />
+      },
+      {
+        path: "/about",
+        element: <About />
+      }
+    ]
+  },
+  {
+    path: "/login",
+    element: <Login />,
+  },
+  {
+    path: "/forget-password",
+    element: <ForgotPassword />,
+  },
+  {
+    path: "/update-password",
+    element: <UpdatePassword />,
+  },
+  {
+    path: "/login/free",
+    element: <Login />,
+  },
+  {
+    path: "/register",
+    element: <Register />,
+  },
+]);
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <RouterProvider router={router} />
     </div>
   );
 }

@@ -1,0 +1,96 @@
+.conT{
+    width:100%;
+    max-width:1000px;
+    margin:0 auto;
+        padding: 2px 15px;
+    
+
+}
+.typ{
+    position: relative;
+}
+.typ4{
+    padding-top: 40px;
+}
+.abImg{
+    position:absolute;
+    z-index: 1;
+    width:100%;
+    left:0;
+    top:-10px;
+}
+
+.formDivC{
+    width:100%;
+    max-width:700px;
+    margin:0 auto;
+    border:1px solid #5a5f8a;
+    padding:20px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 2;
+    background-color: #232334;
+    margin-top: -40px;
+}
+.getInTouch{
+    color:gold;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.getInTouch1{
+    width:100%;
+    max-width: 70%;
+    padding:0 10px;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.inputsFormC{
+    padding:10px 10px;
+    border-radius: 5px;
+    background-color: inherit;
+    border: 0;
+    outline: 0;
+    border: 0.5px solid #3d3d5c;
+    width:100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.textAreaH{
+    height:300px;
+}
+.MButton{
+    padding:10px 20px;
+    border-radius: 8px;
+    background-color: #181825;
+    color:#fff;
+    border: 0;
+    outline: 0;
+    border: 1px solid #343858;
+    box-shadow: 0px 0px 17px -11px #090714
+}
+.usContact{
+    margin-top: 60px;
+        margin-bottom: 78px;
+    font-size: 35px;
+    font-weight: 700;
+    position: relative;
+    z-index: 10;
+}
+.labelC{
+    color:#a7a7a7
+}
+
+@media(max-width:768px){
+    .getInTouch1{
+        max-width: 100%;
+    }
+    .usContact{
+ margin-top: 2px;
+    margin-bottom: 65px;
+    text-align: center;
+   
+    }
+}

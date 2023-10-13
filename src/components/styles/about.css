@@ -1,0 +1,38 @@
+.MaratT{
+    display:flex;
+    width:100%;
+    max-width:1100px;
+    margin:50px auto 0 auto;
+}
+.AboutM{
+    width:50%
+}
+.MaratB{
+    font-size: 54px;
+    color:var(--p-color);
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.Pa{
+    color:#aba4a4;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.pa1{
+    margin-bottom: 20px;
+}
+.OurService{
+    font-size: 28px;
+    color:#fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+@media(max-width:768px){
+    .Eram {
+            flex-direction: column-reverse !important;
+        }
+}

@@ -2,6 +2,7 @@
     --p-color:#6b69a9;
 }
 
+
 .footerMainDiv{
     display:flex;
     justify-content: space-between;
@@ -20,7 +21,7 @@
 }
 .footerW{
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         justify-content: space-between;
     width:100%;
     max-width: 900px;
@@ -52,9 +53,10 @@
     color:#f9f5f5;
     text-align: center;
     width:100%;
-    max-width: 45%;
+    max-width: 54%;
     margin: 0 auto;
 }
+
 .FormPP{
     width:100%;
     max-width: 310px;
@@ -77,16 +79,19 @@
     border:1px solid #4f4f50;
 
 }
+.FooterHead{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
 .footerF{
     display:flex;
-   align-items: center;
+    flex-direction: column;
+   /* align-items: center; */
 }
-.pin{
-    border-right: 1px solid #43434c;
-}
+
 .footerF li{
     /* margin-left: 15px; */
-    padding:2px 20px;
+    padding:2px 0px;
 }
 .footerBackgroundColor{
     background-color: #0b0b16;
@@ -111,10 +116,16 @@
     padding-right: 0px !important;
 }
 .then{
-    color:#43434c;
+    color:#63636c;
 }
 .then:hover{
     color:#fff;
+}
+.R1{
+margin-bottom: 10px;
+}
+.R2{
+    text-align: right;
 }
 
 
@@ -122,13 +133,14 @@
     display: flex;
     width: 100%;
     max-width: 500px;
+    justify-content: space-between;
     margin: 0 auto;
     padding: 5px 20px;
 }
 .MobileT {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    /* width: 50%; */
 }
 .mnm {
     color: #51515e;
@@ -136,9 +148,17 @@
     line-height: 20px;
     font-size: 14px;
     font-weight: 200;
-    border-left: 1px solid gray;
-    padding-left: 10px;
+    
     margin-bottom: 5px;
+}
+.mmm1{
+    padding-right: 10px ;
+    border-right: 1px solid gray ;
+    text-align: right;
+}
+.mmm2{
+    border-left: 1px solid gray;
+        padding-left: 10px
 }
 
 @media (max-width:768px) {
@@ -176,10 +196,7 @@
                  .pin {
                      border-right: none;
                  }
-                 .footerF li {
-                     margin-left: 0px;
-                     padding: 2px 0px;
-                 }
+                
         .footerHouse{
             height:160px;
         }
@@ -193,15 +210,7 @@
                 .piki{
                     width:100%
                 }
-    .footerF{
-        width:100%;
-        display: grid;
-       
-        grid-template-columns: repeat(3, 33%);
-        /* grid-column-gap: 50px; */
-        /* gap:10px */
-        justify-content: space-between;
-    }
+ 
 }
 
 @media (min-width:769px) {

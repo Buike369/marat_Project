@@ -2,7 +2,7 @@ import React from 'react'
 import "./styles/projects.css"
 
 const Project = () => {
-  const card1 =[ {name:"Kingsley Chukwubuike",img:"john",project:"Store Project", button:"Preview" ,price:"$60"},{name:"Kingsley Chukwubuike",img:"john",project:"Gaming Projects", button:"Preview" ,price:"$120"},{name:"kingsley Chukwubuike",img:"john",project:"Investment Project", button:"Preview" ,price:"$100"},{name:"Kingsley Chukwubuike",img:"john",project:"Ecommerce Project", button:"Preview" ,price:"$100"},{name:"Kingsley Chukwubuike",img:"john",project:"Blog Project", button:"Preview" ,price:"$70"},{name:"Kingsley Chukwubuike",img:"john",project:"Factory Project", button:"Preview" ,price:"$150"},{name:"Kingsley Chukwubuike",img:"john",project:"News Project", button:"Preview" ,price:"$200"},{name:"Kingsley Chukwubuike",img:"john",project:"Industry Project", button:"Preview" ,price:"$200"}]
+  const card1 =[ {name:"Kingsley Chukwubuike",img:"john",project:"Store Project", button:"Preview" ,price:"$60"},{name:"Kingsley Chukwubuike",img:"john",project:"Gaming Projects", button:"Preview" ,price:"$120"},{name:"kingsley Chukwubuike",img:"john",project:"Investment Project", button:"Preview" ,price:"$100"},{name:"Kingsley Chukwubuike",img:"john",project:"Ecommerce Project", button:"Preview" ,price:"$100"},{name:"Kingsley Chukwubuike",img:"john",project:"Blog Project", button:"Preview" ,price:"$70"},{name:"Kingsley Chukwubuike",img:"john",project:"Factory Project", button:"Preview" ,price:"$150"},{name:"Kingsley Chukwubuike",img:"john",project:"News Project", button:"Preview" ,price:"$200"},{name:"Kingsley Chukwubuike",img:"john",project:"Industry Project", button:"Preview" ,price:"$200"},{name:"Kingsley Chukwubuike",img:"john",project:"Industry Project", button:"Preview" ,price:"$200"},{name:"Kingsley Chukwubuike",img:"john",project:"Industry Project", button:"Preview" ,price:"$200"},{name:"Kingsley Chukwubuike",img:"john",project:"Industry Project", button:"Preview" ,price:"$200"},{name:"Kingsley Chukwubuike",img:"john",project:"Industry Project", button:"Preview" ,price:"$200"}]
   const card =[ {name:"Kingsley Chukwubuike",img:"john",project:"Portfolio Project", button:"Preview" ,price:"$30"},{name:"Kingsley Chukwubuike",img:"john",project:"Gaming Projects", button:"Preview" ,price:"$120"},{name:"kingsley Chukwubuike",img:"john",project:"Investment Project", button:"Preview" ,price:"$100"}]
 
   return (
@@ -38,11 +38,9 @@ const Project = () => {
 
           </div>
           ))}
-          
-         
-          
-        
         </div>
+
+
       </div>
          <div className="upDiv"></div>
        <div className="projectPreviewDiv1">
@@ -55,11 +53,12 @@ const Project = () => {
         </div> */}
         </div>
    
-        <div className="filesVideo">
+     
+         <div className="filesVideo">
           {card1.map((app,id)=>(
-          <div className="cardDivWithImg imgWidth" key={id}>
-           <div className="ImgDivGenerator imgHeight"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
-           <p className='skillPath'>PROJECT PATH</p>
+          <div className="cardDivWithImg" key={id}>
+           <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
+            <p className='skillPath'>PROJECT PATH</p>
             <p className="WhatIs">{app.project}</p>
              <div className="Jan janu">
               <p className="landL">{app.price}</p>
@@ -68,10 +67,6 @@ const Project = () => {
 
           </div>
           ))}
-          
-         
-          
-        
         </div>
       </div>
     </div>

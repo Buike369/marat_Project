@@ -28,3 +28,13 @@
         }
 
     }
+    @media(min-width:570px) and (max-width:768px){
+        .filesVideo{
+            flex-direction: row;
+        }
+        .cardDivWithImg{
+            width:47%;
+            flex-grow: 1;
+            flex-basis: 47%;
+        }
+    }

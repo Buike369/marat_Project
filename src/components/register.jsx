@@ -17,12 +17,12 @@ const Register = () => {
               <form className='regForm'>
                  <div>
                    <div className='RegCreate'>Create an Account</div>
-                   <div className='regLabel'><label className='labelDD'>Name</label></div>
-                   <div><input type="" placeholder='full name' className="RegInputs"/></div>
+                   <div className='regLabel'><label className='labelDD'>Full Name</label></div>
+                   <div><input type="text"  className="RegInputs"/></div>
                     <div className='regLabel'><label className='labelDD'>Email</label></div>
-                   <div><input type="" placeholder='email' className="RegInputs"/></div>
+                   <div><input type=""  className="RegInputs"/></div>
                     <div className='regLabel'><label className='labelDD'>Password</label></div>
-                   <div><input type="" placeholder='password' className="RegInputs"/></div>
+                   <div><input type=""  className="RegInputs"/></div>
                    <div className='regCheck'><input type="checkbox" placeholder='password' className=""/><p className="iHave">I have read and agree to our <a href="/terms" className="iHave clickMe1">Terms</a> and <a href="/privacy-policy"  className="iHave clickMe1">Privacy Policy</a>.</p></div>
                    <div className='SignUp'>Sign Up </div>
                    <div className='divLine'>

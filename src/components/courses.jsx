@@ -60,9 +60,9 @@ const card1 =[ {name:"Chukwubuke K.",img:"/img/bgf.svg",course:"HTML/CSS", butto
    
         <div className="filesVideo">
           {card1.map((app,id)=>(
-          <div className="cardDivWithImg imgWidth" key={id}>
-           <div className="ImgDivGenerator imgHeight"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
-               <p className='skillPath'>SKILL PATH</p>
+          <div className="cardDivWithImg" key={id}>
+           <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
+             <p className='skillPath'>SKILL PATH</p>
             <p className="WhatIs">{app.course}</p>
          
           <div className="Jan janu">

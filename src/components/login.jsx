@@ -16,9 +16,9 @@ const login = () => {
                  <div>
                    <div className='RegCreate'>Login to Marat</div>
                     <div className='regLabel'><label className='labelDD'>Email</label></div>
-                   <div><input type="" placeholder='email' className="RegInputs"/></div>
+                   <div><input type="" className="RegInputs"/></div>
                     <div className='regLabel'><label className='labelDD'>Password</label></div>
-                   <div><input type="" placeholder='password' className="RegInputs"/></div>
+                   <div><input type=""  className="RegInputs"/></div>
                   
                    <div className='SignUp loginB'>Login </div>
                    <div className="iHave ">Forget password? <a href="/forget-password" className='clickMe iHave '>Click Here</a></div>

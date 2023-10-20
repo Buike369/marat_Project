@@ -5,9 +5,9 @@ import { faCode, faWandMagicSparkles} from '@fortawesome/free-solid-svg-icons'
 import Navbar from "./navbar"
 const Home = () => {
 
- const card =[ {name:"Kingsley Chukwubuike",img:"/img/bgf.svg", course:"Figma To React",time:"Oct 1, 2023", button:"Preview" ,price:"$15"},{name:"Kingsley Chukwubuike",img:"/img/bgf.svg",course:"React-Native Tutorials",time:"Oct 1, 2023",button:"Preview",price:"$20"},{name:"Kingsley Chukwubuike",img:"/img/bgf.svg",course:"React Tutorials", time:"Oct 1, 2023",button:"Preview",price:"$20"}]
- const card2 =[ {name:"Kingsley Chukwubuike",img:"john",project:"Portfolio Project", button:"Preview" ,price:"$30"},{name:"Kingsley Chukwubuike",img:"john",project:"Gaming Projects", button:"Preview" ,price:"$120"},{name:"kingsley Chukwubuike",img:"john",project:"Investment Project", button:"Preview" ,price:"$100"}]
-  const card1 =[ {name:"Chukwubuke K.",img:"/img/gripa.png",course:"HTML/CSS", button:"Preview" ,price:"$15"},{name:"Chukwubuike K.",img:"/img/gripa3.png",course:"JavaScript",button:"Preview",price:"$25"},{name:"chukwubuike K.",img:"/img/gripa4.png",course:"React",button:"Preview",price:"$20"},{name:"Chukwubuike K.",img:"/img/gripa5.png",course:"Nodejs",button:"preview",price:"$25"},{name:"Chukwubuike K.",img:"/img/gripa6.png",course:"MySql",button:'Preview',price:"$20"},{name:"Chukwubuike K.",img:"/img/grip7.png",course:"Python",button:'Preview',price:"$25"},{name:"Chukwubuike K.",img:"/img/gripa7.png",course:"ExpressJs",button:"Preview",price:"$20"},{name:"Chukwubuike K.",img:"/img/bkm.png",course:"Figma",button:"Preview",price:"$15"}]
+ const card =[ {name:"Kingsley Chukwubuike",img:"/img/bgf.svg", course:"Figma To React",time:"Oct 1, 2023", button:"Preview" ,price:"Free",price1:"₦10,000"},{name:"Kingsley Chukwubuike",img:"/img/bgf.svg",course:"React-Native Tutorials",time:"Oct 1, 2023",button:"Preview",price:"Free",price1:"₦25,000"},{name:"Kingsley Chukwubuike",img:"/img/bgf.svg",course:"React Tutorials", time:"Oct 1, 2023",button:"Preview",price:"Free",price1:"₦25,000"}]
+ const card2 =[ {name:"Kingsley Chukwubuike",img:"john",project:"Portfolio Project", button:"Preview" ,price:"Free",price1:"₦50,000"},{name:"Kingsley Chukwubuike",img:"john",project:"Gaming Projects", button:"Preview" ,price:"Free",price1:"₦120,000"},{name:"kingsley Chukwubuike",img:"john",project:"Investment Project", button:"Preview" ,price:"Free",price1:"₦150,000"},{name:"kingsley Chukwubuike",img:"john",project:"Investment Project", button:"Preview" ,price:"Free",price1:"₦150,000"},{name:"kingsley Chukwubuike",img:"john",project:"Investment Project", button:"Preview" ,price:"Free",price1:"₦150,000"},{name:"kingsley Chukwubuike",img:"john",project:"Investment Project", button:"Preview" ,price:"Free",price1:"₦150,000"}]
+  const card1 =[ {name:"Chukwubuke K.",img:"/img/gripa.png",course:"HTML/CSS", button:"Preview" ,price:"Free",price1:"₦15,000"},{name:"Chukwubuike K.",img:"/img/gripa3.png",course:"JavaScript",button:"Preview",price:"Free",price1:"₦25,000"},{name:"chukwubuike K.",img:"/img/gripa4.png",course:"React",button:"Preview",price:"Free",price1:"₦25,000"},{name:"Chukwubuike K.",img:"/img/gripa5.png",course:"Nodejs",button:"preview",price:"Free",price1:"₦30,000"},{name:"Chukwubuike K.",img:"/img/gripa6.png",course:"MySql",button:'Preview',price:"Free",price1:"₦15,000"},{name:"Chukwubuike K.",img:"/img/grip7.png",course:"Python",button:'Preview',price:"Free",price1:"₦25,000"},{name:"Chukwubuike K.",img:"/img/gripa7.png",course:"ExpressJs",button:"Preview",price:"Free",price1:"₦20,000"},{name:"Chukwubuike K.",img:"/img/bkm.png",course:"Figma",button:"Preview",price:"Free",price1:"₦10,000"}]
   return (
     <div>
       <div className="navbarMainDiv" >
@@ -70,7 +70,7 @@ const Home = () => {
             <p className="WhatIs landL5">{app.course}</p>
          
            <div className="Jan">
-              <p className="landL">{app.price}</p>
+              <p className="landL">{app.price} <span className='Numb'>{app.price1}</span></p>
              
               <p className="landL2">{app.button}</p>
             </div>
@@ -136,7 +136,7 @@ const Home = () => {
             <p className="WhatIs">{app.course}</p>
          
           <div className="Jan janu">
-              <p className="landL">{app.price}</p>
+              <p className="landL">{app.price} <span className='Numb'>{app.price1}</span></p>
               <p className="landL2">{app.button}</p>
             </div>
 
@@ -155,30 +155,32 @@ const Home = () => {
 
       
 <div className="CNN"></div>
-  <div className="filesVideo1" style={{marginBottom:"20px"}}>
-        
-          <div className="cardDivWithImg">
+  {/* <div className="filesVideo1" style={{marginBottom:"20px"}}>
+         
+          <div className="cardDivWithImg ">
            <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
            <p className='skillPath'>PROJECT PATH</p>
             <p className="WhatIs">Ecommerce Project</p>
              <div className="Jan janu">
-              <p className="landL">$100</p>
+              <p className="landL">Free <span className='Numb'>₦150,000</span></p>
               <p className="landL2">Preview</p>
             </div>
            
 
           </div>
-           <div className="cardDivWithImg">
+           <div className="cardDivWithImg ">
            <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
               <p className='skillPath'>PROJECT PATH</p>
             <p className="WhatIs">Simple Sales Store</p>
             <div className="Jan janu">
-              <p className="landL">$60</p>
+              <p className="landL">Free <span className='Numb'>₦90,000</span></p>
               <p className="landL2">Preview</p>
             </div>
            
 
           </div>
+
+        
           <div  className='gift'>
             <p className="morPage">
               Explore More 
@@ -190,16 +192,61 @@ const Home = () => {
            <a href="/project"> <div className="morPage1">view all</div></a>
           </div>
       
-        </div>
+        </div> */}
+        <div className='lm'>
+               <div  className='gift'>
+            <p className="morPage">
+              Explore More 
+            </p>
+             <p className="morPage2">
+              On different projects and works 
+            </p>
 
-          <div className="filesVideo" style={{marginBottom:"20px"}}>
+           <a href="/project"> <div className="morPage1">view all</div></a>
+          </div>
+          </div>
+          <div className="filesVideo gg" style={{marginBottom:"20px"}}>
+             <div className="cardDivWithImg ">
+           <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
+           <p className='skillPath'>PROJECT PATH</p>
+            <p className="WhatIs">Ecommerce Project</p>
+             <div className="Jan janu">
+              <p className="landL">Free <span className='Numb'>₦150,000</span></p>
+              <p className="landL2">Preview</p>
+            </div>
+           
+
+          </div>
+           <div className="cardDivWithImg ">
+           <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
+              <p className='skillPath'>PROJECT PATH</p>
+            <p className="WhatIs">Simple Sales Store</p>
+            <div className="Jan janu">
+              <p className="landL">Free <span className='Numb'>₦90,000</span></p>
+              <p className="landL2">Preview</p>
+            </div>
+           
+
+          </div>
+
+        
+          <div  className='gift lm1'>
+            <p className="morPage">
+              Explore More 
+            </p>
+             <p className="morPage2">
+              On different projects and works 
+            </p>
+
+           <a href="/project"> <div className="morPage1">view all</div></a>
+          </div>
           {card2.map((app,id)=>(
           <div className="cardDivWithImg" key={id}>
            <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
            <p className='skillPath'>PROJECT PATH</p>
             <p className="WhatIs">{app.project}</p>
              <div className="Jan janu">
-              <p className="landL">{app.price}</p>
+              <p className="landL">{app.price} <span className='Numb'>{app.price1}</span></p>
               <p className="landL2">{app.button}</p>
             </div>
 

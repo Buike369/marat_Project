@@ -8,14 +8,16 @@ import { faArrowRight,faSearch} from '@fortawesome/free-solid-svg-icons'
 const Header = () => {
 
   const [isChecked,setIsChecked] = useState(false)
+  const [dropdown,setDropdown] = useState(false)
   const tr = window.location.pathname;
 
    const [feedBack,setFeedBack]=useState("")
-   const navbarItem = [{link:"/courses",text:"Courses"},{link:"/ebook",text:"eBook"},{link:"/blog",text:"Blog"},{link:"/project",text:"projects"},{ link:"/",text:"pricing"}]
+   const navbarItem = [{link:"/courses",text:"Explore",name:"navbar1_link explore"},{link:"/ebook",text:"eBook",name:"navbar1_link"},{link:"/blog",text:"Blog",name:"navbar1_link"},{link:"/project",text:"projects",name:"navbar1_link"},{ link:"/",text:"pricing",name:"navbar1_link"}]
 
     window.onscroll =()=>{
         scrollF()
       }
+    
 
       const scrollF =()=>{
           if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
@@ -46,12 +48,20 @@ const Header = () => {
             {(tr === "/register") || (tr === "/login") || (tr === "/forget-password") || (tr === "/update-password")  ? "":
             <div style={{width:"40%"}}>
         <div className="nacBar">
-            {navbarItem.map((app,id)=>(
+           
           <ul className="NavbarUl" >
-            <li  key={id}><a href={app.link} className="navbar1_link">{app.text}</a></li>
-    
+            <li><div href="" className="navbar1_link explore" onClick={()=>setDropdown(!dropdown)}>Explore</div>
+           {dropdown ?   
+          <ul className='navbarDropD'></ul>
+           :""}  
+            </li>
+             <li><a href="" className="navbar1_link">eBook</a></li>
+              <li ><a href="" className="navbar1_link">Blog</a></li>
+               <li ><a href="" className="navbar1_link">Resources</a></li>
+                <li><a href="" className="navbar1_link">pricing</a></li>
+        
           </ul>
-          ))}
+          
         </div>
         </div>
         }
@@ -89,6 +99,7 @@ const Header = () => {
          
 
     </div>
+
     </div>
   )
 }

@@ -301,7 +301,7 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     justify-content: space-between;
     max-width: 1100px;
     margin: 0 auto
@@ -339,7 +339,9 @@
 }
 
 .cardDivWithImg:hover {
-    transform: scale(1.025)
+    transform: scale(1.025);
+        border: 1px solid #717081;
+            /* box-shadow: 0px 2px 11px 4px #1d1d2c; */
 }
 
 .gig {

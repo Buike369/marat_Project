@@ -5,19 +5,19 @@ import { faCode, faWandMagicSparkles} from '@fortawesome/free-solid-svg-icons'
 import Navbar from "./navbar"
 const Home = () => {
 
- const card =[ {name:"Kingsley Chukwubuike",img:"/img/bgf.svg", course:"Figma To React",time:"Oct 1, 2023", button:"Preview" ,price:"Free",price1:"₦10,000"},{name:"Kingsley Chukwubuike",img:"/img/bgf.svg",course:"React-Native Tutorials",time:"Oct 1, 2023",button:"Preview",price:"Free",price1:"₦25,000"},{name:"Kingsley Chukwubuike",img:"/img/bgf.svg",course:"React Tutorials", time:"Oct 1, 2023",button:"Preview",price:"Free",price1:"₦25,000"}]
+ const card =[ {name:"Kingsley Chukwubuike",img:"/img/bgf.svg", course:"Figma To React",time:"Oct 1, 2023", button:"Preview" ,price:"Free",price1:"₦10,000"},{name:"Kingsley Chukwubuike",img:"/img/bgf.svg",course:"React-Native Tutorials",time:"Oct 1, 2023",button:"Preview",price:"Free",price1:"₦25,000"},{name:"Kingsley Chukwubuike",img:"/img/bgf.svg",course:"React Tutorials", time:"Oct 1, 2023",button:"Preview",price:"Free",price1:"₦25,000"},{name:"Kingsley Chukwubuike",img:"/img/bgf.svg",course:"React Tutorials", time:"Oct 1, 2023",button:"Preview",price:"Free",price1:"₦25,000"},{name:"Kingsley Chukwubuike",img:"/img/bgf.svg",course:"React Tutorials", time:"Oct 1, 2023",button:"Preview",price:"Free",price1:"₦25,000"},{name:"Kingsley Chukwubuike",img:"/img/bgf.svg",course:"React Tutorials", time:"Oct 1, 2023",button:"Preview",price:"Free",price1:"₦25,000"}]
  const card2 =[ {name:"Kingsley Chukwubuike",img:"john",project:"Portfolio Project", button:"Preview" ,price:"Free",price1:"₦50,000"},{name:"Kingsley Chukwubuike",img:"john",project:"Gaming Projects", button:"Preview" ,price:"Free",price1:"₦120,000"},{name:"kingsley Chukwubuike",img:"john",project:"Investment Project", button:"Preview" ,price:"Free",price1:"₦150,000"},{name:"kingsley Chukwubuike",img:"john",project:"Investment Project", button:"Preview" ,price:"Free",price1:"₦150,000"},{name:"kingsley Chukwubuike",img:"john",project:"Investment Project", button:"Preview" ,price:"Free",price1:"₦150,000"},{name:"kingsley Chukwubuike",img:"john",project:"Investment Project", button:"Preview" ,price:"Free",price1:"₦150,000"}]
-  const card1 =[ {name:"Chukwubuke K.",img:"/img/gripa.png",course:"HTML/CSS", button:"Preview" ,price:"Free",price1:"₦15,000"},{name:"Chukwubuike K.",img:"/img/gripa3.png",course:"JavaScript",button:"Preview",price:"Free",price1:"₦25,000"},{name:"chukwubuike K.",img:"/img/gripa4.png",course:"React",button:"Preview",price:"Free",price1:"₦25,000"},{name:"Chukwubuike K.",img:"/img/gripa5.png",course:"Nodejs",button:"preview",price:"Free",price1:"₦30,000"},{name:"Chukwubuike K.",img:"/img/gripa6.png",course:"MySql",button:'Preview',price:"Free",price1:"₦15,000"},{name:"Chukwubuike K.",img:"/img/grip7.png",course:"Python",button:'Preview',price:"Free",price1:"₦25,000"},{name:"Chukwubuike K.",img:"/img/gripa7.png",course:"ExpressJs",button:"Preview",price:"Free",price1:"₦20,000"},{name:"Chukwubuike K.",img:"/img/bkm.png",course:"Figma",button:"Preview",price:"Free",price1:"₦10,000"}]
+  const card1 =[ {name:"Chukwubuke K.",img:"/img/gripa.png",course:"HTML/CSS", button:"Preview" ,price:"Free",price1:"₦15,000"},{name:"Chukwubuike K.",img:"/img/gripa3.png",course:"JavaScript",button:"Preview",price:"Free",price1:"₦25,000"},{name:"chukwubuike K.",img:"/img/gripa4.png",course:"React",button:"Preview",price:"Free",price1:"₦25,000"},{name:"Chukwubuike K.",img:"/img/gripa5.png",course:"Nodejs",button:"preview",price:"Free",price1:"₦30,000"},{name:"Chukwubuike K.",img:"/img/gripa6.png",course:"MySql",button:'Preview',price:"Free",price1:"₦15,000"},{name:"Chukwubuike K.",img:"/img/grip7.png",course:"Python",button:'Preview',price:"Free",price1:"₦25,000"}]
   return (
     <div>
       <div className="navbarMainDiv" >
         {/* <Navbar/> */}
         {/* <div style={{position:"absolute",top:"0",left:"0",right:"0",bottom:"0",background:"rgb(0 0 0 / 74%)"}}></div> */}
        <div className="heroDiv">
-         <p className="ExploreJ">Empower students with  <span className='ExploreJ exploreC'>the superpower</span> of coding </p>
+         <p className="ExploreJ">Empower everyone with  <span className='ExploreJ exploreC'>the superpower</span> of coding </p>
         <div className="headerDivFle addHeaderDivFile">
            <div className="headerDivFle1">
-             <p className="Explore">Empower students with <span className='Explore exploreC'>the superpower</span> of coding</p>
+             <p className="Explore">Empower everyone with <span className='Explore exploreC'>the superpower</span> of coding</p>
              <p className="Explore1">Explore courses on: Programming <span className='fra'>|</span> Websites building <span className='fra'>|</span> Projects <span className='fra'>|</span> Works</p>
             <div className='CoursesB'> <button className="Explore2">Explore Courses</button></div>
              <p className="Explore3">Join <span className="millionPP">1.7 Million</span> developers, students working in companies.</p>
@@ -119,6 +119,10 @@ const Home = () => {
       </div>
       </div>
 
+      <div>
+
+      </div>
+
  <div className="projectPreviewDiv1">
         <div className="tou">
         <div className="TrendingCourses">Popular Courses </div>
@@ -130,7 +134,7 @@ const Home = () => {
    
         <div className="filesVideo">
           {card1.map((app,id)=>(
-          <div className="cardDivWithImg imgWidth" key={id}>
+          <div className="cardDivWithImg" key={id}>
            <div className="ImgDivGenerator imgHeight"> <img src={app.img} alt="" className="divImg"/></div>
               <p className='skillPath'>SKILL PATH</p>
             <p className="WhatIs">{app.course}</p>
@@ -149,7 +153,10 @@ const Home = () => {
         </div>
       </div>
     
-     
+   {/* <div className="vv">
+    <div className='vv1'></div>
+
+    </div>   */}
       
 
 

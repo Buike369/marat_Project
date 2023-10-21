@@ -1,16 +1,16 @@
 .MaratT{
     display:flex;
     width:100%;
-    max-width:1100px;
+    max-width:1200px;
     margin:80px auto 0 auto;
 }
 .AboutM{
     width:50%
 }
 .MaratB{
-    font-size: 54px;
+    font-size: 70px;
     color:var(--p-color);
-    font-weight: 700;
+    font-weight: 500;
     width: 100%;
     margin-bottom: 30px;
     margin-top: 40px;

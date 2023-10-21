@@ -34,7 +34,7 @@ const footer = () => {
                         <li className='pin pin7'><a href="/project" className='then'>Projects</a></li>
                         <li className='pin  pin6'><a href="/ebook" className='then'>eBooks</a></li>
                         <li className='pin  pin7'><a href="#" className='then'>MBT</a></li>
-                        <li className='pin1  pin6'><a href="/" className='then'>Assessments</a></li>
+                        <li className='pin1  pin6'><a href="#" className='then'>Assessments</a></li>
                     </ul>
                 </div>
                 <div className=''>
@@ -43,7 +43,7 @@ const footer = () => {
                         <li className='pin pin6'><a href="#" className='then'>Our Team</a></li>
                         <li className='pin pin7'><a href="/about" className='then'>About</a></li>
                         <li className='pin  pin6'><a href="/contact" className='then'>Contact Us</a></li>
-                        <li className='pin  pin7'><a href="/terms" className='then'>Careers</a></li>
+                        <li className='pin  pin7'><a href="#" className='then'>Careers</a></li>
                         <li className='pin1  pin6'><a href="#" className='then'>Press</a></li>
                     </ul>
                 </div>
@@ -60,10 +60,10 @@ const footer = () => {
                 <div className=''>
                     <ul className='footerF'>
                         <li className='pin pin7'><div className="FooterHead">Resources</div></li>
-                        <li className='pin pin6'><a href="/" className='then'>Blog</a></li>
+                        <li className='pin pin6'><a href="/blog" className='then'>Blog</a></li>
                         <li className='pin pin7'><a href="#" className='then'>Become an Author</a></li>
                         <li className='pin  pin6'><a href="#" className='then'>Become an Affiliate</a></li>
-                        <li className='pin  pin7'><a href="#" className='then'>Pricing</a></li>
+                        <li className='pin  pin7'><a href="/pricing" className='then'>Pricing</a></li>
                         <li className='pin1  pin6'><a href="/privacy" className='then'></a></li>
                     </ul>
                 </div>
@@ -73,17 +73,17 @@ const footer = () => {
             <div className='MobileT1'>
                 <div className='MobileT'>
                     <div className="R1">About Us</div>
-                    <a href="/" className='mnm mmm2'>About</a>
+                    <a href="/about" className='mnm mmm2'>About</a>
                     <a href="/contact" className='mnm mmm2'> Contact Us </a>
                     <a href="#" className='mnm mmm2'>Careers</a>
                      <a href="#" className='mnm mmm2'>Press</a>
                 </div>
                 <div className='MobileT'>
                     <div className="R1 R2">Products</div>
-                    <a href="/about" className='mnm mmm1 '> Courses</a>
-                    <a href="/terms" className='mnm mmm1'>Projects</a>
-                    <a href="/privacy" className='mnm mmm1'>eBooks</a>
-                    <a href="/privacy" className='mnm mmm1'>Assessments</a>
+                    <a href="/courses" className='mnm mmm1 '> Courses</a>
+                    <a href="/project" className='mnm mmm1'>Projects</a>
+                    <a href="/ebook" className='mnm mmm1'>eBooks</a>
+                    <a href="#" className='mnm mmm1'>Assessments</a>
                 </div>
             </div>
         </div>
@@ -91,17 +91,17 @@ const footer = () => {
             <div className='MobileT1'>
                 <div className='MobileT'>
                     <div className="R1">Legal</div>
-                    <a href="/" className='mnm mmm2'>Privacy Policy </a>
-                    <a href="/contact" className='mnm mmm2'>Terms & Conditions</a>
+                    <a href="/privacy" className='mnm mmm2'>Privacy Policy </a>
+                    <a href="/terms" className='mnm mmm2'>Terms & Conditions</a>
                     <a href="#" className='mnm mmm2'>Disclaimer</a>
                                         <a href="#" className='mnm mmm2'>Cookie Policy</a>
                 </div>
                 <div className='MobileT'>
                     <div className="R1 R2">Resources</div>
-                    <a href="/about" className='mnm mmm1 '>Blog</a>
-                    <a href="/terms" className='mnm mmm1'>Become an Author</a>
-                    <a href="/privacy" className='mnm mmm1'>Become an Affiliate</a>
-                    <a href="/privacy" className='mnm mmm1'>Pricing</a>
+                    <a href="/blog" className='mnm mmm1 '>Blog</a>
+                    <a href="#" className='mnm mmm1'>Become an Author</a>
+                    <a href="#" className='mnm mmm1'>Become an Affiliate</a>
+                    <a href="/pricing" className='mnm mmm1'>Pricing</a>
                 </div>
             </div>
         </div>

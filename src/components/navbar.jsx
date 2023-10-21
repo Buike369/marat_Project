@@ -55,10 +55,10 @@ const Header = () => {
           <ul className='navbarDropD'></ul>
            :""}  
             </li>
-             <li><a href="" className="navbar1_link">eBook</a></li>
-              <li ><a href="" className="navbar1_link">Blog</a></li>
-               <li ><a href="" className="navbar1_link">Resources</a></li>
-                <li><a href="" className="navbar1_link">pricing</a></li>
+             <li><a href="" className="navbar1_link">Resources</a></li>
+              <li ><a href="" className="navbar1_link">Learn</a></li>
+               <li ><a href="/blog" className="navbar1_link">Blog</a></li>
+                <li><a href="/pricing" className="navbar1_link">pricing</a></li>
         
           </ul>
           

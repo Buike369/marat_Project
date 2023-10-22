@@ -109,7 +109,7 @@ const footer = () => {
         <div className='footerMainDiv'>
           
             <div className='footerName' >
-                © 2023 Marat Technology Projects. All Rights Reserved
+                © 2023 Marat-B Technology . All Rights Reserved
             </div>
             <div style={{width:"20%"}}>
                 <div className="hot">

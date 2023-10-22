@@ -25,7 +25,7 @@ import Ebook from "./components/ebook"
 import Pricing from "./components/pricing"
 import ForgotPassword from "./components/forgetPassword"
 import UpdatePassword from "./components/updatePassword"
-
+import Teach from "./components/teach"
 
 
 const Layout = () => {
@@ -57,6 +57,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />
+      },
+      {
+        path: "/teach",
+        element: <Teach/>
       },
       {
         path: "/privacy-policy",

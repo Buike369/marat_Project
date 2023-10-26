@@ -75,11 +75,12 @@ const Header = () => {
     </label>
      <div className="menuBox">
     <ul className="menuBox24">
+      <li><a className="menuItem" href="/teach">Topic 1</a></li>
+       <li><a className="menuItem" href="/teach1">Topic 2</a></li>
       <li><a className="menuItem" href="/courses">Course</a></li>
       <li><a className="menuItem" href="/ebook">eBook</a></li>
       <li><a className="menuItem" href="/blog">Blog</a></li>
       <li><a className="menuItem" href="/project">Projects</a></li>
-      <li><a className="menuItem" href="/">Pricing</a></li>
        <li><button className='loginButton'><a className="menuItem34" href="/register">Log In</a></button></li>
     </ul>
     </div>

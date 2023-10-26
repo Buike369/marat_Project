@@ -51,7 +51,11 @@ const Home = () => {
         </div>
 
       </div>
-      </div>
+
+{/* <div>
+ <canvas className="particles-js-canvas-el" width="1349" height="403" style={{width: "100%", height: "100%"}}></canvas>
+</div> */}
+            </div>
 
 
          

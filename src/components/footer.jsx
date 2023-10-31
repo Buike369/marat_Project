@@ -1,11 +1,67 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./styles/footer.css"
+import axios from "axios"
+import validator from 'validator';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faPaperPlane} from "@fortawesome/free-solid-svg-icons"
 import {faLinkedin,faTwitter,faGithub,faTelegram,faYoutube,faFacebook} from "@fortawesome/free-brands-svg-icons"
 
-const footer = () => {
+const Footer = () => {
+     const [inputs,setInputs] = useState({
+    email:""
+  })
+      const [error,setError]=useState("")
+     const [messages,setMessages]=useState("")
+
+   const changeHandle4 =(e)=>{
+
+    setInputs(prev=>({...prev,[e.target.name]:e.target.value}))
+  
+  }
  const socialLink = [{icon:faTwitter,link:"https://x.com/ChukwubuikeK?t=Ksk86TowzZrQ7X_21swBIg&s=09"},{icon:faFacebook,link:"https://www.facebook.com/profile.php?id=100070000591981&mibextid=ZbWKwL"},{icon:faYoutube,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{ icon:faGithub,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{icon:faLinkedin,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{icon:faTelegram,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"}]
+
+   const postInfo1 =(e)=>{
+e.preventDefault()
+    if( inputs.email.length === 0 ){
+      setError("field must not be empty")
+       setTimeout(()=>{
+           setError("")
+        },3000)
+    }else
+     if(validator.isEmail(inputs.email) === false){
+setError("invalid Email")
+ setTimeout(()=>{
+           setError("")
+        },3000)
+    }else{
+
+      axios.post("http://localhost:8080/api/post/form1",inputs).then((response)=>{
+        // axios.post("http://localhost:8080/api/post/form",inputs).then((response)=>{
+        setMessages("Sent Successfully")
+         document.body.classList.add("sucMac");
+        setTimeout(()=>{
+           setMessages("")
+           setInputs({
+            email:""
+           })
+            document.body.classList.remove("sucMac");
+          
+        },5000)
+      }).catch((err)=>{
+      //  console.log(err)
+       setError("Internal Server error")
+        document.body.classList.add("sucMac");
+
+         setTimeout(()=>{
+           setError("")
+          
+            document.body.classList.remove("sucMac");
+          
+        },5000)
+      })
+
+    } 
+  }
 
   return (
     <div>
@@ -17,8 +73,8 @@ const footer = () => {
                 <p className='misOut1'>Subscribe to our newsletter and be the first to receive news.</p>
                 <form className='FormPP'>
                     <div>
-                        <input type="" placeholder='Enter your Email' className='yourEmail'/>
-                        <FontAwesomeIcon icon={faPaperPlane}  className="HomeV" style={{fontSize:"20px"}}/>
+                        <input type="email" placeholder='Enter your Email' className='yourEmail' name="email" value={inputs.email} onChange={changeHandle4}/>
+                        <FontAwesomeIcon icon={faPaperPlane}  className="HomeV" style={{fontSize:"20px"}} onClick={postInfo1}/>
                     </div>
                 </form>
             </div>
@@ -123,8 +179,29 @@ const footer = () => {
         </div>
         </div>
         </div>
+
+             {messages && 
+<div className="successM">
+     <div className="sucMac1">
+      <div className="sucMac2">
+          {messages}
+      </div>
+     </div>
+     </div>
+      }
+
+
+                {error && 
+<div className="successM">
+     <div className="sucMac1">
+      <div className="sucMac2">
+          {error}
+      </div>
+     </div>
+     </div>
+      }
     </div>
   )
 }
 
-export default footer
+export default Footer

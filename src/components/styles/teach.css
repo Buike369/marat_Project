@@ -47,6 +47,40 @@
     bottom: 42px;
 
 }
+.WeLom{
+    background-color: #0d0740;
+    border-radius:10px;
+    overflow-x: auto;
+    width:100%;
+}
+.WeLom1{
+    padding:6px 10px;
+    color:gray;
+    border-top-right-radius:10px ;
+    border-top-left-radius: 10px;
+    background-color: #221c5a;
+    width:100%;
+    max-width: 1050px;
+}
+.WeLom2 {
+    padding: 6px 10px;
+    color: gray;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #221c5a;
+    width: 100%;
+    
+}
+.Wecole67{
+    padding:10px 15px 10px 20px;
+    overflow-x: hidden;
+    width:1000px;
+}
+.Wecole66 {
+    padding: 10px 15px 10px 20px;
+   
+}
+
 
 .namePad {
     color: #fff;

@@ -52,7 +52,13 @@ const Header = () => {
           <ul className="NavbarUl" >
             <li><div href="" className="navbar1_link explore" onClick={()=>setDropdown(!dropdown)}>Explore</div>
            {dropdown ?   
-          <ul className='navbarDropD'></ul>
+          <ul className='navbarDropD'>
+
+                  <li><a className="menuItem" href="/teach">Topic 1</a></li>
+       <li><a className="menuItem" href="/teach1">Topic 2</a></li>
+              <li><a className="menuItem" href="/teach2">Topic 3</a></li>
+              <li>Still on development </li>
+          </ul>
            :""}  
             </li>
              <li><a href="" className="navbar1_link">Resources</a></li>
@@ -77,6 +83,7 @@ const Header = () => {
     <ul className="menuBox24">
       <li><a className="menuItem" href="/teach">Topic 1</a></li>
        <li><a className="menuItem" href="/teach1">Topic 2</a></li>
+              <li><a className="menuItem" href="/teach2">Topic 3</a></li>
       <li><a className="menuItem" href="/courses">Course</a></li>
       <li><a className="menuItem" href="/ebook">eBook</a></li>
       <li><a className="menuItem" href="/blog">Blog</a></li>

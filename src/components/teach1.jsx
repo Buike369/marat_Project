@@ -13,6 +13,9 @@ const Teach1 = () => {
  const card = ["sport","binary","forex","crytptocurrency","sport","binary","forex","crytptocurrency"]
  const [tipsLevel,setTipsLever] = useState("ActiveTips")
 
+ const current = new Date();
+  // const date = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
+  const date = `  ${current.getFullYear()}/${current.getMonth()+1}/${current.getDate()}`;
 
   return (
     <div className='lookUp'>
@@ -39,7 +42,7 @@ const Teach1 = () => {
                         </div>
                          <div className='AmosD78'>
                             <p className='holder5 tem1'>Software Developer</p>
-                            <p className='tem'>October 26, 2023.</p>
+                            <p className='tem'>{date }</p>
                          </div>
                      
                     </div>
@@ -47,7 +50,7 @@ const Teach1 = () => {
                
             </div>
 
-   <div className="brif"> We help you discover the potential of your ideas, projects,or business and shine online with our software developer's effective solutions | let's build. Java,javascript,python,SQL,nodejs,react and reactive. .</div>
+   <div className="brif"> We help you discover the potential of your ideas, projects,or business and shine online with our software developer's effective solutions | let's build. Java,javascript,python,SQL,nodejs,react and react-native. .</div>
            
           
         </div>

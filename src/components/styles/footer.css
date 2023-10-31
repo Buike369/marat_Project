@@ -73,7 +73,7 @@
     border:0;
     outline: 0;
     width:100%;
-    padding:10px 18px;
+    padding:10px 38px 10px 18px;
     border-radius: 55px;
     background-color: #181825;
     color:#fff;
@@ -117,7 +117,7 @@
     padding-right: 0px !important;
 }
 .then{
-    color:#63636c;
+    color:#90909b;
 }
 .then:hover{
     color:#fff;

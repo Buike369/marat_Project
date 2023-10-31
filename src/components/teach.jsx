@@ -13,7 +13,9 @@ const Teach = () => {
  const card = ["sport","binary","forex","crytptocurrency","sport","binary","forex","crytptocurrency"]
  const [tipsLevel,setTipsLever] = useState("ActiveTips")
 
-
+const current = new Date();
+  // const date = `${current.getDate()}/${current.getMonth()+1}/${current.getFullYear()}`;
+  const date = `  ${current.getFullYear()}/${current.getMonth()+1}/${current.getDate()}`;
   return (
     <div className='lookUp'>
 <div className='ParentDivNewHod'>
@@ -39,7 +41,7 @@ const Teach = () => {
                         </div>
                          <div className='AmosD78'>
                             <p className='holder5 tem1'>Software Developer</p>
-                            <p className='tem'>October 22, 2023.</p>
+                            <p className='tem'>{date}</p>
                          </div>
                      
                     </div>

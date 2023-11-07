@@ -4,13 +4,14 @@
   box-sizing: border-box;
   font-size: 15px;
   
-  color:#fff;
+
 
   
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-  background-color: #181825;
+  background-color: #120d6854;
+  background-image: linear-gradient(to bottom right, #8d85cf, #5651b185);
 }
 
 

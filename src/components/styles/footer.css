@@ -1,5 +1,5 @@
 :root{
-    --p-color:#6b69a9;
+    --p-color:#050c60;
 }
 
 
@@ -12,12 +12,13 @@
     border-top-left-radius:10px ;
     border-top-right-radius: 10px;
         margin:20px auto 0 auto;
-    background-color: #0f0f1e;
+    background-color: #131348;
 }
 .footerHouse{
     width:100%;
     height: 210px;
-    background-color: #181825;
+/* background-color: #120d6854; */
+    /* background-image: linear-gradient(to bottom right, #8d85cf, #120d6854); */
 }
 .footerW{
         display: flex;
@@ -30,10 +31,10 @@
 }
 .subEmail{
     width:100%;
-    max-width: 720px;
+    max-width: 800px;
     margin: -150px auto 100px auto;
     padding:80px 10px 40px 10px;
-    background-color: #2f2f45;
+    background-color: #5e589b;
     border-radius: 10px;
 }
 .misOut{
@@ -60,7 +61,7 @@
 
 .FormPP{
     width:100%;
-    max-width: 310px;
+    max-width: 470px;
     margin:20px auto;
     position:relative;
 }
@@ -75,14 +76,15 @@
     width:100%;
     padding:10px 38px 10px 18px;
     border-radius: 55px;
-    background-color: #181825;
-    color:#fff;
-    border:1px solid #4f4f50;
+    background-color: #aaa5ed;
+        color: #fff;
+        border: 1px solid #6866b3;
 
 }
 .FooterHead{
     margin-bottom: 10px;
     margin-top: 5px;
+    color:#fff
 }
 .footerF{
     display:flex;
@@ -95,7 +97,7 @@
     padding:2px 0px;
 }
 .footerBackgroundColor{
-    background-color: #0b0b16;
+    background-color: #050530;
     padding:10px 0 0px 0;
 }
 .hot{
@@ -124,6 +126,8 @@
 }
 .R1{
 margin-bottom: 10px;
+    margin-top: 10px;
+        color: #fff;
 }
 .R2{
     text-align: right;
@@ -144,21 +148,21 @@ margin-bottom: 10px;
     /* width: 50%; */
 }
 .mnm {
-    color: #51515e;
+    color: #8d8da7;
     text-decoration: none;
     line-height: 20px;
-    font-size: 14px;
-    font-weight: 200;
+    font-size: 12px;
+    font-weight: 300;
     
     margin-bottom: 5px;
 }
 .mmm1{
     padding-right: 10px ;
-    border-right: 1px solid gray ;
+    border-right: 1px solid #3f3c50 ;
     text-align: right;
 }
 .mmm2{
-    border-left: 1px solid gray;
+    border-left: 1px solid #3f3c50;
         padding-left: 10px
 }
 

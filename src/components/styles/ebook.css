@@ -8,8 +8,8 @@
 }
 .ebookCard{
   padding:20px 10px 15px 15px;
-    background-color: #232334;
-        border: 1.5px solid #2f2f45;
+    background-color: #5e589b;
+        border: 1.5px solid #64649f;
         position: relative;
     border-radius: 5px;
     width:32%;
@@ -36,7 +36,7 @@
     font-size: 24px;
     font-weight: 600;
     margin-top: 20px;
-    color:#7c79e1;
+    color:#bbbbef;
 
 }
 .pPdf{

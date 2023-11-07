@@ -12,6 +12,7 @@ const Header = () => {
   const tr = window.location.pathname;
 
    const [feedBack,setFeedBack]=useState("")
+   const [feedBack1,setFeedBack1]=useState("")
    const navbarItem = [{link:"/courses",text:"Explore",name:"navbar1_link explore"},{link:"/ebook",text:"eBook",name:"navbar1_link"},{link:"/blog",text:"Blog",name:"navbar1_link"},{link:"/project",text:"projects",name:"navbar1_link"},{ link:"/",text:"pricing",name:"navbar1_link"}]
 
     window.onscroll =()=>{
@@ -22,8 +23,10 @@ const Header = () => {
       const scrollF =()=>{
           if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
             setFeedBack('subCap')
+              setFeedBack1('cap')
           }else{
             setFeedBack(' ')
+              setFeedBack1(' ')
           }
       }
 
@@ -64,7 +67,7 @@ const Header = () => {
              <li><a href="" className="navbar1_link">Resources</a></li>
               <li ><a href="" className="navbar1_link">Learn</a></li>
                <li ><a href="/blog" className="navbar1_link">Blog</a></li>
-                <li><a href="/pricing" className="navbar1_link">pricing</a></li>
+                <li><a href="/pricing" className="navbar1_link" style={{color:feedBack1}}>pricing</a></li>
         
           </ul>
           

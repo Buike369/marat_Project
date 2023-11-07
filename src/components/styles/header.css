@@ -1,7 +1,6 @@
 ul li {
     list-style: none;
 }
-
 a {
     text-decoration: none;
     color: #fff;
@@ -12,7 +11,7 @@ a {
     font-size: 22px !important;
     font-family: alkatra;
     font-weight: 600;
-    color: #fff !important;
+    color:#fff !important;
 }
 
 .subCap {
@@ -25,10 +24,15 @@ a {
     transition: transform .3s linear;
     width: 100%;
     z-index: 1225;
-    background: #181825d4;
+background: #8882c5;
+    -webkit-backdrop-filter: blur(300px);
     backdrop-filter: blur(300px);
-    border-bottom: 1px solid #202032;
+    border-bottom: 1px solid #7575c3;
+   
 
+}
+.cap{
+    color:#fff;
 }
 
 .header {
@@ -62,7 +66,8 @@ a {
     left: 50%;
     right: 50%;
     height: 300px;
-    background-color: #2f2f45;
+    border-radius: 5px;
+    background-color: #625ca5;
     transform: translate(-50%, 0%);
     z-index: 20;
  
@@ -108,13 +113,13 @@ a {
 }
 
 .NavbarUl li a:hover {
-    color: #ffffff;
+    color: #04063e;
 }
 
 .navbar1_link {
-    color: #c8c7d8;
-    background-color: #232334;
-    border: 1.5px solid #2f2f45;
+    color:#fff;
+        background-color: #8b8bc58f;
+        border: 1.5px solid #aaaaefcc;
     border-radius: 0.5rem;
     margin-left: 0.75rem;
     padding: 0.5rem 1rem;

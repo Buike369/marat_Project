@@ -8,7 +8,8 @@ import {
 } from "react-router-dom";
 import Navbar from "./components/navbar"
 import Footer from "./components/footer"
-import Home from "./components/home"
+import Home from "./components/home2"
+import Home2 from "./components/home"
 import Register from "./components/register"
 import Login from "./components/login"
 import About from "./components/about"
@@ -49,8 +50,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />
-
-
+      },
+      {
+        path: "/home",
+        element: <Home2 />
       },
       {
         path: "/terms",

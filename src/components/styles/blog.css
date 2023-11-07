@@ -1,0 +1,154 @@
+.mainDivBlog {
+    width: 100%;
+    max-width: 1200px;
+    margin: 35px auto 15px auto;
+}
+
+.blogHome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.blogHome1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #f2f2f5;
+    line-height: 60px;
+}
+
+.blogHome2 {
+    width: 30%
+}
+
+.blogHome3 {
+    width: 15%;
+
+}
+
+.blogHome4 {
+    width: 100%;
+    padding: 8px 10px;
+    background-color: inherit;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    border-bottom: 1px solid #060b48c2;
+}
+
+.catMn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto 35px auto;
+
+}
+
+.col {
+    color: #fff;
+    padding: 6px 10px;
+    background-color: #5e589b;
+    border-radius: 5px;
+}
+
+.AfomF {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 70px 0;
+}
+
+.AfomF1 {
+    width: 65%;
+    height: 350px;
+}
+
+.AfomF3 {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.AfomF2 {
+    width: 33%
+}
+
+.AfomF21 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 45px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.AfomF23 {
+    margin-top: 20px;
+}
+
+.building {
+    color: #d4d3f5
+}
+
+.AfomF22 {
+    height: 160px;
+    color: #dddcef;
+}
+
+.ToolP {
+    width: 100%;
+    max-width: 32%;
+    margin-bottom: 25px;
+    background-color: #5e589b;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.ToolP6 {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.ToolP3 {
+    font-size: 24px;
+    font-size: 500;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.ToolP2 {
+    color: #9b9bab;
+    margin-top: 5px;
+}
+
+.betToolP {
+    padding: 10px
+}
+
+.ToolP4 {
+    /* height:50px; */
+    overflow: hidden;
+
+    /* white-space: nowrap; */
+    padding-right: 10px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    color: #c5c7db;
+    font-weight: 200;
+}
+
+.ToolP5 {
+    margin-top: 20px;
+    color: gold
+}
+
+.ToolPP {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

@@ -54,7 +54,7 @@ const Header = () => {
            
           <ul className="NavbarUl" >
             <li><div href="" className="navbar1_link explore" onClick={()=>setDropdown(!dropdown)}>Explore</div>
-           {dropdown ?   
+            
           <ul className='navbarDropD'>
 
                   <li><a className="menuItem" href="/teach">Topic 1</a></li>
@@ -62,9 +62,10 @@ const Header = () => {
               <li><a className="menuItem" href="/teach2">Topic 3</a></li>
               <li>Still on development </li>
           </ul>
-           :""}  
+          
             </li>
-             <li><a href="" className="navbar1_link">Resources</a></li>
+             <li><a href="" className="navbar1_link">Courses</a></li>
+              <li><a href="" className="navbar1_link">Earn</a></li>
               <li ><a href="" className="navbar1_link">Learn</a></li>
                <li ><a href="/blog" className="navbar1_link">Blog</a></li>
                 <li><a href="/pricing" className="navbar1_link" style={{color:feedBack1}}>pricing</a></li>

@@ -14,7 +14,8 @@ const Terms = () => {
 
         <p className='termsPage1'>Terms Conditions</p>
         <p className='termPa'><span>1. </span>Acceptance of Terms</p>
-        <p className='Pa'>Welcome to Marat Technology! By using our website creation services, including the development of websites for individuals and businesses, as well as project-based websites such as ecommerce, booking apps, and stores, you agree to comply with and be bound by these Terms and Conditions. If you do not agree with any part of these terms, please do not use our services.</p>
+        <p className='Pa'>Welcome to Marat Technology! By using our website creation services, including the development of websites for individuals and businesses, as well as project-based websites such as ecommerce, investment websites etc. Course and ebook sales, and an affiliate program for referral incentives, you agree to comply with and be bound by these Terms and Conditions. If you do not agree with any part of these terms, please do not use our services.
+        </p>
         <p className='termPa'>
            <span>2. </span> Services Offered 
         </p>
@@ -22,10 +23,15 @@ const Terms = () => {
            Marat Technology offers website creation services tailored to your needs, including: 
         </p>
         <div>
-            <p className='Pa textIdent'><span>a. </span>Website design and development for individuals and businesses.</p>
-            <p className='Pa textIdent'> <span>b. </span>Project-specific website development, such as ecommerce, mobile apps, and store websites etc.</p>
-            <p className='Pa textIdent'><span>c. </span>Sale and distribution of related courses and project websites to support your business.</p>
+            <p className='Pa textIdent'><span>a. </span>Web and App Development Services.</p>
+            <p className='Pa textIdent'> <span>b. </span>Project Development and Building.</p>
+            <p className='Pa textIdent'><span>c. </span>Sales of Courses, Ebooks, and Projects.</p>
+             <p className='Pa textIdent'><span>d. </span>Affiliate Program.</p>
+              <p className='Pa textIdent'><span>e. </span>Author Registration.</p>
+                            <p className='Pa textIdent'><span>f. </span>P2P Project Development and Collaboration:.</p>
         </div>
+         <p className='termPa'><span>3. </span> User Content</p>
+        <p className='Pa'>You are solely responsible for any content you provide, including text, images, graphics, and other materials used in the websites created by Marat Technology. You guarantee that you have the necessary rights and permissions to use and provide such content. Marat Technology reserves the right to refuse or remove any content that violates our content guidelines or applicable laws.</p>
         <p className='termPa'><span>3. </span> User Content</p>
         <p className='Pa'>You are solely responsible for any content you provide, including text, images, graphics, and other materials used in the websites created by Marat Technology. You guarantee that you have the necessary rights and permissions to use and provide such content. Marat Technology reserves the right to refuse or remove any content that violates our content guidelines or applicable laws.</p>
         <p className='OurService termPa'><span>4. </span> Intellectual Property</p>

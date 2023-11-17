@@ -24,10 +24,10 @@ a {
     transition: transform .3s linear;
     width: 100%;
     z-index: 1225;
-background: #8882c5;
+background: #635bb9;
     -webkit-backdrop-filter: blur(300px);
     backdrop-filter: blur(300px);
-    border-bottom: 1px solid #7575c3;
+    border-bottom: 1px solid #5951af;
    
 
 }
@@ -67,16 +67,17 @@ background: #8882c5;
     right: 50%;
     height: 300px;
     border-radius: 5px;
-    background-color: #625ca5;
+    background-color: #524aa9;
     transform: translate(-50%, 0%);
     z-index: 20;
+    display:none
  
  
 
 }
-/* .explore:hover ~.navbarDropD{
+.explore:hover ~ .navbarDropD{
     display:block;
-} */
+}
 
 
 .Navbar {
@@ -85,7 +86,7 @@ background: #8882c5;
     align-items: center;
     padding: 10px 10px;
     margin-top: 2px;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto
 }
 
@@ -118,7 +119,7 @@ background: #8882c5;
 
 .navbar1_link {
     color:#fff;
-        background-color: #8b8bc58f;
+        background-color: #6f69c5;
         border: 1.5px solid #aaaaefcc;
     border-radius: 0.5rem;
     margin-left: 0.75rem;

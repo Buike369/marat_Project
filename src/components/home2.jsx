@@ -438,7 +438,7 @@ const Home2 = () => {
       <div className="coding1">
         <div className="coding4">
         
-          <div className="coding2  coding56">
+          <div className="coding2 ">
              <div className="coding3">
                <div className="imgSrc1 gamat2">
                <img src="/img/mara.png" alt="" className="pap"/>
@@ -478,7 +478,7 @@ const Home2 = () => {
       <div className="coding1">
         <div className="coding4">
         
-          <div className="coding2">
+          <div className="coding2  coding56">
              
              <div className="coding3">
                <div>

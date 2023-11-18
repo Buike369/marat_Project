@@ -1,7 +1,7 @@
 .MaratT{
     display:flex;
     width:100%;
-    max-width:1200px;
+    max-width:1300px;
     margin:80px auto 0 auto;
 }
 .AboutM{
@@ -20,6 +20,7 @@
     color:#e7e6f1;
     line-height: 25px;
     margin-bottom: 10px;
+        padding-left: 5px
 }
 .pa1{
     margin-bottom: 20px;

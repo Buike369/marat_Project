@@ -14,11 +14,12 @@
 .profileCoverDiv {
     border: 1px solid #2f2f45;
     border-radius: 8px;
-    background-color: #232334;
-    
+    background-color: #161046d4;
+
 }
-.bkTopicH{
-  color:#00ff66;
+
+.bkTopicH {
+    color: #00ff66;
     font-size: 40px;
     font-weight: 50;
     text-align: center;
@@ -47,21 +48,24 @@
     bottom: 42px;
 
 }
-.WeLom{
+
+.WeLom {
     background-color: #0d0740;
-    border-radius:10px;
+    border-radius: 10px;
     overflow-x: auto;
-    width:100%;
+    width: 100%;
 }
-.WeLom1{
-    padding:6px 10px;
-    color:gray;
-    border-top-right-radius:10px ;
+
+.WeLom1 {
+    padding: 6px 10px;
+    color: gray;
+    border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     background-color: #221c5a;
-    width:100%;
+    width: 100%;
     max-width: 1050px;
 }
+
 .WeLom2 {
     padding: 6px 10px;
     color: gray;
@@ -69,16 +73,18 @@
     border-top-left-radius: 10px;
     background-color: #221c5a;
     width: 100%;
-    
+
 }
-.Wecole67{
-    padding:10px 15px 10px 20px;
+
+.Wecole67 {
+    padding: 10px 15px 10px 20px;
     overflow-x: hidden;
-    width:1000px;
+    width: 1000px;
 }
+
 .Wecole66 {
     padding: 10px 15px 10px 20px;
-   
+
 }
 
 
@@ -135,8 +141,9 @@
     color: gold;
     cursor: pointer;
 }
-.brif{
-padding: 5px 15px;
+
+.brif {
+    padding: 5px 15px;
     width: 100%;
     max-width: 500px;
     color: #d0d0db;
@@ -144,20 +151,22 @@ padding: 5px 15px;
     font-weight: 300;
     line-height: 20px;
 }
-.tem1{
-    
-}
-.tem{
-    color:#9f9b9b;
+
+.tem1 {}
+
+.tem {
+    color: #9f9b9b;
     margin-top: 10px;
     font-size: 12px;
 }
-.tem3{
-    max-width:1060px !important
+
+.tem3 {
+    max-width: 1060px !important
 }
+
 .holder5 {
     color: #fff;
-   
+
     font-size: 18px;
     line-height: 26px;
 }
@@ -451,15 +460,16 @@ padding: 5px 15px;
 .tipsterProfile {
     margin-bottom: 10px;
 }
-.BkPfo{
-    width:100%;
-    height:200px;
-    background-color: #181825;
+
+.BkPfo {
+    width: 100%;
+    height: 200px;
+    background-color: #161046;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     display: flex;
-        justify-content: center;
-        align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .MMM {
@@ -485,10 +495,12 @@ padding: 5px 15px;
         margin: 0 auto;
 
     }
-.bkTopicH{
-    font-size: 26px;
+
+    .bkTopicH {
+        font-size: 26px;
         padding: 2px 7px;
-}
+    }
+
     .tipsterProfile {
         margin-left: 20px;
     }

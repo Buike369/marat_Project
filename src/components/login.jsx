@@ -28,6 +28,7 @@ const login = () => {
                       <div className='line1 line'></div>
                    </div>
                    <div className='SignUp goggle'>Google</div>
+                    <div className='SignUp goggle facebook'>Facebook</div>
                    <div  className="iHave Al">Don't have an account? <a href="/register" className='clickMe iHave'>Sign Up</a></div>
                  </div>
               </form>

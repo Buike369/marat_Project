@@ -1,0 +1,18 @@
+.fffo {
+    width: 100%;
+    max-width: 500px;
+}
+
+.fffo1 {
+padding: 10px 10px;
+    border-radius: 8px;
+    width: 100%;
+    color: #fff;
+    outline: 0;
+    border: 1px solid #a9a8d9;
+    background-color: inherit;
+
+}
+input::placeholder{
+    color:#abafd5;
+}

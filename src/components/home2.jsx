@@ -110,7 +110,7 @@ const Home2 = () => {
                   <div className='iconDivN'><p className="peopleL">Identity & Strength :</p></div>
                   <p className="hands4">Building your brand strengthens its identity and recognition in the market.</p>
                 </div>
-                <div className="hands5">
+                <div className="hands5  bins">
                 <div className='iconDivN'><p className="peopleL">Trust & loyalty:</p></div>
                   <p className="hands4">A well-executed brand-building strategy fosters trust and loyalty among your customers.</p>
                 </div>
@@ -150,7 +150,7 @@ const Home2 = () => {
                   <div className='iconDivN'><p className="peopleL">Innovative:</p></div>
                   <p className="hands4">Idea creation innovation is the driving force behind groundbreaking solutions and products.</p>
                 </div>
-                <div className="hands5">
+                <div className="hands5  bins">
                 <div className='iconDivN'><p className="peopleL">Growth:</p></div>
                   <p className="hands4">Innovation in  idea creation fuels progress and propels businesses into new horizons.</p>
                 </div>
@@ -237,7 +237,7 @@ const Home2 = () => {
            <div className="ImgDivGenerator imgHeight"> <img src={app.img} alt="" className="divImg"/></div>
               
             <p className="WhatIs">{app.course}</p>
-             <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/></div>(222,413)</div></div>
+             <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
              
          
           <div className="Jan janu">
@@ -268,7 +268,8 @@ const Home2 = () => {
   customTransition="all .5"
   transitionDuration={500}
   containerClass="carousel-container"
-  removeArrowOnDeviceType={["tablet", "mobile"]}
+  // removeArrowOnDeviceType={["tablet", "mobile"]}
+   removeArrowOnDeviceType={false}
   // deviceType={this.props.deviceType}
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
@@ -281,7 +282,7 @@ const Home2 = () => {
            <div className="ImgDivGenerator imgHeight"> <img src={app.img} alt="" className="divImg"/></div>
               
             <p className="WhatIs">{app.course}</p>
-             <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/></div>(222,413)</div></div>
+             <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
              
          
           <div className="Jan janu">
@@ -312,7 +313,8 @@ const Home2 = () => {
   customTransition="all .5"
   transitionDuration={500}
   containerClass="carousel-container"
-  removeArrowOnDeviceType={["tablet", "mobile"]}
+  // removeArrowOnDeviceType={["tablet", "mobile"]}
+   removeArrowOnDeviceType={false}
   // deviceType={this.props.deviceType}
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
@@ -325,7 +327,7 @@ const Home2 = () => {
            <div className="ImgDivGenerator imgHeight"> <img src={app.img} alt="" className="divImg"/></div>
               
             <p className="WhatIs">{app.course}</p>
-             <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/></div>(222,413)</div></div>
+             <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
              
          
           <div className="Jan janu">
@@ -356,7 +358,8 @@ const Home2 = () => {
   customTransition="all .5"
   transitionDuration={500}
   containerClass="carousel-container"
-  removeArrowOnDeviceType={["tablet", "mobile"]}
+  // removeArrowOnDeviceType={["tablet", "mobile"]}
+   removeArrowOnDeviceType={false}
   // deviceType={this.props.deviceType}
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
@@ -369,7 +372,7 @@ const Home2 = () => {
            <div className="ImgDivGenerator imgHeight"> <img src={app.img} alt="" className="divImg"/></div>
               
             <p className="WhatIs">{app.course}</p>
-             <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/></div>(222,413)</div></div>
+             <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
              
          
           <div className="Jan janu">
@@ -400,7 +403,8 @@ const Home2 = () => {
   customTransition="all .5"
   transitionDuration={500}
   containerClass="carousel-container"
-  removeArrowOnDeviceType={["tablet", "mobile"]}
+  // removeArrowOnDeviceType={["tablet", "mobile"]}
+    removeArrowOnDeviceType={false}
   // deviceType={this.props.deviceType}
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
@@ -413,7 +417,7 @@ const Home2 = () => {
            <div className="ImgDivGenerator imgHeight"> <img src={app.img} alt="" className="divImg"/></div>
               
             <p className="WhatIs">{app.course}</p>
-             <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/><FontAwesomeIcon key={id} icon={faStar}  className="ii"/></div>(222,413)</div></div>
+             <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
              
          
           <div className="Jan janu">
@@ -457,14 +461,14 @@ const Home2 = () => {
                   <div className='iconDivN'><p  className="peopleL">Web Development for Diverse Professions :</p></div>
                   <p className="hands4 pooko1">Our projects cater to a wide array of careers and fields, delivering solutions that meet your unique needs.</p>
                 </div>
-                <div className="hands5">
+                <div className="hands5 bins">
                 <div className='iconDivN'><p className="peopleL">Empowering Businesses through Digital Presence :</p></div>
                   <p className="hands4 pooko1">Boost your online presence with our skill in creating personalized websites and Android apps for various professions and industries.</p>
                 </div>
               </div>
                  <div className="conV">
                 <div className='conV1'>Connect to create</div>
-                <div  className='conV1'>Maintain a project</div>
+               
               </div>
                 {/* <img src="/img/ffflurry.svg"  alt="" className='igam'/> */}
                </div>
@@ -493,7 +497,7 @@ const Home2 = () => {
                   <div className='iconDivN'><p className="peopleL">Skills :</p></div>
                   <p className="hands4 pooko1">We provide aspiring students with the tools  and techniques to accelerate their learning and achieve fast mastery.</p>
                 </div>
-                <div className="hands5">
+                <div className="hands5  bins">
                 <div className='iconDivN'><p className="peopleL">Desire :</p></div>
                   <p className="hands4 pooko1">Students are expected  to learn with a burning desire that propels them.</p>
                 </div>
@@ -544,7 +548,7 @@ const Home2 = () => {
            <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
            {/* <p className='skillPath'>PROJECT PATH</p> */}
             <p className="WhatIs">Ecommerce Project</p>
-             <div className="authorName1">Rating <div  className="StarF" > {star.map((app,id)=>(<FontAwesomeIcon key={id} icon={faStar}  className="ii"/>))}</div></div>
+               <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
          
              <div className="Jan janu">
               <p className="landL">by <span className='authorName'>Amaka Emmanuel</span></p>
@@ -557,7 +561,7 @@ const Home2 = () => {
            <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
               {/* <p className='skillPath'>PROJECT PATH</p> */}
             <p className="WhatIs">Simple Sales Store</p>
-              <div className="authorName1">Rating <div  className="StarF" > {star.map((app,id)=>(<FontAwesomeIcon key={id} icon={faStar}  className="ii"/>))}</div></div>
+               <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
          
             <div className="Jan janu">
               <p className="landL">by <span className='authorName'>David Stephen.</span></p>
@@ -584,7 +588,7 @@ const Home2 = () => {
            <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
            {/* <p className='skillPath'>PROJECT PATH</p> */}
             <p className="WhatIs">{app.project}</p>
-             <div className="authorName1">Rating <div  className="StarF" > {star.map((app,id)=>(<FontAwesomeIcon key={id} icon={faStar}  className="ii"/>))}</div></div>
+            <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
          
              <div className="Jan janu">
               <p className="landL">by <span className='authorName'>{app.name}</span></p>

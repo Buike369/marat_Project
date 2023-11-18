@@ -1,0 +1,22 @@
+.paginate {
+
+    display: flex;
+    gap: 10px;
+    padding: 2px 2px;
+    margin-bottom:30px;
+        /* border: 1px solid #fff; */
+}
+
+.paginate li {
+border: 1px solid #8c8dbc;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: #ccc9d9;
+    background-color: #524bad;
+    cursor: pointer;
+}
+.paginate li:hover {
+    border: 1px solid #3d3e7e;
+    background-color: #0d0740;
+    color: #fff
+}

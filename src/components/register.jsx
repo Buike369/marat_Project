@@ -31,6 +31,7 @@ const Register = () => {
                       <div className='line1 line'></div>
                    </div>
                    <div className='SignUp goggle'>Google</div>
+                   <div className='SignUp goggle facebook'>Facebook</div>
                    <div  className="iHave Al">Already have an account? <a href="/login" className='clickMe iHave'>Login</a></div>
                  </div>
               </form>

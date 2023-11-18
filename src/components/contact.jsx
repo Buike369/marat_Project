@@ -37,7 +37,7 @@ setError("invalid Email")
         },3000)
     }else{
 
-      axios.post("https://maratproject.onrender.com",inputs).then((response)=>{
+      axios.post("https://maratproject.onrender.com/api/post/form",inputs).then((response)=>{
         // axios.post("http://localhost:8080/api/post/form",inputs).then((response)=>{
         setMessages("Your message was sent successfully, and a response will be given to you in no less than 24 hours.")
          document.body.classList.add("sucMac");
@@ -58,6 +58,12 @@ setError("invalid Email")
          document.body.classList.add("sucMac");
        setTimeout(()=>{
            setError("")
+             setInputs({
+            firstName:"",
+            lastName:"",
+            email:"",
+             message:""
+           })
            
              document.body.classList.remove("sucMac");
         },3000)

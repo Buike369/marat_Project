@@ -37,7 +37,7 @@ setError("invalid Email")
         },3000)
     }else{
 
-      axios.post("http://localhost:8080/api/post/form",inputs).then((response)=>{
+      axios.post("https://maratproject.onrender.com",inputs).then((response)=>{
         // axios.post("http://localhost:8080/api/post/form",inputs).then((response)=>{
         setMessages("Your message was sent successfully, and a response will be given to you in no less than 24 hours.")
          document.body.classList.add("sucMac");
@@ -51,7 +51,7 @@ setError("invalid Email")
            })
             document.body.classList.remove("sucMac");
           
-        },5000)
+        },8000)
       }).catch((err)=>{
       //  console.log(err)
        setError("Internal Server error")
@@ -91,6 +91,7 @@ setError("invalid Email")
                              <div><input type="email" className='inputsFormC' placeholder="Enter your Email" name="email" value={inputs.email}  onChange={changeHandle}/></div>
 
                             </div>
+       
                             <div>
                                 <label className='labelC'>Message</label>
                                 <textarea className='inputsFormC textAreaH ' placeholder='type ur message here' name="message" value={inputs.message}  onChange={changeHandle}>
@@ -115,6 +116,7 @@ setError("invalid Email")
      </div>
      </div>
       }
+
 
           {error && 
 <div className="successM">

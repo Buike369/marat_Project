@@ -77,7 +77,7 @@ const Home2 = () => {
      <div className="mmvn1">
        <div className="mmvn">
 
-        <div className="dereF">
+        <div className="dereF kiki">
       <div className="coding1">
         <div className="coding4">
         
@@ -126,7 +126,7 @@ const Home2 = () => {
       </div>
       </div>
 
-      <div className="dereF">
+      <div className="dereF kiki2">
       <div className="coding1">
         <div className="coding4">
         
@@ -438,7 +438,7 @@ const Home2 = () => {
          <img src="/img/ffflurry.svg"  alt="" className='igam'/>
           <img src="/img/ffflurry.svg"  alt="" className='igam1'/>
     
-    <div className="dereF">
+    <div className="dereF kiki">
       <div className="coding1">
         <div className="coding4">
         
@@ -478,7 +478,7 @@ const Home2 = () => {
       </div>
       </div>
 
-       <div className="dereF">
+       <div className="dereF kiki2">
       <div className="coding1">
         <div className="coding4">
         

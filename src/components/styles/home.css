@@ -731,7 +731,12 @@ transform: rotate(300deg);
 .imgW12 {
     width: 96%
 }
-
+.kiki{
+    padding-bottom: 30px !important;
+}
+.kiki2 {
+    padding-top: 30px !important;
+}
 .demHone {
     width: 100%;
     overflow-x: auto;

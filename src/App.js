@@ -29,6 +29,7 @@ import UpdatePassword from "./components/updatePassword"
 import Teach from "./components/teach"
 import Teach1 from "./components/teach1"
 import Teach2 from "./components/teach2"
+import Teach3 from "./components/teach3"
 
 
 const Layout = () => {
@@ -74,6 +75,10 @@ const router = createBrowserRouter([
       {
         path: "/teach2",
         element: <Teach2 />
+      },
+      {
+        path: "/teach3",
+        element: <Teach3 />
       },
       {
         path: "/privacy-policy",

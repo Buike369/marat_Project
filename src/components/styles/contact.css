@@ -18,19 +18,21 @@
     width:100%;
     left:0;
     top:-10px;
+    display:none
 }
 
 .formDivC{
-    width:100%;
-    max-width:700px;
-    margin:0 auto;
-    border:1px solid #5a5f8a;
-    padding:20px;
-    border-radius: 8px;
-    position: relative;
-    z-index: 2;
-    background-color: #232334;
-    margin-top: -40px;
+    width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+        border: 1px solid #6262a1;
+        padding: 20px;
+        border-radius: 8px;
+        position: relative;
+        z-index: 2;
+        background-color: #524bad;
+        margin-top: -40px;
+        margin-bottom: 20px;
 }
 .getInTouch{
     color:gold;
@@ -43,6 +45,7 @@
     width:100%;
     max-width: 70%;
     padding:0 10px;
+    color:#fff;
     margin:0 auto;
     text-align: center;
     margin-bottom: 10px;
@@ -53,7 +56,8 @@
     background-color: inherit;
     border: 0;
     outline: 0;
-    border: 0.5px solid #3d3d5c;
+    color:#fff;
+    border: 0.5px solid #8989cb;
     width:100%;
     margin-top: 5px;
     margin-bottom: 15px;
@@ -61,16 +65,19 @@
 .textAreaH{
     height:300px;
 }
+.inputsFormC::placeholder{
+    color:#ababd9;
+}
 .MButton{
-    padding:10px 20px;
-    border-radius: 8px;
-    background-color: #181825;
-    color:#fff;
-    border: 0;
-    outline: 0;
-    cursor:pointer;
-    border: 1px solid #343858;
-    box-shadow: 0px 0px 17px -11px #090714
+    padding: 10px 20px;
+        border-radius: 8px;
+        background-color: #6d69c4;
+        color: #fff;
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        border: 1px solid #a5aad9;
+        box-shadow: 0px 0px 17px -11px #090714;
 }
 .usContact{
     margin-top: 60px;
@@ -79,14 +86,15 @@
     font-weight: 700;
     position: relative;
     z-index: 10;
+    color:#fff;
 }
 .labelC{
-    color:#a7a7a7
+    color:#dfdfeb;
 }
 
 .successM {
   
-    background: #232334b8;
+    background: #3b3b99b8;
     position: fixed;
     overflow: hidden;
    top:0;

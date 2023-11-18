@@ -38,7 +38,7 @@ setError("invalid Email")
         },3000)
     }else{
 
-      axios.post("http://localhost:8080/api/post/form1",inputs).then((response)=>{
+      axios.post("https://maratproject.onrender.com",inputs).then((response)=>{
         // axios.post("http://localhost:8080/api/post/form",inputs).then((response)=>{
         setMessages("Sent Successfully")
          document.body.classList.add("sucMac");

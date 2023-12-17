@@ -74,6 +74,8 @@
     line-height: 79px;
 
     color: #fff;
+    font-family: cursive;
+
 
 }
 
@@ -183,7 +185,7 @@
 
 
 .dereF {
-    padding: 80px 10px 30px 10px
+    padding: 25px 10px 30px 10px
 }
 
 .CNN {
@@ -221,6 +223,7 @@
     font-family: sans-serif;
     position: relative;
     z-index: 5;
+    width: 88%;
 }
 
 .morPage {
@@ -260,7 +263,7 @@
     font-size: 40px;
     line-height: 40px;
     font-weight: 500;
-    color: #fff;
+    color: gold;
     position: relative;
     z-index: 5;
     margin-bottom: 10px;
@@ -298,7 +301,17 @@
 
 .hands3s,
 .hands5 {
-    width: 48%;
+    width: 88%;
+}
+
+.hands3s,
+.hands5 {
+    padding: 10px 8px;
+    border: 1px solid #685dd9;
+    position: relative;
+    z-index: 10;
+    border-radius: 8px;
+    background-color: #3b328969;
 }
 
 .divLip {
@@ -318,7 +331,7 @@
 }
 
 .TrendingCourses {
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 700;
     color: var(--p-color);
     font-family: sans-serif;
@@ -353,17 +366,19 @@
 
     color: white;
 
-    background: linear-gradient(90deg, rgb(76 76 189) 0%, rgb(131 125 211) 50%, rgb(55 55 165) 100%);
+    /* background: linear-gradient(90deg, rgb(76 76 189) 0%, rgb(131 125 211) 50%, rgb(55 55 165) 100%); */
     border: 1.5px solid #4245ad;
     padding: 10px 15px;
-    border-radius: 6px;
+    border-radius: 26px;
+    background-color: #161046;
+    /* transition: all 1s */
 }
 
 .viewMoreButton:hover {
-    background: linear-gradient(90deg, rgb(35 35 52) 0%, rgb(35 35 62) 50%, rgb(26 26 44) 100%, rgb(35 35 62) 50%, );
+    background-color: #fff;
     border: 1.5px solid #2f2f45;
-    color: gold;
-    border: 1px solid #434356;
+    color: #161046;
+    border: 1px solid #fff;
 }
 
 .Numb {
@@ -412,12 +427,21 @@
     margin: 0 auto
 }
 
-/* .blogh1{
-position:absolute;
-width:450px;
-bottom:20px;
-transform: rotate(300deg);
-} */
+.blogh1 {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    transform: rotate(300deg);
+}
+
+.arrow {
+    position: absolute;
+    left: 34%;
+    z-index: 3;
+    width: 468px;
+    top: 31%;
+
+}
 
 .cardDivWithImg {
     background-color: #524bad;
@@ -663,8 +687,21 @@ transform: rotate(300deg);
 
 .yiv {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
+
+}
+
+.build {
+    color: #fdfdfd;
+    font-size: 40px;
+    font-weight: 500;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2px 10px;
+    font-family: cursive;
 
 }
 
@@ -673,11 +710,68 @@ transform: rotate(300deg);
     padding: 20px 10px;
 }
 
+.withTyb {
+    width: 100%;
+}
+
+.cvcvcnc {
+    width: 162px !important;
+    height: 162px !important;
+}
+
+.ghFii19 {
+    /* width: 140px;
+    height: 140px; */
+    margin: 0 auto;
+    background: #857dcd9c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.bettors1 {
+    position: absolute;
+    background-color: #0bf921;
+    top: 42%;
+    right: 7px;
+    padding: 10px 10px;
+    border-radius: 50%;
+    border: 1px solid #221a62;
+}
+
+
+.bettorsDiv {
+    position: relative;
+    width: 200px;
+    text-align: center;
+}
+
 .country {
     color: #21f350;
     font-size: 18px;
     font-weight: 700;
 }
+
+.AddTip {
+    color: #090e46;
+    font-size: 18px;
+}
+
+.morPage1:hover {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #fff;
+
+}
+
+.conV1:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+}
+
 
 .seeWhat {
     font-size: 16px;
@@ -731,16 +825,93 @@ transform: rotate(300deg);
 .imgW12 {
     width: 96%
 }
-.kiki{
+
+.kiki {
     padding-bottom: 30px !important;
 }
+
 .kiki2 {
     padding-top: 30px !important;
 }
+
 .demHone {
     width: 100%;
     overflow-x: auto;
     padding: 1px 10px;
+}
+
+.EarnP {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 12px;
+    text-align: center;
+    margin-top: 30px;
+    transition: ease all 2s;
+}
+
+.divUnder {
+    width: 10%;
+    max-width: 400px;
+    margin: 0 auto 2px auto;
+    height: 3px;
+    background-color: #161046;
+}
+
+.inviteFr {
+    font-size: 42px;
+    font-weight: 500;
+    color: #f9d511;
+    line-height: 50.1px;
+    width: 100%;
+    max-width: 620px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 30px;
+    font-family: cursive;
+}
+
+
+.proF {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2px 10px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+.ghFi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px !important;
+    padding: 30px 15px 22px 15px;
+    width: 100%;
+    max-width: 1300px;
+    margin: 10px auto 10px auto;
+}
+
+.itWell {
+    text-align: center;
+    min-height: 100px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.bettors {
+    width: 32%;
+
+    padding: 30px 20px 30px 20px;
+    /* border-radius: 15px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px; */
+    flex-direction: column;
+
 }
 
 .TheyAre {
@@ -761,8 +932,20 @@ transform: rotate(300deg);
 
     }
 
+    .build {
+        font-size: 24px;
+    }
+
     .MostPopular {
         flex-direction: column;
+    }
+
+    .ghFi {
+        flex-direction: column;
+    }
+
+    .bettors {
+        width: 100%
     }
 
     .igam,
@@ -917,6 +1100,7 @@ transform: rotate(300deg);
         text-align: center;
         font-size: 16px;
         font-weight: 400;
+        width: 100%;
     }
 
     .hands4 {
@@ -949,6 +1133,16 @@ transform: rotate(300deg);
         padding: 2px 20px;
     }
 
+    .arrow {
+        display: none
+    }
+
+    .blogh1 {
+        width: 100%;
+        max-width: 300px;
+        transform: rotate(0deg);
+    }
+
     .ExploreJ {
         font-size: 38px;
         font-weight: 500;
@@ -956,6 +1150,7 @@ transform: rotate(300deg);
         padding: 2px 10px;
         width: 100%;
         color: #fff;
+        font-family: 'circular';
         max-width: 90%;
         margin: 20px auto 2px auto;
 

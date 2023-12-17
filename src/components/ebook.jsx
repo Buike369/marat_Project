@@ -1,5 +1,6 @@
 import React from 'react'
 import "./styles/ebook.css"
+import Paginate from "./pagination"
 
 const Ebook = () => {
 
@@ -69,6 +70,7 @@ const Ebook = () => {
   </div>
 
 </div>
+ 
 </div>
     </div>
 

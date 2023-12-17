@@ -7,6 +7,8 @@ const Blog = () => {
   
   return (
     <div>
+
+      <div><img src="" alt="" /></div>
  <div className="mainDivBlog">
       <div className='blogHome'>
         <div className='blogHome2'>

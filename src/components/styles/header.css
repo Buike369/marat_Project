@@ -126,6 +126,8 @@ background: #635bb9;
     padding: 0.5rem 1rem;
     transition: all .3s;
     display: flex;
+        position: relative;
+            z-index: 5;
 }
 
 @media (max-width:768px) {

@@ -8,8 +8,8 @@
 }
 .ebookCard{
   padding:20px 10px 15px 15px;
-    background-color: #5e589b;
-        border: 1.5px solid #64649f;
+    background-color: #514bac;
+        border: 1.5px solid #7a7ac3;
         position: relative;
     border-radius: 5px;
     width:32%;
@@ -27,8 +27,8 @@
 }
 .ebookMDiv{
     width:100%;
-    max-width: 1100px;
-    margin: 0 auto;
+    max-width: 1300px;
+    margin: 0 auto 20px auto;
     padding:2px 15px;
 
 }
@@ -52,6 +52,7 @@
  font-weight: 700;
  text-align: center;
  margin-bottom: 8px;
+ color:#fff;
 }
 .ebookCard4{
     font-size: 14px;
@@ -68,7 +69,7 @@
 }
 .ipQe{
     width:100px;
-    border-bottom: 1.5px solid #2f2f45;
+    border-bottom: 1.5px solid #9696c9;
     margin: 0 auto 15px auto;
 }
 .rentPe1{

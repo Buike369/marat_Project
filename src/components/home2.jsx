@@ -47,12 +47,12 @@ const Home2 = () => {
       <div className="navbarMainDiv" >
         <div>
        <div className="heroDiv">
-         {/* <p className="ExploreJ">Empower everyone with  <span className='ExploreJ exploreC'>the superpower</span> of coding </p> */}
+        
                   <p className="ExploreJ">Unlock The Future  Of Tech</p>
         <div className="headerDivFle addHeaderDivFile">
            <div className="headerDivFle1">
-          {/* <img src="/img/blob4.svg" alt="" className='blogh1' /> */}
-             {/* <p className="Explore">Empower everyone with <span className='Explore exploreC'>the superpower</span> of coding</p> */}
+          <img src="/img/ppp.svg" alt="" className='blogh1' />
+           
              <div className='rteb'>
               <p className="Explore">Unlock The Future  Of Tech</p>
              <p className="Explore1">Explore courses on: Programming <span className='fra'>|</span> Websites building <span className='fra'>|</span> Projects <span className='fra'>|</span> Works</p>
@@ -64,7 +64,7 @@ const Home2 = () => {
            <div className="headerDivFle2">
                  <div className='imgFileDiv'>
                    <img src="/img/GroupM2.svg" alt="Ailt" className="headerDivFle21"/>
-                   {/* <img src="/img/rma.jpg" alt="Ailt" className="headerDivFle21"/> */}
+                  
                    </div>
                
            </div>
@@ -77,17 +77,15 @@ const Home2 = () => {
      <div className="mmvn1">
        <div className="mmvn">
 
+        {/* <p>Build your idea, buy and sell courses or projects, and collaborate with authors or programmers to bring your vision to life</p> */}
+<p className='build'>Turn your ideas into reality by building, trading courses/projects, and collaborating with creators.</p>
         <div className="dereF kiki">
       <div className="coding1">
         <div className="coding4">
         
           <div className="coding2">
              <div className="coding3">
-              {/* <div className="Mywork">
-                <div className="Mywork1"></div>
-                 <div className="Mywork1"></div>
-                  <div className="Mywork1"></div>
-              </div> */}
+             
                <div className="imgSrc1 kolo">
                <img src="/img/mara.png" alt="" className="pap"/>
                </div>
@@ -99,10 +97,11 @@ const Home2 = () => {
                   <div className="Mywork1"></div>
               </div>
                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  data-aos-duration="3000">
-               <p  className="hands"> BRAND'S GROWTH</p>
-                 <div className="divUnderline"></div>
-               <p className="hands1">Build Your Brand</p>
-               <p className="hands2">Build your brand with MaratB  by choosing the right author  for your business.</p>
+               {/* <p  className="hands"> BRAND'S GROWTH</p> */}
+                 {/* <div className="divUnderline"></div> */}
+               <p className="hands1">Build Your Concept</p>
+                                <div className="divUnderline"></div>
+               <p className="hands2"> Empower your vision and drive success  with us by choosing the right creator  for your enterprise.</p>
              
 
                 <div className="hands3">
@@ -110,10 +109,10 @@ const Home2 = () => {
                   <div className='iconDivN'><p className="peopleL">Identity & Strength :</p></div>
                   <p className="hands4">Building your brand strengthens its identity and recognition in the market.</p>
                 </div>
-                <div className="hands5  bins">
+                {/* <div className="hands5  bins">
                 <div className='iconDivN'><p className="peopleL">Trust & loyalty:</p></div>
                   <p className="hands4">A well-executed brand-building strategy fosters trust and loyalty among your customers.</p>
-                </div>
+                </div> */}
               </div>
                <div className="conV">
                 <div className='conV1'>Let's Build</div>
@@ -125,7 +124,7 @@ const Home2 = () => {
         </div>
       </div>
       </div>
-
+ {/* <img src="/img/pppoint.svg" alt=""  className ="arrow"/> */}
       <div className="dereF kiki2">
       <div className="coding1">
         <div className="coding4">
@@ -139,36 +138,76 @@ const Home2 = () => {
                   <div className="Mywork1"></div>
               </div>
                <div data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
-               <p  className="hands"> CREATIVE INNOVATION</p>
+               {/* <p  className="hands"> CREATIVE INNOVATION</p> */}
+               <p className="hands1">Fast Learning</p>
                  <div className="divUnderline"></div>
-               <p className="hands1">Idea Create Innovation</p>
-               <p className="hands2"> Unleash your idea with MaratB and let it come to light.</p>
+               <p className="hands2"> We empower students with the best, modern, and efficient methods for accelerated learning and mastery.</p>
              
 
                 <div className="hands3">
                 <div className="hands3s">
-                  <div className='iconDivN'><p className="peopleL">Innovative:</p></div>
-                  <p className="hands4">Idea creation innovation is the driving force behind groundbreaking solutions and products.</p>
+                  <div className='iconDivN'><p className="peopleL">Build Skills:</p></div>
+                  <p className="hands4">Learn any desired course of ur choice and practice to build great project.</p>
                 </div>
-                <div className="hands5  bins">
+                {/* <div className="hands5  bins">
                 <div className='iconDivN'><p className="peopleL">Growth:</p></div>
                   <p className="hands4">Innovation in  idea creation fuels progress and propels businesses into new horizons.</p>
-                </div>
+                </div> */}
               </div>
               <div className="conV">
-                <div className='conV1'>Let's Create</div>
+                <div className='conV1'>Join Now</div>
                
               </div>
                </div>
              </div>
               <div className="coding3">
-                 {/* <div className=" Mywork2">
+               
+               <div className="imgSrc1  kolo">
+               <img src="/img/mara.png" alt="" className="pap"/>
+               </div>
+             </div>
+          </div>
+        </div>
+      </div>
+      </div>
+        <div className="dereF kiki">
+      <div className="coding1">
+        <div className="coding4">
+        
+          <div className="coding2">
+             <div className="coding3">
+             
+               <div className="imgSrc1 kolo">
+               <img src="/img/mara.png" alt="" className="pap"/>
+               </div>
+             </div>
+             <div className="coding3">
+              <div className="Mywork">
                 <div className="Mywork1"></div>
                  <div className="Mywork1"></div>
                   <div className="Mywork1"></div>
-              </div> */}
-               <div className="imgSrc1  kolo">
-               <img src="/img/mara.png" alt="" className="pap"/>
+              </div>
+               <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  data-aos-duration="3000">
+               <p className="hands1">Collaborate With Creators</p>
+              
+                 <div className="divUnderline"></div>
+               <p className="hands2">Join a creator in developing or building a project.</p>
+             
+
+                <div className="hands3">
+                <div className="hands3s">
+                  <div className='iconDivN'><p className="peopleL">Identity & Strength :</p></div>
+                  <p className="hands4">Building your brand strengthens its identity and recognition in the market.</p>
+                </div>
+                {/* <div className="hands5  bins">
+                <div className='iconDivN'><p className="peopleL">Trust & loyalty:</p></div>
+                  <p className="hands4">A well-executed brand-building strategy fosters trust and loyalty among your customers.</p>
+                </div> */}
+              </div>
+               <div className="conV">
+                <div className='conV1'>Collaborate</div>
+              
+              </div>
                </div>
              </div>
           </div>
@@ -188,6 +227,72 @@ const Home2 = () => {
       </div>
 
  <div className="projectPreviewDiv1">
+
+  <div  className="fareWo" >
+      <div className="him"> 
+      <div className="Rtme ">
+          <div className="Free">
+            <div><p className="EarnP">How It Works </p>
+            <div className="divUnder"></div></div>
+          
+          </div>
+          {/*======  section4 ========*/}
+
+          
+                  <div className="goods1">
+                    <div className="goods2">
+                    <div className="inviteFr goods liom">Get Started with Easiest Steps</div>
+                    <p className="proF">
+Publish an article as a creator.</p>
+           <div className='betStor ghFi likl'>
+                  
+                    <div className='bettors wanNy'>
+                    <div className='bettorsDiv'>
+                       <div className="ghFii19 cvcvcnc"><img src="/img/download.png" alt=""  className="withTyb"/></div>
+                        <p className='bettors1' >01</p>
+                    </div>
+                    <div className='AddTip ghFii1 amGet'>Sign Up With  Us</div>
+                    <p className='itWell ghFii12'>Explore thousands of exprienced tipsters with verified picks and statistics.</p>
+                    </div>
+                
+                 
+                    <div className='bettors wanNy'>
+                    <div className='bettorsDiv'>
+                       <div className="ghFii19 cvcvcnc"><img src="/img/er1.png" alt="" className="withTyb"  /></div>
+                        <p className='bettors1' >02</p>
+                    </div>
+                    <div className='AddTip ghFii1 amGet'>Become a Creator</div>
+                    <p className='itWell ghFii12'>Select your tipsters and subscribe to get betting and trading tips on your dashboard.</p>
+                    </div>
+               
+               
+                    <div className='bettors wanNy'>
+                    <div className='bettorsDiv'>
+                       <div className="ghFii19 cvcvcnc"> <img src="/img/err45.png" alt="" className="withTyb"/></div>
+                        <p className='bettors1' >03</p>
+                    </div>
+                    <div className='AddTip ghFii1 amGet'>Create a Course/Project</div>
+                    <p className='itWell ghFii12'>When you receive a tip, open your favourite bookmaker's website or trading platform and place the bet or trade.</p>
+                    </div>
+               
+            </div>
+            </div>
+            <div className="goods3  goods4"></div>
+                 <div className="goods3 goods5"></div>
+            </div>
+            
+   
+
+           
+          
+           </div>
+
+           <div className="glow glowLeft"></div>
+            <div className="glow glowRight"></div>
+           </div> 
+
+           {/*  */}
+           </div>
         <div className="tou">
         <div className="TrendingCourses">Popular Courses </div>
         <div className="MostPopular">
@@ -470,13 +575,15 @@ const Home2 = () => {
                 <div className='conV1'>Connect to create</div>
                
               </div>
-                {/* <img src="/img/ffflurry.svg"  alt="" className='igam'/> */}
+               
                </div>
              </div>
           </div>
         </div>
       </div>
       </div>
+
+      <img src="/img/pppointed.svg" alt=""  className ="arrow"/>
 
        <div className="dereF kiki2">
       <div className="coding1">
@@ -512,7 +619,7 @@ const Home2 = () => {
                <div className="imgSrc1 gamat2">
                <img src="/img/mara.png" alt="" className="pap"/>
                </div>
-                {/* <img src="/img/blob3.svg" alt="" className="pap"/> */}
+                
              </div>
           </div>
         </div>
@@ -546,7 +653,7 @@ const Home2 = () => {
           
              <div className="cardDivWithImg ">
            <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
-           {/* <p className='skillPath'>PROJECT PATH</p> */}
+          
             <p className="WhatIs">Ecommerce Project</p>
                <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
          
@@ -559,7 +666,7 @@ const Home2 = () => {
           </div>
            <div className="cardDivWithImg ">
            <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
-              {/* <p className='skillPath'>PROJECT PATH</p> */}
+             
             <p className="WhatIs">Simple Sales Store</p>
                <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
          
@@ -586,7 +693,7 @@ const Home2 = () => {
           {card2.map((app,id)=>(
           <div className="cardDivWithImg" key={id}>
            <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
-           {/* <p className='skillPath'>PROJECT PATH</p> */}
+          
             <p className="WhatIs">{app.project}</p>
             <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
          
@@ -610,11 +717,7 @@ const Home2 = () => {
         <div className="coding4">
         
           <div className="coding2 addCode">
-              {/* <div className="Mywork">
-                <div className="Mywork1"></div>
-                 <div className="Mywork1"></div>
-                  <div className="Mywork1"></div>
-              </div> */}
+            
              <div className="coding3">
              
                <div className="imgSrc1 kolo derfA">
@@ -622,18 +725,14 @@ const Home2 = () => {
                </div>
              </div>
              <div className="coding3">
-              {/* <div className="Mywork">
-                <div className="Mywork1"></div>
-                 <div className="Mywork1"></div>
-                  <div className="Mywork1"></div>
-              </div> */}
+           
                <div>
               
                  <div className="divUnderline"></div>
-               <p className="hands1">Become an Author</p>
+               <p className="hands1">Become a Creator</p>
                <p className="hands2">Instructors from around the world teach millions of learners on MaratB. We provide the tools and skills to teach what you love.</p>
              
-                    <div className='conV1 conV24'>Start teaching today</div>
+                    <div className='conV1 conV24'>Get Started</div>
                 
                
                </div>
@@ -650,12 +749,7 @@ const Home2 = () => {
           <div className=" coding2 coding56  addCode">
             
              <div className="coding3">
-              {/* <div className="Mywork2">
-                <div className="Mywork1"></div>
-                 <div className="Mywork1"></div>
-                  <div className="Mywork1"></div>
-                 
-              </div> */}
+             
                <div className='guidePaddBe'>
 
                  <div className="divUnderline"></div>

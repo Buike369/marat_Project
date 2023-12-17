@@ -62,6 +62,30 @@ const Testimony = () => {
   </div>
 </div>
 </div> 
+ <div style={{padding:"4px 10px"}}>      
+<div className="earnSayPp">
+  <p className="partnerShip">"Through marat affiliate program I made 50k in just three  weeks by referring 20friends to the platform."</p>
+  <div className="favourPath">
+    <div><img src="/img/mara.png" alt="" className="popopo"/></div>
+     <div>
+      <div className="amakaDiv">-Chukwubuike Amogu</div>
+      <div className="country">Nigeria</div>
+     </div>
+  </div>
+</div>
+</div>
+ <div style={{padding:"4px 10px"}}>      
+<div className="earnSayPp">
+  <p className="partnerShip">"Through marat affiliate program I made 50k in just three  weeks by referring 20friends to the platform."</p>
+  <div className="favourPath">
+    <div><img src="/img/mara.png" alt="" className="popopo"/></div>
+     <div>
+      <div className="amakaDiv">-Chukwubuike Amogu</div>
+      <div className="country">Nigeria</div>
+     </div>
+  </div>
+</div>
+</div>
  <div style={{padding:"4px 10px"}}>           
 <div className="earnSayPp">
   <p className="partnerShip">"I purchased a course from Marat Technology, and it's packed with valuable content that greatly enhances my professional skills."</p>

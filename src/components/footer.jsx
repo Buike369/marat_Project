@@ -95,6 +95,14 @@ setError("invalid Email")
 
         <div>
             <div className='footerW'>
+                  <div className=''>
+                    <div className="weg4">
+                        <div className="ato2">
+                   <div className='Weg'>MaratB Tech</div>
+                   <p className='Weg2'>We brings your idea to reality,create passion for tech development among people</p>
+                </div>
+                </div>
+                </div>
                
                 <div className=''>
                     <ul className='footerF'>
@@ -178,13 +186,13 @@ setError("invalid Email")
         <div className='footerMainDiv'>
           
             <div className='footerName' >
-                © 2023 Marat-B Technology . All Rights Reserved
+                © 2024 Marat-B Technology . All Rights Reserved
             </div>
-            <div style={{width:"20%"}}>
+            <div className="hotter">
                 <div className="hot">
                 {socialLink.map((app,id)=>(
                 <ul key={id} className="hot">
-                    <li><a href={app.link} target="_blank"><FontAwesomeIcon icon={app.icon}  className="iconHoverColor" style={{fontSize:"20px"}} /></a></li>
+                    <li><a href={app.link} target="_blank" className="footerIcA"><FontAwesomeIcon icon={app.icon}  className="iconHoverColor " style={{fontSize:"20px"}} /></a></li>
                 </ul>
                 ))}
                 </div>

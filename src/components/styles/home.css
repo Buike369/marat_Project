@@ -52,41 +52,54 @@
 }
 
 .millionPP {
-    color: gold;
+    color: #0bf921;
     font-weight: 500
+}
+.millionPP22 {
+    font-size:18px !important;
+    font-weight: 600;
+    margin-bottom: 25px !important;
+        margin-top: 17px !important;
+
 }
 
 .divUnderline {
     width: 120px;
     height: 3px;
-    background-color: #dbbc30fa;
+    background-color: #0bf921;
     margin-bottom: 10px;
     position: relative;
     z-index: 4;
 }
+.divUnderline3{
+    margin: 0 auto 10px auto;
+    width:100%;
+    max-width:300px
+}
 
 .Explore {
     margin-top: 22%;
-    font-size: 70px;
-    font-weight: 500;
-    margin-bottom: 26px;
-    font-family: sans-serif;
-    line-height: 79px;
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    /* font-family: poppins; */
+    line-height: 50px;
 
     color: #fff;
-    font-family: cursive;
+
 
 
 }
+
 
 .exploreC {
     color: var(--p-color);
 }
 
 .Explore1 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 35px;
+    color: #d3d4ef;
 }
 
 .Explore2 {
@@ -119,8 +132,9 @@
 
 .coding1 {
     width: 100%;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding:0 10px;
 }
 
 .coding2 {
@@ -173,7 +187,7 @@
 .Mywork1 {
     width: 250px;
     height: 90px;
-    background-color: #483ea7fa;
+    background-color: #1a1f48;
     transform: rotate(230deg);
     border-radius: 10px;
 }
@@ -185,13 +199,13 @@
 
 
 .dereF {
-    padding: 25px 10px 30px 10px
+padding: 5px 10px 5px 10px;
 }
 
 .CNN {
     margin: 80px auto 30px auto;
     width: 70%;
-    border-bottom: 1px solid #766fb7;
+    border-bottom: 1px solid #443a95;
 }
 
 .imgSrc1 {
@@ -216,10 +230,11 @@
 
 .hands2 {
     font-size: 17px;
-    color: #ffffff;
+    color: #fff;
+        letter-spacing: 0.7px;
     font-weight: 400;
     line-height: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
     font-family: sans-serif;
     position: relative;
     z-index: 5;
@@ -263,7 +278,7 @@
     font-size: 40px;
     line-height: 40px;
     font-weight: 500;
-    color: gold;
+    color: #0bf921;
     position: relative;
     z-index: 5;
     margin-bottom: 10px;
@@ -306,12 +321,12 @@
 
 .hands3s,
 .hands5 {
-    padding: 10px 8px;
-    border: 1px solid #685dd9;
+    padding: 10px 0px;
+    /* border: 1px solid #685dd9; */
     position: relative;
     z-index: 10;
     border-radius: 8px;
-    background-color: #3b328969;
+    /* background-color: #3b328969; */
 }
 
 .divLip {
@@ -327,7 +342,9 @@
     width: 100%;
     max-width: 1300px;
     margin: 25px auto 10px auto;
-    padding: 50px 15px 35px 15px;
+    /* padding: 50px 15px 35px 15px; */
+    padding: 20px 15px 5px 15px;
+    
 }
 
 .TrendingCourses {
@@ -370,6 +387,8 @@
     border: 1.5px solid #4245ad;
     padding: 10px 15px;
     border-radius: 26px;
+        width: 150px;
+            text-align: center;
     background-color: #161046;
     /* transition: all 1s */
 }
@@ -389,7 +408,7 @@
 }
 
 .BumbN {
-    background-color: #261d8963;
+    background-color: #2c275d;
     position: relative;
 }
 
@@ -429,6 +448,7 @@
 
 .blogh1 {
     position: absolute;
+    display:none;
     width: 100%;
     bottom: 20px;
     transform: rotate(300deg);
@@ -444,8 +464,8 @@
 }
 
 .cardDivWithImg {
-    background-color: #524bad;
-    border: 1.5px solid #4334b5;
+    background-color: #1a1f48;
+    border: 1px solid #352e6e;
     padding: 10px 8px;
     color: #f2f2f2;
     border-radius: 8px;
@@ -461,19 +481,23 @@
     gap: 10px;
     margin-top: 20px;
 }
-
+.ffre{
+    color:#9b9ee1;
+}
 .conV1 {
     color: #fff;
-    position: relative;
-    padding: 8px 20px;
-    background-color: #3d329b;
-    border-radius: 20px;
-    z-index: 5;
-    text-align: center;
+        position: relative;
+        padding: 8px 20px;
+        background-color: #1a1f48;
+        border: 2px solid #787eaf;
+        border-radius: 20px;
+        z-index: 5;
+        text-align: center;
 }
 
 .conV24 {
-    width: 200px
+    width: 200px;
+    margin-top: 10px;
 }
 
 .imgWidth {
@@ -490,7 +514,7 @@
 
 .cardDivWithImg:hover {
     transform: scale(1.025);
-    border: 1px solid #717081;
+    border: 2px solid #352e6e;
     /* box-shadow: 0px 2px 11px 4px #1d1d2c; */
 }
 
@@ -549,7 +573,7 @@
 
 .peopleL {
     font-size: 18px;
-    color: #f1dc37;
+    color: #bcc1ed;
     font-weight: 500;
 }
 
@@ -565,7 +589,7 @@
 
 .de1 {
     font-size: 18px;
-    color: #05063e;
+    color: #b7b6e4;
     margin-right: 20px;
     font-weight: 600;
     cursor: pointer;
@@ -589,6 +613,7 @@
     z-index: 1;
     top: 2px;
     right: 1px;
+    display:none;
 }
 
 .igam1 {
@@ -597,6 +622,7 @@
     z-index: 1;
     bottom: 2px;
     left: 1px;
+    display:none;
 }
 
 .hands4 {
@@ -633,12 +659,12 @@
     width: 100%;
     padding: 10px 15px;
     height: auto;
-    background: #161046;
+    background: #1a1f48;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgb(60 59 187 / 10%);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgb(55 62 153 / 30%)
+    border: 1px solid #6065a780;
 }
 
 .pooko1 {
@@ -646,7 +672,7 @@
 }
 
 .fra {
-    color: #2d277e;
+    color: #7977a1;
 }
 
 .gg {
@@ -694,19 +720,19 @@
 
 .build {
     color: #fdfdfd;
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 46px;
+        font-weight: 600;
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
     padding: 2px 10px;
-    font-family: cursive;
+    /* font-family: poppins; */
 
 }
 
 .yiv3 {
-    background-color: #261d8963;
+    background-color: #111538;
     padding: 20px 10px;
 }
 
@@ -755,8 +781,9 @@
 }
 
 .AddTip {
-    color: #090e46;
-    font-size: 18px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .morPage1:hover {
@@ -798,11 +825,12 @@
 }
 
 .addCode {
-    border: 1px solid #4e4ea9;
-    border-radius: 6px;
-    position: relative;
-    z-index: 5;
-    background-color: #544bae;
+    border: 2px solid #202658;
+        border-radius: 12px;
+        position: relative;
+        z-index: 5;
+        background-color: #1a1f48;
+    
     /* box-shadow: 0px 2px 17px 0px #1c1e6082; */
 }
 
@@ -831,7 +859,13 @@
 }
 
 .kiki2 {
-    padding-top: 30px !important;
+    padding-top: 3px !important;
+}
+.kiki {
+    padding-bottom: 5px !important;
+}
+.conV{
+    margin-top: 0;
 }
 
 .demHone {
@@ -844,9 +878,9 @@
     font-size: 32px;
     color: #ffffff;
     font-weight: 500;
-    margin-bottom: 12px;
+    margin-bottom: 1px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 4px;
     transition: ease all 2s;
 }
 
@@ -855,13 +889,17 @@
     max-width: 400px;
     margin: 0 auto 2px auto;
     height: 3px;
-    background-color: #161046;
+    background-color: #38316a;
 }
-
+.head{
+    color:#0bf921;
+    font-size: 53px;
+    font-weight: 600;
+}
 .inviteFr {
     font-size: 42px;
     font-weight: 500;
-    color: #f9d511;
+    color: #0bf921;
     line-height: 50.1px;
     width: 100%;
     max-width: 620px;
@@ -869,7 +907,7 @@
     text-align: center;
     margin-bottom: 16px;
     margin-top: 30px;
-    font-family: cursive;
+    font-family: poppins;
 }
 
 
@@ -897,14 +935,14 @@
 .itWell {
     text-align: center;
     min-height: 100px;
-    color: #fff;
+    color: #bcbbe9;
     margin-top: 10px;
 }
 
 .bettors {
     width: 32%;
 
-    padding: 30px 20px 30px 20px;
+    padding: 5px 20px 5px 20px;
     /* border-radius: 15px; */
     display: flex;
     align-items: center;
@@ -913,9 +951,14 @@
     flex-direction: column;
 
 }
+.carr{
+    font-size: 40px;
+        font-weight: 500;
+        color:#0bf921;
+}
 
 .TheyAre {
-    color: gold;
+    color:#0bf921;
     text-align: center;
     padding: 0 10px;
     margin-top: 40px;
@@ -931,6 +974,21 @@
         flex-direction: column-reverse;
 
     }
+        .millionPP22 {
+            margin-bottom: 14px !important;
+        }
+    .carr{
+        font-size: 24px;
+    }
+    .divUnderline3{
+        max-width: 90px;
+    }
+
+        .head {
+         
+            font-size: 38px;
+           
+        }
 
     .build {
         font-size: 24px;
@@ -1105,11 +1163,15 @@
 
     .hands4 {
         text-align: center;
+        letter-spacing: 0.6px;
     }
 
     .conV1 {
-        margin: 0 auto 10px auto;
+        margin: 2px auto 10px auto;
     }
+         .conV6 {
+             margin: 15px auto 10px auto;
+         }
 
     .divUnderline {
         margin: 1px auto 15px auto;
@@ -1145,7 +1207,7 @@
 
     .ExploreJ {
         font-size: 38px;
-        font-weight: 500;
+        font-weight: 600;
         text-align: center;
         padding: 2px 10px;
         width: 100%;
@@ -1153,6 +1215,7 @@
         font-family: 'circular';
         max-width: 90%;
         margin: 20px auto 2px auto;
+        letter-spacing: 0.6px;
 
     }
 

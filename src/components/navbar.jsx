@@ -49,7 +49,7 @@ const Header = () => {
 
             <div style={{width:"20%"}}><a href="/" className="Brand">Marat</a></div>
             {(tr === "/register") || (tr === "/login") || (tr === "/forget-password") || (tr === "/update-password")  ? "":
-            <div style={{width:"40%"}}>
+            <div >
         <div className="nacBar">
            
           <ul className="NavbarUl" >
@@ -64,11 +64,11 @@ const Header = () => {
           </ul>
           
             </li>
-             <li><a href="" className="navbar1_link">Courses</a></li>
-              <li><a href="" className="navbar1_link">Earn</a></li>
-              <li ><a href="" className="navbar1_link">Learn</a></li>
-               <li ><a href="/blog" className="navbar1_link">Blog</a></li>
-                <li><a href="/pricing" className="navbar1_link" style={{color:feedBack1}}>pricing</a></li>
+             <li><a href="" className="navbar1_link linkAB">Courses</a></li>
+              <li><a href="" className="navbar1_link linkAB">Projects</a></li>
+              <li ><a href="" className="navbar1_link linkAB">Authorship</a></li>
+               <li ><a href="/blog" className="navbar1_link linkAB">Affiliate</a></li>
+                <li><a href="/blog" className="navbar1_link linkAB" style={{color:feedBack1}}>Blog</a></li>
         
           </ul>
           
@@ -85,21 +85,21 @@ const Header = () => {
     </label>
      <div className="menuBox">
     <ul className="menuBox24">
-      <li><a className="menuItem" href="/teach">Topic 1</a></li>
-       <li><a className="menuItem" href="/teach1">Topic 2</a></li>
-              <li><a className="menuItem" href="/teach2">Topic 3</a></li>
-      <li><a className="menuItem" href="/courses">Course</a></li>
-      <li><a className="menuItem" href="/ebook">eBook</a></li>
-      <li><a className="menuItem" href="/blog">Blog</a></li>
-      <li><a className="menuItem" href="/project">Projects</a></li>
-       <li><button className='loginButton'><a className="menuItem34" href="/register">Log In</a></button></li>
+       <li><button className='loginButton'><a className="menuItem34" href="/register">Login/SignUp</a></button></li>
+      {/* <li><a className="menuItem" href="/">Login/SignUp</a></li> */}
+       <li><a className="menuItem" href="/">Explore</a></li>
+              <li><a className="menuItem " href="/">Courses</a></li>
+      <li><a className="menuItem " href="/">Projects</a></li>
+      <li><a className="menuItem" href="/">Affiliate</a></li>
+      <li><a className="menuItem" href="/">Authorship</a></li>
+      <li><a className="menuItem" href="/">Blog</a></li>
     </ul>
     </div>
   </div>
            <ul className="NavbarUl">
            {/* <li><FontAwesomeIcon icon={faSearch}  className=""/> Search</li>  */}
            {/* <li><button className='NowB'>ON</button></li> */}
-           <li><a href="/register" className="navbar1_link">Log In</a></li>
+           <li><a href="/register" className="navbar1_link logInB">Log In</a></li>
            {/* <li><a href="/register" className="navbar1_link ">Join for free <FontAwesomeIcon icon={faArrowRight}  className=""/></a></li> */}
            </ul>
         </div>

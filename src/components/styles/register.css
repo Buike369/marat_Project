@@ -32,12 +32,12 @@
 }
 
 .regForm {
-    width: 70%;
+width: 70%;
     margin-top: 25px;
-    border: 1px solid #3b3c64;
+    border: 1px solid #6364a3;
     padding: 20px 15px;
     border-radius: 8px;
-    background-color: #161046;
+    background-color: #1c1842;
     box-shadow: 0px 2px 10px -2px #030212;
     position: relative;
     z-index: 10;

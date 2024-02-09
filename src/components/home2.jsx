@@ -1,6 +1,7 @@
 import React ,{useState,useEffect}from 'react'
 import "./styles/home.css"
 import "./styles/home2.css"
+
 import Carousel from "react-multi-carousel";
 import AOS from 'aos';
 import "react-multi-carousel/lib/styles.css";
@@ -48,16 +49,21 @@ const Home2 = () => {
         <div>
        <div className="heroDiv">
         
-                  <p className="ExploreJ">Unlock The Future  Of Tech</p>
+                  <p className="ExploreJ">Learn<span style={{fontSize:"20px"}}>,</span> Build and <span className="head">Collaborate</span> on project</p>
         <div className="headerDivFle addHeaderDivFile">
            <div className="headerDivFle1">
           <img src="/img/ppp.svg" alt="" className='blogh1' />
            
              <div className='rteb'>
-              <p className="Explore">Unlock The Future  Of Tech</p>
-             <p className="Explore1">Explore courses on: Programming <span className='fra'>|</span> Websites building <span className='fra'>|</span> Projects <span className='fra'>|</span> Works</p>
-            <div className='CoursesB'> <button className="Explore2">Explore Courses</button></div>
-             <p className="Explore3">Join <span className="millionPP">developers</span>  across the world, students and authors working in companies.</p>
+              <p className="Explore">Learn<span style={{fontSize:"20px"}}>,</span> Build and <span className="head">
+              
+  Collaborate
+</span>  on  project</p>
+
+              <p className="Explore1 millionPP22   ffre">Earn  8% on every referred and registered <span className='millionPP millionPP22'>creator</span> .</p>
+             <p className="Explore1">Explore courses on: Programming <span className='fra'>|</span> Projects <span className='fra'>|</span> Web & App development </p>
+            <div className='CoursesB'> <button className="Explore2">Explore</button></div>
+             <p className="Explore3">Join <span className="millionPP">developer</span>  across the world, students and authors working in companies.</p>
             </div>
 
            </div>
@@ -78,7 +84,8 @@ const Home2 = () => {
        <div className="mmvn">
 
         {/* <p>Build your idea, buy and sell courses or projects, and collaborate with authors or programmers to bring your vision to life</p> */}
-<p className='build'>Turn your ideas into reality by building, trading courses/projects, and collaborating with creators.</p>
+<p className='build'>Turn your <span className='carr'>ideas</span> into reality with us.</p>
+  <div className="divUnderline divUnderline3"></div>
         <div className="dereF kiki">
       <div className="coding1">
         <div className="coding4">
@@ -155,7 +162,7 @@ const Home2 = () => {
                 </div> */}
               </div>
               <div className="conV">
-                <div className='conV1'>Join Now</div>
+                <div className='conV1'>Learn Now</div>
                
               </div>
                </div>
@@ -196,8 +203,8 @@ const Home2 = () => {
 
                 <div className="hands3">
                 <div className="hands3s">
-                  <div className='iconDivN'><p className="peopleL">Identity & Strength :</p></div>
-                  <p className="hands4">Building your brand strengthens its identity and recognition in the market.</p>
+                  <div className='iconDivN'><p className="peopleL">Project  Development :</p></div>
+                  <p className="hands4">Working on projects as a developer helps bring your skill to light.</p>
                 </div>
                 {/* <div className="hands5  bins">
                 <div className='iconDivN'><p className="peopleL">Trust & loyalty:</p></div>
@@ -236,7 +243,7 @@ const Home2 = () => {
             <div className="divUnder"></div></div>
           
           </div>
-          {/*======  section4 ========*/}
+         
 
           
                   <div className="goods1">
@@ -252,7 +259,7 @@ Publish an article as a creator.</p>
                         <p className='bettors1' >01</p>
                     </div>
                     <div className='AddTip ghFii1 amGet'>Sign Up With  Us</div>
-                    <p className='itWell ghFii12'>Explore thousands of exprienced tipsters with verified picks and statistics.</p>
+                    <p className='itWell ghFii12'>To  become a creator  sign  up  with us. .</p>
                     </div>
                 
                  
@@ -262,7 +269,7 @@ Publish an article as a creator.</p>
                         <p className='bettors1' >02</p>
                     </div>
                     <div className='AddTip ghFii1 amGet'>Become a Creator</div>
-                    <p className='itWell ghFii12'>Select your tipsters and subscribe to get betting and trading tips on your dashboard.</p>
+                    <p className='itWell ghFii12'>join creators to build and  create project and courses.</p>
                     </div>
                
                
@@ -271,8 +278,8 @@ Publish an article as a creator.</p>
                        <div className="ghFii19 cvcvcnc"> <img src="/img/err45.png" alt="" className="withTyb"/></div>
                         <p className='bettors1' >03</p>
                     </div>
-                    <div className='AddTip ghFii1 amGet'>Create a Course/Project</div>
-                    <p className='itWell ghFii12'>When you receive a tip, open your favourite bookmaker's website or trading platform and place the bet or trade.</p>
+                    <div className='AddTip ghFii1 amGet'>Publish a Course</div>
+                    <p className='itWell ghFii12'>Your  desired course/project  will be created for viewer to read  and  buy them.</p>
                     </div>
                
             </div>
@@ -291,7 +298,7 @@ Publish an article as a creator.</p>
             <div className="glow glowRight"></div>
            </div> 
 
-           {/*  */}
+      
            </div>
         <div className="tou">
         <div className="TrendingCourses">Popular Courses </div>
@@ -539,95 +546,7 @@ Publish an article as a creator.</p>
         :"" }
       </div>
 
-      <div className="BumbN gamaT">
-         <img src="/img/ffflurry.svg"  alt="" className='igam'/>
-          <img src="/img/ffflurry.svg"  alt="" className='igam1'/>
-    
-    <div className="dereF kiki">
-      <div className="coding1">
-        <div className="coding4">
-        
-          <div className="coding2 ">
-             <div className="coding3">
-               <div className="imgSrc1 gamat2">
-               <img src="/img/mara.png" alt="" className="pap"/>
-               </div>
-             </div>
-             <div className="coding3">
-               <div>
-               <p  className="hands">Web and Android Projects </p>
-                 <div className="divUnderline"></div>
-               <p className="hands1 pooko">Projects For  Diverse Career and  Fields</p>
-               <p className="hands2 pooko1">We build  websites and Android apps  for various professions and industries.</p>
-             
-
-                <div className="hands3">
-                <div className="hands3s">
-                  <div className='iconDivN'><p  className="peopleL">Web Development for Diverse Professions :</p></div>
-                  <p className="hands4 pooko1">Our projects cater to a wide array of careers and fields, delivering solutions that meet your unique needs.</p>
-                </div>
-                <div className="hands5 bins">
-                <div className='iconDivN'><p className="peopleL">Empowering Businesses through Digital Presence :</p></div>
-                  <p className="hands4 pooko1">Boost your online presence with our skill in creating personalized websites and Android apps for various professions and industries.</p>
-                </div>
-              </div>
-                 <div className="conV">
-                <div className='conV1'>Connect to create</div>
-               
-              </div>
-               
-               </div>
-             </div>
-          </div>
-        </div>
-      </div>
-      </div>
-
-      <img src="/img/pppointed.svg" alt=""  className ="arrow"/>
-
-       <div className="dereF kiki2">
-      <div className="coding1">
-        <div className="coding4">
-        
-          <div className="coding2  coding56">
-             
-             <div className="coding3">
-               <div>
-               <p  className="hands">FASTER LEARNING</p>
-                 <div className="divUnderline"></div>
-               <p className="hands1 pooko">FAST LEARNING</p>
-               <p className="hands2 pooko1">We empower aspiring programmers,web designers,graphic designers with the best, modern, and efficient  methods for accelerated learning and mastery.</p>
-             
-
-                <div className="hands3">
-                <div className="hands3s">
-                  <div className='iconDivN'><p className="peopleL">Skills :</p></div>
-                  <p className="hands4 pooko1">We provide aspiring students with the tools  and techniques to accelerate their learning and achieve fast mastery.</p>
-                </div>
-                <div className="hands5  bins">
-                <div className='iconDivN'><p className="peopleL">Desire :</p></div>
-                  <p className="hands4 pooko1">Students are expected  to learn with a burning desire that propels them.</p>
-                </div>
-              </div>
-                 <div className="conV">
-                <div className='conV1'>Join Now</div>
-
-              </div>
-               </div>
-             </div>
-               <div className="coding3">
-               <div className="imgSrc1 gamat2">
-               <img src="/img/mara.png" alt="" className="pap"/>
-               </div>
-                
-             </div>
-          </div>
-        </div>
-      </div>
-      </div>
-
-      </div>
-
+      
       
 
 
@@ -732,7 +651,7 @@ Publish an article as a creator.</p>
                <p className="hands1">Become a Creator</p>
                <p className="hands2">Instructors from around the world teach millions of learners on MaratB. We provide the tools and skills to teach what you love.</p>
              
-                    <div className='conV1 conV24'>Get Started</div>
+                    <div className='conV1 conV24 conV6'>Get Started</div>
                 
                
                </div>
@@ -756,7 +675,7 @@ Publish an article as a creator.</p>
                <p className="hands1">P2P Project Development and Collaboration</p>
                <p className="hands2"> We encourage peer-to-peer project development and collaboration on our platform.</p>
              
- <div className='conV1 conV24'>Pair</div>
+ <div className='conV1 conV24 conV6'>Pair</div>
               
             
                </div>

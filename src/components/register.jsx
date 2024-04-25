@@ -30,8 +30,10 @@ const Register = () => {
                       <div className="iHave line line2">or register with</div>
                       <div className='line1 line'></div>
                    </div>
+                   <div className='kiln'>
                    <div className='SignUp goggle'>Google</div>
                    <div className='SignUp goggle facebook'>Facebook</div>
+                   </div>
                    <div  className="iHave Al">Already have an account? <a href="/login" className='clickMe iHave'>Login</a></div>
                  </div>
               </form>
@@ -46,7 +48,7 @@ const Register = () => {
       </div>
 
      
-
+ <div className='silentDiv'></div>
     </div>
   )
 }

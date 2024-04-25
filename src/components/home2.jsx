@@ -7,10 +7,17 @@ import AOS from 'aos';
 import "react-multi-carousel/lib/styles.css";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCode, faWandMagicSparkles,faStar} from '@fortawesome/free-solid-svg-icons'
+import { faCode,faPlus,faMinus, faWandMagicSparkles,faStar} from '@fortawesome/free-solid-svg-icons'
+
+import {faArrowRight,faArrowLeft} from "@fortawesome/free-solid-svg-icons"
+
 import Navbar from "./navbar"
 
+
+
 const Home2 = () => {
+
+   
 
  const card =[ {name:"Chukwubuike k",img:"/img/bgf.svg", course:"Figma To React",time:"Oct 1, 2023", button:"Preview" ,price:"Free",price1:"₦10,000"},{name:"Kingsley C.",img:"/img/bgf.svg",course:"React-Native Tutorials",time:"Oct 1, 2023",button:"Preview",price:"Free",price1:"₦25,000"},{name:"Samuel P.",img:"/img/bgf.svg",course:"React Tutorials", time:"Oct 1, 2023",button:"Preview",price:"Free",price1:"₦25,000"},{name:"Paul C.",img:"/img/bgf.svg",course:"React Tutorials", time:"Oct 1, 2023",button:"Preview",price:"Free",price1:"₦25,000"},{name:"Joseph P.",img:"/img/bgf.svg",course:"React Tutorials", time:"Oct 1, 2023",button:"Preview",price:"Free",price1:"₦25,000"},{name:"Daniel M.",img:"/img/bgf.svg",course:"React Tutorials", time:"Oct 1, 2023",button:"Preview",price:"Free",price1:"₦25,000"}]
  const card2 =[ {name:"Kingsley C.",img:"john",project:"Portfolio Project", button:"Preview" ,price:"Free",price1:"₦50,000"},{name:"Kingsley C.",img:"john",project:"Gaming Projects", button:"Preview" ,price:"Free",price1:"₦120,000"},{name:"kingsley C.",img:"john",project:"Investment Project", button:"Preview" ,price:"Free",price1:"₦150,000"}]
@@ -18,25 +25,74 @@ const Home2 = () => {
 
    const[courses,setCourses] =  useState("python")
 
+
   const [star,setStar] = useState(["star","star","star","star","star"])
 
        const responsive2 = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 3,
+       partialVisibilityGutter: 30,
       slidesToSlide: 1// optional, default to 1.
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
       items: 2,
+       partialVisibilityGutter: 30,
       slidesToSlide: 1 // optional, default to 1.
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
       items: 1,
+       partialVisibilityGutter: 30,
       slidesToSlide: 1 // optional, default to 1.
     }
   }
+
+    const responsive3 = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 2,
+         partialVisibilityGutter: 30,
+      slidesToSlide: 1// optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+         partialVisibilityGutter: 30,
+      slidesToSlide: 1 // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+         partialVisibilityGutter: 30,
+      slidesToSlide: 1 // optional, default to 1.
+    }
+  }
+
+  const ButtonOne =({onClick})=>{
+  return(
+    <div className='postKin' onClick={onClick}><FontAwesomeIcon icon={faArrowLeft}   style={{fontSize:"15px"}} /></div>
+  )
+}
+
+const ButtonTwo =({onClick})=>{
+  return(
+    <div className='postKin' onClick={onClick}><FontAwesomeIcon icon={faArrowRight}   style={{fontSize:"15px"}} /></div>
+  )
+};
+
+    const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
+  const { carouselState: { currentSlide } } = rest;
+  return (
+    <div className="carousel-button-group"> 
+      <ButtonOne className={currentSlide === 0 ? 'disable' : ''} onClick={() => previous()} />
+      <ButtonTwo onClick={() => next()} />
+     
+    </div>
+  );
+};
+ 
 
 
  useEffect(()=>{
@@ -45,25 +101,32 @@ const Home2 = () => {
   },[])
   return (
     <div>
+      <div className='backGround'>
       <div className="navbarMainDiv" >
-        <div>
+        {/* <div className='backGround'> */}
        <div className="heroDiv">
         
-                  <p className="ExploreJ">Learn<span style={{fontSize:"20px"}}>,</span> Build and <span className="head">Collaborate</span> on project</p>
+                  <p className="ExploreJ"><span className="head">Learn</span><span style={{fontSize:"20px"}}>,</span> <span className="head">Build</span> and <span className="head">Collaborate</span> on project</p>
         <div className="headerDivFle addHeaderDivFile">
            <div className="headerDivFle1">
           <img src="/img/ppp.svg" alt="" className='blogh1' />
            
              <div className='rteb'>
-              <p className="Explore">Learn<span style={{fontSize:"20px"}}>,</span> Build and <span className="head">
+              <p className="Explore"><span className="head">
+              
+  Learn
+</span><span style={{fontSize:"20px"}}>,</span> <span className="head">
+              
+  Build
+</span> and <span className="head">
               
   Collaborate
 </span>  on  project</p>
 
-              <p className="Explore1 millionPP22   ffre">Earn  8% on every referred and registered <span className='millionPP millionPP22'>creator</span> .</p>
+              {/* <p className="Explore1 millionPP22   ffre">Earn  8% on every referred and registered <span className='millionPP millionPP22'>creator</span> .</p> */}
              <p className="Explore1">Explore courses on: Programming <span className='fra'>|</span> Projects <span className='fra'>|</span> Web & App development </p>
-            <div className='CoursesB'> <button className="Explore2">Explore</button></div>
-             <p className="Explore3">Join <span className="millionPP">developer</span>  across the world, students and authors working in companies.</p>
+            <div className='CoursesB'> <button className="Explore2">Explore Courses</button></div>
+             <p className="Explore3">Join <span className="millionPP">developer</span>  across the world, students and creators working on projects.</p>
             </div>
 
            </div>
@@ -93,7 +156,7 @@ const Home2 = () => {
           <div className="coding2">
              <div className="coding3">
              
-               <div className="imgSrc1 kolo">
+               <div className="imgSrc1 kolo kkkmn">
                <img src="/img/mara.png" alt="" className="pap"/>
                </div>
              </div>
@@ -112,10 +175,7 @@ const Home2 = () => {
              
 
                 <div className="hands3">
-                <div className="hands3s">
-                  <div className='iconDivN'><p className="peopleL">Identity & Strength :</p></div>
-                  <p className="hands4">Building your brand strengthens its identity and recognition in the market.</p>
-                </div>
+               
                 {/* <div className="hands5  bins">
                 <div className='iconDivN'><p className="peopleL">Trust & loyalty:</p></div>
                   <p className="hands4">A well-executed brand-building strategy fosters trust and loyalty among your customers.</p>
@@ -148,14 +208,11 @@ const Home2 = () => {
                {/* <p  className="hands"> CREATIVE INNOVATION</p> */}
                <p className="hands1">Fast Learning</p>
                  <div className="divUnderline"></div>
-               <p className="hands2"> We empower students with the best, modern, and efficient methods for accelerated learning and mastery.</p>
+               <p className="hands2"> Learn any desired course of ur choice and practice to build great project.</p>
              
 
                 <div className="hands3">
-                <div className="hands3s">
-                  <div className='iconDivN'><p className="peopleL">Build Skills:</p></div>
-                  <p className="hands4">Learn any desired course of ur choice and practice to build great project.</p>
-                </div>
+             
                 {/* <div className="hands5  bins">
                 <div className='iconDivN'><p className="peopleL">Growth:</p></div>
                   <p className="hands4">Innovation in  idea creation fuels progress and propels businesses into new horizons.</p>
@@ -169,7 +226,7 @@ const Home2 = () => {
              </div>
               <div className="coding3">
                
-               <div className="imgSrc1  kolo">
+               <div className="imgSrc1  kolo kkkmn">
                <img src="/img/mara.png" alt="" className="pap"/>
                </div>
              </div>
@@ -184,7 +241,7 @@ const Home2 = () => {
           <div className="coding2">
              <div className="coding3">
              
-               <div className="imgSrc1 kolo">
+               <div className="imgSrc1 kolo kkkmn">
                <img src="/img/mara.png" alt="" className="pap"/>
                </div>
              </div>
@@ -202,10 +259,7 @@ const Home2 = () => {
              
 
                 <div className="hands3">
-                <div className="hands3s">
-                  <div className='iconDivN'><p className="peopleL">Project  Development :</p></div>
-                  <p className="hands4">Working on projects as a developer helps bring your skill to light.</p>
-                </div>
+                
                 {/* <div className="hands5  bins">
                 <div className='iconDivN'><p className="peopleL">Trust & loyalty:</p></div>
                   <p className="hands4">A well-executed brand-building strategy fosters trust and loyalty among your customers.</p>
@@ -233,9 +287,9 @@ const Home2 = () => {
 
       </div>
 
- <div className="projectPreviewDiv1">
-
-  <div  className="fareWo" >
+      {/* how it worksdiv */}
+      <div className='backgroundHow'>
+        <div  className="fareWo" >
       <div className="him"> 
       <div className="Rtme ">
           <div className="Free">
@@ -259,7 +313,7 @@ Publish an article as a creator.</p>
                         <p className='bettors1' >01</p>
                     </div>
                     <div className='AddTip ghFii1 amGet'>Sign Up With  Us</div>
-                    <p className='itWell ghFii12'>To  become a creator  sign  up  with us. .</p>
+                    {/* <p className='itWell ghFii12'>To  become a creator  sign  up  with us. .</p> */}
                     </div>
                 
                  
@@ -269,7 +323,7 @@ Publish an article as a creator.</p>
                         <p className='bettors1' >02</p>
                     </div>
                     <div className='AddTip ghFii1 amGet'>Become a Creator</div>
-                    <p className='itWell ghFii12'>join creators to build and  create project and courses.</p>
+                    {/* <p className='itWell ghFii12'>join creators to build and  create project and courses.</p> */}
                     </div>
                
                
@@ -279,7 +333,7 @@ Publish an article as a creator.</p>
                         <p className='bettors1' >03</p>
                     </div>
                     <div className='AddTip ghFii1 amGet'>Publish a Course</div>
-                    <p className='itWell ghFii12'>Your  desired course/project  will be created for viewer to read  and  buy them.</p>
+                    {/* <p className='itWell ghFii12'>Your  desired course/project  will be created for viewer to read  and  buy them.</p> */}
                     </div>
                
             </div>
@@ -300,8 +354,17 @@ Publish an article as a creator.</p>
 
       
            </div>
+           </div>
+
+ <div className="projectPreviewDiv1">
+
+
         <div className="tou">
         <div className="TrendingCourses">Popular Courses </div>
+        <div className='Ab12'>
+          <div className='Ab121'></div>
+          <div className='Ab121'></div>
+        </div>
         <div className="MostPopular">
         <p className="Checkout">Check out the most popular courses from our expert authors. </p>
        <a href="/courses"> <div className="viewMoreButton">view more</div> </a>
@@ -320,9 +383,9 @@ Publish an article as a creator.</p>
    {courses === "python" ? 
    <div className='emekaEw'>
              <Carousel
-  swipeable={false}
+  swipeable={true}
   draggable={false}
-  showDots={false}
+  showDots={true}
   responsive={responsive2}
   ssr={true} // means to render carousel on server-side.
   infinite={true}
@@ -333,6 +396,7 @@ Publish an article as a creator.</p>
   keyBoardControl={true}
   customTransition="all .5"
   transitionDuration={500}
+    partialVisible={true}
   containerClass="carousel-container"
   // removeArrowOnDeviceType={["tablet", "mobile"]}
    removeArrowOnDeviceType={false}
@@ -367,9 +431,9 @@ Publish an article as a creator.</p>
           {courses === "javascript" ? 
           <div className='emekaEw'>
              <Carousel
-  swipeable={false}
+  swipeable={true}
   draggable={false}
-  showDots={false}
+  showDots={true}
   responsive={responsive2}
   ssr={true} // means to render carousel on server-side.
   infinite={true}
@@ -379,6 +443,7 @@ Publish an article as a creator.</p>
   keyBoardControl={true}
   customTransition="all .5"
   transitionDuration={500}
+    partialVisible={true}
   containerClass="carousel-container"
   // removeArrowOnDeviceType={["tablet", "mobile"]}
    removeArrowOnDeviceType={false}
@@ -412,9 +477,9 @@ Publish an article as a creator.</p>
           {courses === "webDevelopment" ? 
           <div className='emekaEw'>
               <Carousel
-  swipeable={false}
+  swipeable={true}
   draggable={false}
-  showDots={false}
+  showDots={true}
   responsive={responsive2}
   ssr={true} // means to render carousel on server-side.
   infinite={true}
@@ -427,6 +492,7 @@ Publish an article as a creator.</p>
   containerClass="carousel-container"
   // removeArrowOnDeviceType={["tablet", "mobile"]}
    removeArrowOnDeviceType={false}
+     partialVisible={true}
   // deviceType={this.props.deviceType}
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
@@ -457,9 +523,9 @@ Publish an article as a creator.</p>
           {courses === "Java" ? 
           <div className='emekaEw'>
             <Carousel
-  swipeable={false}
+  swipeable={true}
   draggable={false}
-  showDots={false}
+  showDots={true}
   responsive={responsive2}
   ssr={true} // means to render carousel on server-side.
   infinite={true}
@@ -472,6 +538,7 @@ Publish an article as a creator.</p>
   containerClass="carousel-container"
   // removeArrowOnDeviceType={["tablet", "mobile"]}
    removeArrowOnDeviceType={false}
+     partialVisible={true}
   // deviceType={this.props.deviceType}
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
@@ -502,9 +569,9 @@ Publish an article as a creator.</p>
           {courses === "designs" ? 
           <div className='emekaEw'>
              <Carousel
-  swipeable={false}
+  swipeable={true}
   draggable={false}
-  showDots={false}
+  showDots={true}
   responsive={responsive2}
   ssr={true} // means to render carousel on server-side.
   infinite={true}
@@ -515,6 +582,7 @@ Publish an article as a creator.</p>
   customTransition="all .5"
   transitionDuration={500}
   containerClass="carousel-container"
+    partialVisible={true}
   // removeArrowOnDeviceType={["tablet", "mobile"]}
     removeArrowOnDeviceType={false}
   // deviceType={this.props.deviceType}
@@ -561,10 +629,53 @@ Publish an article as a creator.</p>
              <p className="morPage2">
               On different projects and works 
             </p>
-           <a href="/project"> <div className="morPage1">view all</div></a>
+          <div className='tech1'><a href="/project"> <div className="morPage1">view all</div></a> </div> 
  
   
 
+          </div>
+          <div className='tech2'>
+              <Carousel
+  swipeable={true}
+  draggable={false}
+  showDots={true}
+  responsive={responsive3}
+  ssr={true} // means to render carousel on server-side.
+  infinite={true}
+
+  arrows={false} 
+   renderButtonGroupOutside={true}
+    customButtonGroup={<ButtonGroup />}
+  // autoPlay={this.props.deviceType !== "mobile" ? true : false}
+  autoPlay={true}
+  autoPlaySpeed={3000}
+  keyBoardControl={true}
+  customTransition="all .5"
+    partialVisible={true}
+  transitionDuration={500}
+  containerClass="carousel-container"
+  removeArrowOnDeviceType={["tablet", "mobile"]}
+  // deviceType={this.props.deviceType}
+  dotListClass="custom-dot-list-style"
+  itemClass="carousel-item-padding-40-px"
+  
+>
+   {card2.map((app,id)=>(
+          <div className="cardDivWithImg" key={id}>
+           <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
+          
+            <p className="WhatIs">{app.project}</p>
+            <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
+         
+             <div className="Jan janu">
+              <p className="landL">by <span className='authorName'>{app.name}</span></p>
+              <p className="landL2">{app.button}</p>
+            </div>
+
+          </div>
+          ))}
+
+</Carousel>
           </div>
          
           </div>
@@ -609,6 +720,7 @@ Publish an article as a creator.</p>
            <a href="/project"> <div className="morPage1">view all</div></a>
               <div> <img src="/img/blob4.svg" alt=""  className="picss"/></div>
           </div>
+ 
           {card2.map((app,id)=>(
           <div className="cardDivWithImg" key={id}>
            <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
@@ -623,6 +735,8 @@ Publish an article as a creator.</p>
 
           </div>
           ))}
+
+        
         
         </div>
 
@@ -635,7 +749,7 @@ Publish an article as a creator.</p>
       <div className="coding1">
         <div className="coding4">
         
-          <div className="coding2 addCode">
+          <div className="coding2 addCode aff">
             
              <div className="coding3">
              
@@ -665,7 +779,7 @@ Publish an article as a creator.</p>
       <div className="coding1">
         <div className="coding4">
         
-          <div className=" coding2 coding56  addCode">
+          <div className=" coding2 coding56  addCode aff1">
             
              <div className="coding3">
              
@@ -694,6 +808,9 @@ Publish an article as a creator.</p>
 
         </div> 
         </div> 
+
+
+       
 
     </div>
   )

@@ -1,7 +1,10 @@
 import React from 'react'
 import "./styles/home.css"
+import "./styles/testimony.css"
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faArrowRight,faArrowLeft} from "@fortawesome/free-solid-svg-icons"
 
 const Testimony = () => {
 
@@ -9,19 +12,47 @@ const Testimony = () => {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
       items: 2,
+         partialVisibilityGutter: 30,
       slidesToSlide: 1// optional, default to 1.
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
       items: 2,
+         partialVisibilityGutter: 30,
       slidesToSlide: 1 // optional, default to 1.
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
       items: 1,
+         partialVisibilityGutter: 30,
       slidesToSlide: 1 // optional, default to 1.
     }
   }
+
+
+  
+  const ButtonOne =({onClick})=>{
+  return(
+    <div className='postKin' onClick={onClick}><FontAwesomeIcon icon={faArrowLeft}   style={{fontSize:"15px"}} /></div>
+  )
+}
+
+const ButtonTwo =({onClick})=>{
+  return(
+    <div className='postKin' onClick={onClick}><FontAwesomeIcon icon={faArrowRight}   style={{fontSize:"15px"}} /></div>
+  )
+};
+
+    const ButtonGroup = ({ next, previous, goToSlide, ...rest }) => {
+  const { carouselState: { currentSlide } } = rest;
+  return (
+    <div className="carousel-button-group"> 
+      <ButtonOne className={currentSlide === 0 ? 'disable' : ''} onClick={() => previous()} />
+      <ButtonTwo onClick={() => next()} />
+     
+    </div>
+  );
+};
   return (
     <div>
         <div className ="yiv3">
@@ -31,17 +62,22 @@ const Testimony = () => {
           <div className='seeWhat'>See what our customers have to say.Find out what our clients are saying below</div>
          <div className=" marginMu fadama ">
          <Carousel
-  swipeable={false}
+  swipeable={true}
   draggable={false}
-  showDots={false}
+  showDots={true}
   responsive={responsive2}
   ssr={true} // means to render carousel on server-side.
   infinite={true}
+
+  arrows={false} 
+   renderButtonGroupOutside={true}
+    customButtonGroup={<ButtonGroup />}
   // autoPlay={this.props.deviceType !== "mobile" ? true : false}
   autoPlay={true}
   autoPlaySpeed={3000}
   keyBoardControl={true}
   customTransition="all .5"
+    partialVisible={true}
   transitionDuration={500}
   containerClass="carousel-container"
   removeArrowOnDeviceType={["tablet", "mobile"]}
@@ -50,7 +86,7 @@ const Testimony = () => {
   itemClass="carousel-item-padding-40-px"
   
 >
- <div style={{padding:"4px 10px"}}>      
+ <div style={{padding:"4px 0px"}}>      
 <div className="earnSayPp">
   <p className="partnerShip">"Through marat affiliate program I made 50k in just three  weeks by referring 20friends to the platform."</p>
   <div className="favourPath">
@@ -62,7 +98,7 @@ const Testimony = () => {
   </div>
 </div>
 </div> 
- <div style={{padding:"4px 10px"}}>      
+ <div style={{padding:"4px 0px"}}>      
 <div className="earnSayPp">
   <p className="partnerShip">"Through marat affiliate program I made 50k in just three  weeks by referring 20friends to the platform."</p>
   <div className="favourPath">
@@ -74,7 +110,7 @@ const Testimony = () => {
   </div>
 </div>
 </div>
- <div style={{padding:"4px 10px"}}>      
+ <div style={{padding:"4px 0px"}}>      
 <div className="earnSayPp">
   <p className="partnerShip">"Through marat affiliate program I made 50k in just three  weeks by referring 20friends to the platform."</p>
   <div className="favourPath">
@@ -86,7 +122,7 @@ const Testimony = () => {
   </div>
 </div>
 </div>
- <div style={{padding:"4px 10px"}}>           
+ <div style={{padding:"4px 0px"}}>           
 <div className="earnSayPp">
   <p className="partnerShip">"I purchased a course from Marat Technology, and it's packed with valuable content that greatly enhances my professional skills."</p>
   <div className="favourPath">
@@ -98,7 +134,7 @@ const Testimony = () => {
   </div>
 </div>
 </div>
-<div style={{padding:"4px 10px"}}>
+<div style={{padding:"4px 0px"}}>
 <div className="earnSayPp">
   <p className="partnerShip">"Thanks to Marat Technology's P2P project collaboration, I've not only enhanced my skills but also successfully developed outstanding projects, leading to substantial earnings."</p>
   <div className="favourPath">

@@ -259,6 +259,7 @@ const Home = () => {
 
            <a href="/project"> <div className="morPage1">view all</div></a>
           </div>
+          
           {card2.map((app,id)=>(
           <div className="cardDivWithImg" key={id}>
            <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>

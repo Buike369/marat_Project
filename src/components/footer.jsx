@@ -4,10 +4,11 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import axios from "axios"
 import validator from 'validator';
+import FaQ from "./FAQ"
 import Testimony from './testimony';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faPaperPlane} from "@fortawesome/free-solid-svg-icons"
-import {faLinkedin,faTwitter,faGithub,faTelegram,faYoutube,faFacebook} from "@fortawesome/free-brands-svg-icons"
+import {faLinkedinIn,faTwitter,faDiscord,faGithub,faTelegram,faYoutube, faFacebookF} from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => {
      const [inputs,setInputs] = useState({
@@ -21,7 +22,7 @@ const Footer = () => {
     setInputs(prev=>({...prev,[e.target.name]:e.target.value}))
   
   }
- const socialLink = [{icon:faTwitter,link:"https://x.com/ChukwubuikeK?t=Ksk86TowzZrQ7X_21swBIg&s=09"},{icon:faFacebook,link:"https://www.facebook.com/profile.php?id=100070000591981&mibextid=ZbWKwL"},{icon:faYoutube,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{ icon:faGithub,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{icon:faLinkedin,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{icon:faTelegram,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"}]
+ const socialLink = [{icon:faTwitter,link:"https://x.com/ChukwubuikeK?t=Ksk86TowzZrQ7X_21swBIg&s=09"},{icon:faFacebookF,link:"https://www.facebook.com/profile.php?id=100070000591981&mibextid=ZbWKwL"},{icon:faYoutube,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{ icon:faGithub,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"},{icon:faDiscord,link:"https://www.linkedin.com/in/chukwubuike-kingsley-1a6054224"}]
 
    const postInfo1 =(e)=>{
 e.preventDefault()
@@ -75,11 +76,13 @@ setError("invalid Email")
 
 
         <Testimony/>
+           <FaQ/>
 
 
         <div className='footerHouse'></div>
         <div className="footerBackgroundColor">
-            <div className='padG'>
+           
+            {/* <div className='padG'>
             <div  className='subEmail'>
                 <p className='misOut'>Don't miss out on Fantastic News</p>
                 <p className='misOut1'>Subscribe to our newsletter and be the first to receive news.</p>
@@ -91,15 +94,24 @@ setError("invalid Email")
                 </form>
                  <img src="/img/news.svg" alt=""  className="messageImg"/>
             </div>
-            </div>
-
+         
+            </div> */}
+             <div className='footerHouse2'></div>
         <div>
             <div className='footerW'>
-                  <div className=''>
+                  <div className='footerFo'>
                     <div className="weg4">
                         <div className="ato2">
                    <div className='Weg'>MaratB Tech</div>
-                   <p className='Weg2'>We brings your idea to reality,create passion for tech development among people</p>
+                   <p className='Weg2'>We turn your idea into reality and ignite a passion  for tech development</p>
+                   <p className='misOut1'>Subscribe to our newsletter</p>
+                   <div>
+                    <form className='FormPP'>
+                    <div>
+                        <input type="email" placeholder='Enter your Email' className='yourEmail' name="email" value={inputs.email} onChange={changeHandle4}/>
+                        <FontAwesomeIcon icon={faPaperPlane}  className="HomeV" style={{fontSize:"20px"}} onClick={postInfo1}/>
+                    </div>
+                </form></div>
                 </div>
                 </div>
                 </div>
@@ -192,7 +204,7 @@ setError("invalid Email")
                 <div className="hot">
                 {socialLink.map((app,id)=>(
                 <ul key={id} className="hot">
-                    <li><a href={app.link} target="_blank" className="footerIcA"><FontAwesomeIcon icon={app.icon}  className="iconHoverColor " style={{fontSize:"20px"}} /></a></li>
+                    <li> <div className=''><a href={app.link} target="_blank" className="footerIconDivL"><FontAwesomeIcon icon={app.icon}  className="iconHoverColor " style={{fontSize:"15px"}} /></a></div></li>
                 </ul>
                 ))}
                 </div>

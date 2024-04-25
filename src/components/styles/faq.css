@@ -1,0 +1,57 @@
+.HowFarBro {
+    color: #b2b6bd;
+    font-family: monospace;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.facPadding{
+    padding:20px 0px;
+}
+.pinMoo{
+    padding:0 0;
+}
+.ILOVEK {
+    padding: 10px 15px;
+    color: #e2e2e5;
+    line-height: 20px;
+    font-size: 16px;
+}
+.Qac {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    border-bottom: 1px solid #2a2864;
+    margin-top: 8px;
+}
+.homeChange {
+    margin-bottom: 8px;
+    border-radius: 8px;
+    background-color: inherit;
+    transition: all 0.5s;
+    border: 1px solid #3d4278;
+    background-color: #1a1f48;
+    position: relative;
+    z-index: 10;
+}
+.coding5{
+    width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        /* padding: 0 10px; */
+}
+.IconSpace{
+    margin-left: 5px;
+}
+@media (max-width:768px){
+    .facPadding{
+        padding:20px 5px;
+    }
+    .pinMoo{
+        padding:0 5px;
+    }
+}

@@ -99,7 +99,7 @@ background: #635bb9;
     align-items: center;
     padding: 9px 10px;
     margin-top: 2px;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 8px auto 8px auto;
 }
 
@@ -134,21 +134,33 @@ letter-spacing: 0.6px;
 border: 1px solid #736cb5;
     box-shadow: 0px 2px 4px #282d4e;
     background-color: #1a1f48;
+    width:100px;
+    border-radius: 20px;
+    text-align: center;
+    padding:4px 5px;
+    color:#fff;
+    cursor: pointer;
+  
+}
+.ling{
+    text-align: center;
 }
 .linkAB:hover{
-text-decoration:underline ;
+/* text-decoration:underline ; */
+border-bottom: 1px solid #fff;
 }
 .logInB:hover{
 background-color: #fff;
 color:#000  !important;
 }
 
+
+
 .navbar1_link {
 color: #dedff9;
-   
-    border-radius:20px;
-    margin-left: 0.75rem;
-    padding: 0.4rem 0.9rem;
+    /* border-radius:20px; */
+    margin-left: 0.3rem;
+    padding: 0.4rem 0.orem;
     transition: all .3s;
     display: flex;
     position: relative;

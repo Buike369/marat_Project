@@ -82,7 +82,7 @@ setError("invalid Email")
         <div className='footerHouse'></div>
         <div className="footerBackgroundColor">
            
-            {/* <div className='padG'>
+            <div className='padG'>
             <div  className='subEmail'>
                 <p className='misOut'>Don't miss out on Fantastic News</p>
                 <p className='misOut1'>Subscribe to our newsletter and be the first to receive news.</p>
@@ -95,7 +95,7 @@ setError("invalid Email")
                  <img src="/img/news.svg" alt=""  className="messageImg"/>
             </div>
          
-            </div> */}
+            </div>
              <div className='footerHouse2'></div>
         <div>
             <div className='footerW'>

@@ -359,8 +359,8 @@
 
 .projectPreviewDiv1 {
     width: 100%;
-    max-width: 1200px;
-    margin: 25px auto 10px auto;
+    max-width: 1275px;
+    margin: 25px 0 10px auto;
     /* padding: 50px 15px 35px 15px; */
     padding: 20px 0px 5px 0px;
 
@@ -408,7 +408,8 @@
     border-radius: 26px;
     width: 150px;
     text-align: center;
-    background-color: #161046;
+    background-color: #222252;
+        margin-right: 20px;
     /* transition: all 1s */
 }
 
@@ -507,14 +508,17 @@
 }
 
 .conV1 {
-    color: #fff;
+color: #fff;
     position: relative;
-    padding: 8px 20px;
-    background-color: #1a1f48;
-    border: 2px solid #787eaf;
-    border-radius: 20px;
+    padding: 7px 20px;
+    background-color: #0b1032;
+    border: 1px solid #3743916b;
+    box-shadow: 0px 5px 10px #0e1230;
+box-shadow: rgb(26 31 72) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgb(17 21 56 / 35%) 0 2px 4px, rgb(26 31 72 / 18%) 0 4px 8px, rgb(17 21 56 / 28%) 0 8px 16px, rgb(17 21 58 / 23%) 0 16px 32px;
+    border-radius: 10px;
     z-index: 5;
     text-align: center;
+    
 }
 
 .conV24 {

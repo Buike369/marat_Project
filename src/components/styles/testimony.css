@@ -45,4 +45,13 @@
     .fadama{
         padding-left: 10px;
     }
+    .hh2{
+        display:none;
+    }
+}
+
+@media (min-width:769px){
+    .hh1{
+        display:none
+    }
 }

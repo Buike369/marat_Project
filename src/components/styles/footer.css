@@ -218,21 +218,20 @@
     color: #fff;
 }
 
-.R2 {
-    text-align: right;
-}
+
 
 
 .MobileT1 {
     display: flex;
     width: 100%;
     max-width: 500px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin: 0 auto;
     padding: 5px 10px;
 }
 
 .MobileT {
+    width:50%;
     display: flex;
     flex-direction: column;
     /* width: 50%; */
@@ -249,13 +248,13 @@
 }
 
 .mmm1 {
-    padding-right: 10px;
-    border-right: 1px solid #3b3b5a;
-    text-align: right;
+    padding-left: 10px;
+    border-left: 1px solid #3b3b5a4d;
+    /* text-align: right; */
 }
 
 .mmm2 {
-    border-left: 1px solid #3b3b5a;
+    border-left: 1px solid #3b3b5a4d;
     padding-left: 10px
 }
 

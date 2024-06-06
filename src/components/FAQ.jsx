@@ -152,7 +152,7 @@ const drop =()=>{
             </div>
             <div className="homeChange">
               <div className="HowFarBro" onClick={drop4}>
-                <span>  If my referral renew their affiliate Subscription will I still earn? </span>
+                <span>  How does the referral system work</span>
                 <span className="IconSpace">
                   {show4? <FontAwesomeIcon icon={faMinus} className="PlusIcon" />:<FontAwesomeIcon icon={faPlus} className="PlusIcon" />}
                 </span>
@@ -161,31 +161,14 @@ const drop =()=>{
                 <div>
                   <div className="Qac"></div>
                 <p className="ILOVEK">
-                  Yes, you will continue to earn from any of your referral that renews his affiliate subscription.
+                  it works by referring someone to join as creator, collaborating on projects and buying of courses from the platform. 
                 </p>
                 </div>
               ) : (
                 ""
               )}
             </div>
-            <div className="homeChange">
-              <div className="HowFarBro" onClick={drop5}>
-                <span>when I refer  users who buys membership subscription from  tipsters  without unlocking his affiliate wallet will I earn from their purchase? </span>
-                <span className="IconSpace">
-                  {show5? <FontAwesomeIcon icon={faMinus} className="PlusIcon" />:<FontAwesomeIcon icon={faPlus} className="PlusIcon" />}
-                </span>
-              </div>
-              {show5 ? (
-                <div>
-                  <div className="Qac"></div>
-                <p className="ILOVEK">
-                 Yes, You earn upto 20% of their membership subscription to any tipster.
-                </p>
-                </div>
-              ) : (
-                ""
-              )}
-            </div>
+           
 
           </div>
           </div>

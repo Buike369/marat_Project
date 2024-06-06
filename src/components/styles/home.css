@@ -3,13 +3,13 @@
     max-width: 1200px;
     margin: 0 auto;
     z-index: 500;
-    padding: 2px 10px;
+    padding: 2px 0px;
 
     /* background-image: linear-gradient(0deg, #4f488d 0, #111538); */
 }
 
 .backGround {
-    background-image: linear-gradient(0deg, #1a1f48 0, #111538)
+        background-image: linear-gradient(0deg, #111538c7 0, #1115387d);
 }
 
 .navbarMainDiv {
@@ -151,7 +151,7 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 10px;
+    /* padding: 0 10px; */
 }
 
 .coding2 {
@@ -206,6 +206,7 @@
     height: 90px;
     background-color: #1a1f48;
     transform: rotate(230deg);
+        /* backdrop-filter: blur(502px); */
     border-radius: 10px;
 }
 
@@ -252,7 +253,7 @@
     letter-spacing: 0.7px;
     font-weight: 400;
     line-height: 20px;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
     font-family: sans-serif;
     position: relative;
     z-index: 5;
@@ -361,7 +362,7 @@
     max-width: 1200px;
     margin: 25px auto 10px auto;
     /* padding: 50px 15px 35px 15px; */
-    padding: 20px 15px 5px 15px;
+    padding: 20px 0px 5px 0px;
 
 }
 
@@ -623,7 +624,7 @@
 }
 
 .gift {
-    width: 32%;
+    width: 31%;
     position: relative;
     /* overflow: hidden; */
 }
@@ -697,7 +698,7 @@
 }
 
 .gg {
-    padding: 2px 15px;
+    padding: 2px 0px;
 }
 
 .partnerShip {
@@ -1057,6 +1058,9 @@ background-color: #252a5a;
         display: flex;
         flex-direction: column-reverse;
 
+    }
+    .coding1{
+        padding: 0px 10px;
     }
 
         .ghFi {

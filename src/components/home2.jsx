@@ -1,6 +1,7 @@
 import React ,{useState,useEffect}from 'react'
 import "./styles/home.css"
 import "./styles/home2.css"
+import "./styles/heroDiv.css"
 
 import Carousel from "react-multi-carousel";
 import AOS from 'aos';
@@ -102,6 +103,9 @@ const ButtonTwo =({onClick})=>{
   return (
     <div>
       <div className='backGround'>
+
+        
+
       <div className="navbarMainDiv" >
         {/* <div className='backGround'> */}
        <div className="heroDiv">
@@ -131,6 +135,7 @@ const ButtonTwo =({onClick})=>{
 
            </div>
            <div className="headerDivFle2">
+      
                  <div className='imgFileDiv'>
                    <img src="/img/GroupM2.svg" alt="Ailt" className="headerDivFle21"/>
                   
@@ -288,7 +293,7 @@ const ButtonTwo =({onClick})=>{
       </div>
 
       {/* how it worksdiv */}
-      <div className='backgroundHow'>
+      {/* <div className='backgroundHow'>
         <div  className="fareWo" >
       <div className="him"> 
       <div className="Rtme ">
@@ -313,7 +318,7 @@ Publish an article as a creator.</p>
                         <p className='bettors1' >01</p>
                     </div>
                     <div className='AddTip ghFii1 amGet'>Sign Up With  Us</div>
-                    {/* <p className='itWell ghFii12'>To  become a creator  sign  up  with us. .</p> */}
+         
                     </div>
                 
                  
@@ -323,7 +328,7 @@ Publish an article as a creator.</p>
                         <p className='bettors1' >02</p>
                     </div>
                     <div className='AddTip ghFii1 amGet'>Become a Creator</div>
-                    {/* <p className='itWell ghFii12'>join creators to build and  create project and courses.</p> */}
+                   
                     </div>
                
                
@@ -333,7 +338,7 @@ Publish an article as a creator.</p>
                         <p className='bettors1' >03</p>
                     </div>
                     <div className='AddTip ghFii1 amGet'>Publish a Course</div>
-                    {/* <p className='itWell ghFii12'>Your  desired course/project  will be created for viewer to read  and  buy them.</p> */}
+                    
                     </div>
                
             </div>
@@ -354,7 +359,7 @@ Publish an article as a creator.</p>
 
       
            </div>
-           </div>
+           </div> */}
 
  <div className="projectPreviewDiv1">
 
@@ -413,11 +418,11 @@ Publish an article as a creator.</p>
            <div className="ImgDivGenerator imgHeight"> <img src={app.img} alt="" className="divImg"/></div>
               
             <p className="WhatIs">{app.course}</p>
-             <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
+             <div className=''><div className="authorclassName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
              
          
           <div className="Jan janu">
-              <p className="landL">by <span className='authorName'>{app.name}</span></p>
+              <p className="landL">by <span className='authorclassName'>{app.name}</span></p>
               <p className="landL2">{app.button}</p>
             </div> 
         
@@ -459,11 +464,11 @@ Publish an article as a creator.</p>
            <div className="ImgDivGenerator imgHeight"> <img src={app.img} alt="" className="divImg"/></div>
               
             <p className="WhatIs">{app.course}</p>
-             <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
+             <div className=''><div className="authorclassName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
              
          
           <div className="Jan janu">
-              <p className="landL">by <span className='authorName'>{app.name}</span></p>
+              <p className="landL">by <span className='authorclassName'>{app.name}</span></p>
               <p className="landL2">{app.button}</p>
             </div> 
         
@@ -505,11 +510,11 @@ Publish an article as a creator.</p>
            <div className="ImgDivGenerator imgHeight"> <img src={app.img} alt="" className="divImg"/></div>
               
             <p className="WhatIs">{app.course}</p>
-             <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
+             <div className=''><div className="authorclassName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
              
          
           <div className="Jan janu">
-              <p className="landL">by <span className='authorName'>{app.name}</span></p>
+              <p className="landL">by <span className='authorclassName'>{app.name}</span></p>
               <p className="landL2">{app.button}</p>
             </div> 
         
@@ -551,11 +556,11 @@ Publish an article as a creator.</p>
            <div className="ImgDivGenerator imgHeight"> <img src={app.img} alt="" className="divImg"/></div>
               
             <p className="WhatIs">{app.course}</p>
-             <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
+             <div className=''><div className="authorclassName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
              
          
           <div className="Jan janu">
-              <p className="landL">by <span className='authorName'>{app.name}</span></p>
+              <p className="landL">by <span className='authorclassName'>{app.name}</span></p>
               <p className="landL2">{app.button}</p>
             </div> 
         
@@ -597,11 +602,11 @@ Publish an article as a creator.</p>
            <div className="ImgDivGenerator imgHeight"> <img src={app.img} alt="" className="divImg"/></div>
               
             <p className="WhatIs">{app.course}</p>
-             <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
+             <div className=''><div className="authorclassName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
              
          
           <div className="Jan janu">
-              <p className="landL">by <span className='authorName'>{app.name}</span></p>
+              <p className="landL">by <span className='authorclassName'>{app.name}</span></p>
               <p className="landL2">{app.button}</p>
             </div> 
         
@@ -665,10 +670,10 @@ Publish an article as a creator.</p>
            <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
           
             <p className="WhatIs">{app.project}</p>
-            <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
+            <div className=''><div className="authorclassName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
          
              <div className="Jan janu">
-              <p className="landL">by <span className='authorName'>{app.name}</span></p>
+              <p className="landL">by <span className='authorclassName'>{app.name}</span></p>
               <p className="landL2">{app.button}</p>
             </div>
 
@@ -685,10 +690,10 @@ Publish an article as a creator.</p>
            <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
           
             <p className="WhatIs">Ecommerce Project</p>
-               <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
+               <div className=''><div className="authorclassName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
          
              <div className="Jan janu">
-              <p className="landL">by <span className='authorName'>Amaka Emmanuel</span></p>
+              <p className="landL">by <span className='authorclassName'>Amaka Emmanuel</span></p>
               <p className="landL2">Preview</p>
             </div>
            
@@ -698,10 +703,10 @@ Publish an article as a creator.</p>
            <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
              
             <p className="WhatIs">Simple Sales Store</p>
-               <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
+               <div className=''><div className="authorclassName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
          
             <div className="Jan janu">
-              <p className="landL">by <span className='authorName'>David Stephen.</span></p>
+              <p className="landL">by <span className='authorclassName'>David Stephen.</span></p>
               <p className="landL2">Preview</p>
             </div>
            
@@ -726,10 +731,10 @@ Publish an article as a creator.</p>
            <div className="ImgDivGenerator"> <img src="/img/bkm.png" alt="" className="divImg"/></div>
           
             <p className="WhatIs">{app.project}</p>
-            <div className=''><div className="authorName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
+            <div className=''><div className="authorclassName1 loveFbv">4.7 <div  className="StarF" > <FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/><FontAwesomeIcon  icon={faStar}  className="ii"/></div>(222,413)</div></div>
          
              <div className="Jan janu">
-              <p className="landL">by <span className='authorName'>{app.name}</span></p>
+              <p className="landL">by <span className='authorclassName'>{app.name}</span></p>
               <p className="landL2">{app.button}</p>
             </div>
 

@@ -1357,6 +1357,19 @@ background-color: #252a5a;
         letter-spacing: 0.6px;
 
     }
+        .Exploref{
+            font-size: 38px;
+            font-weight: 600;
+            text-align: center;
+            padding: 2px 10px;
+            width: 100%;
+            color: #fff;
+            font-family: 'circular';
+            max-width: 90%;
+            margin: 2px auto 2px auto;
+            letter-spacing: 0.6px;
+    
+        }
 
     .hands3 {
         flex-direction: column;

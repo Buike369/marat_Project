@@ -96,9 +96,9 @@ const ButtonTwo =({onClick})=>{
  
 
 
- useEffect(()=>{
+  useEffect(()=>{
     AOS.init({once: true});
-     
+    // AOS.init();
   },[])
   return (
     <div>
@@ -110,13 +110,16 @@ const ButtonTwo =({onClick})=>{
         {/* <div className='backGround'> */}
        <div className="heroDiv">
         
-                  <p className="ExploreJ"><span className="head">Learn</span><span style={{fontSize:"20px"}}>,</span> <span className="head">Build</span> and <span className="head">Collaborate</span> on project</p>
+                  {/* <p className="ExploreJ"><span className="head">Learn</span><span style={{fontSize:"20px"}}>,</span> <span className="head">Build</span> and <span className="head">Collaborate</span> on project</p> */}
+                  <div aria-label="Hi! I'm a developer" className="ExploreJ">
+  Empower YourSelf <p className="Exploref">through</p> &nbsp;<span className="typewriter nocaret head"></span>
+</div>
         <div className="headerDivFle addHeaderDivFile">
            <div className="headerDivFle1">
           <img src="/img/ppp.svg" alt="" className='blogh1' />
            
              <div className='rteb'>
-              <p className="Explore"><span className="head">
+              {/* <p className="Explore"><span className="head">
               
   Learn
 </span><span style={{fontSize:"20px"}}>,</span> <span className="head">
@@ -125,7 +128,11 @@ const ButtonTwo =({onClick})=>{
 </span> and <span className="head">
               
   Collaborate
-</span>  on  project</p>
+</span>  on  project</p> */}
+
+<div aria-label="Hi! I'm a developer" className="Explore">
+  Empower YourSelf through &nbsp;<span className="typewriter nocaret head"></span>
+</div>
 
               {/* <p className="Explore1 millionPP22   ffre">Earn  8% on every referred and registered <span className='millionPP millionPP22'>creator</span> .</p> */}
              <p className="Explore1">Explore courses on: Programming <span className='fra'>|</span> Projects <span className='fra'>|</span> Web & App development </p>
@@ -152,7 +159,8 @@ const ButtonTwo =({onClick})=>{
        <div className="mmvn">
 
         {/* <p>Build your idea, buy and sell courses or projects, and collaborate with authors or programmers to bring your vision to life</p> */}
-<p className='build'>Turn your <span className='carr'>ideas</span> into reality with us.</p>
+<p className='build'  data-aos="fade-up"
+     data-aos-duration="1000">Turn your <span className='carr'>ideas</span> into reality with us.</p>
   <div className="divUnderline divUnderline3"></div>
         <div className="dereF kiki">
       <div className="coding1">
@@ -161,7 +169,8 @@ const ButtonTwo =({onClick})=>{
           <div className="coding2">
              <div className="coding3">
              
-               <div className="imgSrc1 kolo kkkmn">
+               <div className="imgSrc1 kolo kkkmn"  data-aos="fade-up"
+     data-aos-duration="1000">
                <img src="/img/mara.png" alt="" className="pap"/>
                </div>
              </div>
@@ -174,9 +183,11 @@ const ButtonTwo =({onClick})=>{
                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"  data-aos-duration="3000">
                {/* <p  className="hands"> BRAND'S GROWTH</p> */}
                  {/* <div className="divUnderline"></div> */}
-               <p className="hands1">Build Your Concept</p>
+               <p className="hands1"  data-aos="fade-up"
+     data-aos-duration="1000">Build Your Concept</p>
                                 <div className="divUnderline"></div>
-               <p className="hands2"> Empower your vision and drive success  with us by choosing the right creator  for your enterprise.</p>
+               <p className="hands2"  data-aos="fade-up"
+     data-aos-duration="1000"> Empower your vision and drive success  with us by choosing the right creator  for your enterprise.</p>
              
 
                 <div className="hands3">
@@ -187,7 +198,8 @@ const ButtonTwo =({onClick})=>{
                 </div> */}
               </div>
                <div className="conV">
-                <div className='conV1'>Let's Build</div>
+                <div className='conV1'  data-aos="fade-up"
+     data-aos-duration="1000">Let's Build</div>
               
               </div>
                </div>

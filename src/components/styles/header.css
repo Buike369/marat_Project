@@ -56,7 +56,9 @@ background: #635bb9;
     width: 100%;
     z-index: 5000;
 
-
+}
+.BKy{
+    background-color: #010c2a !important;
 }
 
 /* .NowB{
@@ -97,7 +99,7 @@ background: #635bb9;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 9px 0px;
+    padding: 9px 10px;
     margin-top: 2px;
     max-width: 1200px;
     margin: 8px auto 8px auto;

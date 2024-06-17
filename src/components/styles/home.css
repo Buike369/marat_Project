@@ -3,13 +3,19 @@
     max-width: 1200px;
     margin: 0 auto;
     z-index: 500;
-    padding: 2px 0px;
-
+    padding: 2px 10px;
+    /* background-image: url("/img/tech2.PNG"); */
+    /* background-repeat: no-repeat;
+    background-size: "cover"; */
     /* background-image: linear-gradient(0deg, #4f488d 0, #111538); */
 }
 
 .backGround {
-        background-image: linear-gradient(0deg, #111538c7 0, #1115387d);
+    /* background-image: linear-gradient(0deg, #111538c7 0, #1115387d); */
+    background-image: linear-gradient(0deg, #1a1f48 0, #111538);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
 }
 
 .navbarMainDiv {
@@ -20,6 +26,7 @@
 
 .headerDivFle {
     display: flex;
+
 }
 
 .addHeaderDivFile {
@@ -206,7 +213,7 @@
     height: 90px;
     background-color: #1a1f48;
     transform: rotate(230deg);
-        /* backdrop-filter: blur(502px); */
+    filter: blur(70px);
     border-radius: 10px;
 }
 
@@ -409,7 +416,7 @@
     width: 150px;
     text-align: center;
     background-color: #222252;
-        margin-right: 20px;
+    margin-right: 20px;
     /* transition: all 1s */
 }
 
@@ -508,17 +515,17 @@
 }
 
 .conV1 {
-color: #fff;
+    color: #fff;
     position: relative;
     padding: 7px 20px;
     background-color: #0b1032;
     border: 1px solid #3743916b;
     box-shadow: 0px 5px 10px #0e1230;
-box-shadow: rgb(26 31 72) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgb(17 21 56 / 35%) 0 2px 4px, rgb(26 31 72 / 18%) 0 4px 8px, rgb(17 21 56 / 28%) 0 8px 16px, rgb(17 21 58 / 23%) 0 16px 32px;
+    box-shadow: rgb(26 31 72) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgb(17 21 56 / 35%) 0 2px 4px, rgb(26 31 72 / 18%) 0 4px 8px, rgb(17 21 56 / 28%) 0 8px 16px, rgb(17 21 58 / 23%) 0 16px 32px;
     border-radius: 10px;
     z-index: 5;
     text-align: center;
-    
+
 }
 
 .conV24 {
@@ -686,10 +693,14 @@ box-shadow: rgb(26 31 72) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px
     padding: 10px 15px;
     height: auto;
     background: #1a1f48;
+
+    /* background-color: #06092d; */
     border-radius: 16px;
     box-shadow: 0 4px 30px rgb(60 59 187 / 10%);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+    /* border: 1px solid #6065a780; */
+    /* background-color: #3a368980; */
     border: 1px solid #6065a780;
 }
 
@@ -758,7 +769,7 @@ box-shadow: rgb(26 31 72) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px
 }
 
 .yiv3 {
-    background-color: #111538;
+    background-color: #010c2a;
     padding: 20px 10px;
 }
 
@@ -942,7 +953,8 @@ box-shadow: rgb(26 31 72) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px
     padding: 1px 10px;
     -webkit-overflow-scrolling: touch;
 }
-.demHome::-webkit-scrollbar{
+
+.demHome::-webkit-scrollbar {
     display: none;
 }
 
@@ -1042,18 +1054,19 @@ box-shadow: rgb(26 31 72) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px
     margin-bottom: 20px;
 }
 
-.Ab12{
-    width:150px;
-   margin-top:5px;
-   margin-bottom: 8px;
+.Ab12 {
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 8px;
     display: flex;
     justify-content: space-between;
     gap: 10px;
 }
-.Ab121{
-    width:49%;
+
+.Ab121 {
+    width: 49%;
     height: 3px;
-background-color: #252a5a;
+    background-color: #252a5a;
 }
 
 @media (max-width:768px) {
@@ -1063,24 +1076,43 @@ background-color: #252a5a;
         flex-direction: column-reverse;
 
     }
-    .coding1{
+
+    .backGround {
+        background-image: linear-gradient(0deg, #010c2a 0, #010f32);
+        background-repeat: no-repeat;
+        width: 100vw;
+        /* max-width: 100%; */
+        min-height: 100vh;
+        background-size: cover;
+        background-position: 25%;
+
+    }
+
+    .coding1 {
         padding: 0px 10px;
     }
 
-        .ghFi {
-            flex-direction: column;
-        }
-    .Ab12{
+    .ghFi {
+        flex-direction: column;
+    }
+
+    .Ab12 {
         margin: 5px auto 10px auto;
     }
-    .AddTip{
+
+    .AddTip {
         font-size: 18px;
         margin-bottom: 20px;
     }
-    .inviteFr{
+
+    .inviteFr {
         font-size: 28px;
-        
-            line-height: 29.1px;
+
+        line-height: 29.1px;
+    }
+
+    .headerDivFle21 {
+        margin-top: -5px;
     }
 
     .ffre {
@@ -1105,7 +1137,7 @@ background-color: #252a5a;
 
     .head {
 
-        font-size: 38px;
+        font-size: 32px;
 
     }
 
@@ -1117,7 +1149,7 @@ background-color: #252a5a;
         flex-direction: column;
     }
 
-   
+
 
     .bettors {
         width: 100%
@@ -1221,6 +1253,7 @@ background-color: #252a5a;
         flex-direction: column;
         padding: 8px 10px;
         margin-bottom: 15px;
+
     }
 
     .mmvn1 {
@@ -1241,6 +1274,7 @@ background-color: #252a5a;
     .coding56 {
         flex-direction: column-reverse;
         padding: 8px 10px;
+
     }
 
     .coding3 {
@@ -1259,16 +1293,19 @@ background-color: #252a5a;
     .hands1 {
         font-size: 27px;
         text-align: center;
+        margin-bottom: 0;
+
     }
 
     .imgSrc1 {
-       
+
         margin: 2px auto;
     }
-    .kkkmn{
+
+    .kkkmn {
         width: 100%;
-            max-width: 300px;
-        
+        max-width: 100px;
+
     }
 
     .gamat2 {
@@ -1345,10 +1382,10 @@ background-color: #252a5a;
     }
 
     .ExploreJ {
-        font-size: 38px;
+        font-size: 32px;
         font-weight: 600;
         text-align: center;
-        padding: 2px 10px;
+        padding: 2px 1px;
         width: 100%;
         color: #fff;
         font-family: 'circular';
@@ -1357,19 +1394,20 @@ background-color: #252a5a;
         letter-spacing: 0.6px;
 
     }
-        .Exploref{
-            font-size: 38px;
-            font-weight: 600;
-            text-align: center;
-            padding: 2px 10px;
-            width: 100%;
-            color: #fff;
-            font-family: 'circular';
-            max-width: 90%;
-            margin: 2px auto 2px auto;
-            letter-spacing: 0.6px;
-    
-        }
+
+    .Exploref {
+        font-size: 32px;
+        font-weight: 600;
+        text-align: center;
+        padding: 2px 1px;
+        width: 100%;
+        color: #fff;
+        font-family: 'circular';
+        max-width: 90%;
+        margin: 2px auto 2px auto;
+        letter-spacing: 0.6px;
+
+    }
 
     .hands3 {
         flex-direction: column;
@@ -1387,7 +1425,7 @@ background-color: #252a5a;
     .Explore1 {
         text-align: center;
         padding: 2px 10px;
-        margin: 15px auto;
+        margin: 65px auto 15px auto;
         font-size: 18px;
         font-weight: 500;
         width: 100%;
@@ -1453,7 +1491,7 @@ background-color: #252a5a;
 
 @media (max-width:678px) {
     .ExploreJ {
-        margin: 50px auto 2px auto;
+        margin: 100px auto 2px auto;
     }
 
 }
@@ -1464,4 +1502,16 @@ background-color: #252a5a;
         max-width: 100%;
     }
 
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+
+    .Explore,
+    .head {
+        font-size: 35px;
+    }
+
+    .headerDivFle21 {
+        margin-top: -64px;
+    }
 }

@@ -102,17 +102,17 @@ const ButtonTwo =({onClick})=>{
   },[])
   return (
     <div>
-      <div className='backGround'>
+      <div className='backGround' style={{backgroundImage:"url(/img/tech2.PNG)"}} >
 
         
 
       <div className="navbarMainDiv" >
         {/* <div className='backGround'> */}
-       <div className="heroDiv">
+       <div className="heroDiv" >
         
                   {/* <p className="ExploreJ"><span className="head">Learn</span><span style={{fontSize:"20px"}}>,</span> <span className="head">Build</span> and <span className="head">Collaborate</span> on project</p> */}
                   <div aria-label="Hi! I'm a developer" className="ExploreJ">
-  Empower YourSelf <p className="Exploref">through</p> &nbsp;<span className="typewriter nocaret head"></span>
+  Empower YourSelf <p className="Exploref">Through</p> &nbsp;<span className="typewriter nocaret head"></span>
 </div>
         <div className="headerDivFle addHeaderDivFile">
            <div className="headerDivFle1">
@@ -131,7 +131,7 @@ const ButtonTwo =({onClick})=>{
 </span>  on  project</p> */}
 
 <div aria-label="Hi! I'm a developer" className="Explore">
-  Empower YourSelf through &nbsp;<span className="typewriter nocaret head"></span>
+  Empower YourSelf Through &nbsp;<span className="typewriter nocaret head"></span>
 </div>
 
               {/* <p className="Explore1 millionPP22   ffre">Earn  8% on every referred and registered <span className='millionPP millionPP22'>creator</span> .</p> */}
@@ -144,8 +144,8 @@ const ButtonTwo =({onClick})=>{
            <div className="headerDivFle2">
       
                  <div className='imgFileDiv'>
-                   <img src="/img/GroupM2.svg" alt="Ailt" className="headerDivFle21"/>
-                  
+                   <img src="/img/group2M.svg" alt="Ailt" className="headerDivFle21"/>
+                
                    </div>
                
            </div>
@@ -225,7 +225,7 @@ const ButtonTwo =({onClick})=>{
                {/* <p  className="hands"> CREATIVE INNOVATION</p> */}
                <p className="hands1">Fast Learning</p>
                  <div className="divUnderline"></div>
-               <p className="hands2"> Learn any desired course of ur choice and practice to build great project.</p>
+               <p className="hands2"> Learn any desired course of your choice and practice to build great project.</p>
              
 
                 <div className="hands3">

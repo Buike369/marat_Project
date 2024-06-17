@@ -48,7 +48,7 @@ const socialLink = [{icon:faTwitter,link:"https://x.com/ChukwubuikeK?t=Ksk86Towz
   return (
 
     <div >
-    <div className={` "header" ${feedBack}`}>
+    <div className={`"Bky" "header" ${feedBack}`}>
       <div className="Navbar">
 
             <div style={{width:"20%"}}><a href="/" className="Brand">Marat</a></div>
@@ -68,11 +68,11 @@ const socialLink = [{icon:faTwitter,link:"https://x.com/ChukwubuikeK?t=Ksk86Towz
           </ul>
           
             </li>
-             <li><a href="" className="navbar1_link linkAB">Courses</a></li>
-              <li><a href="" className="navbar1_link linkAB">Projects</a></li>
-              <li ><a href="" className="navbar1_link linkAB">Authorship</a></li>
+             <li><a href="/" className="navbar1_link linkAB">Courses</a></li>
+              <li><a href="/" className="navbar1_link linkAB">Projects</a></li>
+              <li ><a href="/" className="navbar1_link linkAB">Authorship</a></li>
                <li ><a href="/" className="navbar1_link linkAB">Affiliate</a></li>
-                <li><a href="/blog" className="navbar1_link linkAB" style={{color:feedBack1}}>Blog</a></li>
+                <li><a href="/" className="navbar1_link linkAB" style={{color:feedBack1}}>Blog</a></li>
         
           </ul>
           

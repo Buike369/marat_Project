@@ -21,14 +21,14 @@
 .footerHouse {
     width: 100%;
     height: 50px;
-    background-color: #111538;
+    background-color: #010c2a;
     /* background-image: linear-gradient(to bottom right, #8d85cf, #120d6854); */
 }
 
 .footerHouse2 {
     width: 100%;
     height: 50px;
-    background-color: #0f1332;
+    background-color: #010c2a;
     /* background-image: linear-gradient(to bottom right, #8d85cf, #120d6854); */
 }
 
@@ -86,7 +86,9 @@
     max-width: 1180px;
     margin: -150px auto 50px auto;
     padding: 40px 10px 40px 10px;
-    background-color: #1a1f48;
+    /* background-color: #0a063075; */
+        background: conic-gradient(#1a1f48, #1a1f48, #414885, #1a1f48);
+            background: conic-gradient(#2c3160, #0c113a, #303566, #10132e);
     border-radius: 10px;
     position: relative;
     border: 1px solid #3d4278;
@@ -170,7 +172,7 @@
 
 .footerBackgroundColor {
     /* background-color: #3e3794; */
-    background-color: #0f1332;
+    background-color: #010c2a;
     padding: 10px 0 0px 0;
 }
 
